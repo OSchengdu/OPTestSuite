@@ -1,0 +1,24 @@
+# started on Mon Sep  9 10:43:29 2024
+
+
+ Performance counter stats for 'python cos.py':
+
+       14001343526 ns   duration_time                    #  369.221 M/sec                     
+          37921.31 msec task-clock                       #    2.708 CPUs utilized             
+       75701313039      cycles                           #    1.996 GHz                       
+       39180707658      instructions                     #    0.52  insn per cycle            
+         740532697      cache-references                 #   19.528 M/sec                     
+         740542870      cache-misses                     #  100.00% of all cache refs         
+        6357485479      branches                         #  167.649 M/sec                     
+         229727635      branch-misses                    #    3.61% of all branches           
+       10660075330      L1-dcache-loads                  #  281.110 M/sec                     
+          81009951      L1-dcache-load-misses            #    0.76% of all L1-dcache accesses 
+          71946556      LLC-load-misses                  #    9.71% of all LL-cache accesses  
+         740589122      LLC-loads                        #   19.530 M/sec                     
+
+      14.001343526 seconds time elapsed
+
+      21.971573000 seconds user
+      15.630843000 seconds sys
+
+

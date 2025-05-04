@@ -1,0 +1,24 @@
+# started on Mon Sep  9 11:14:43 2024
+
+
+ Performance counter stats for 'python linalg_extracttrian.py':
+
+       12549163282 ns   duration_time                    #  334.490 M/sec                     
+          37517.29 msec task-clock                       #    2.990 CPUs utilized             
+       74839614192      cycles                           #    1.995 GHz                       
+       39549401915      instructions                     #    0.53  insn per cycle            
+         738703256      cache-references                 #   19.690 M/sec                     
+         738713917      cache-misses                     #  100.00% of all cache refs         
+        6705713216      branches                         #  178.737 M/sec                     
+         168590759      branch-misses                    #    2.51% of all branches           
+       10440357909      L1-dcache-loads                  #  278.281 M/sec                     
+          76319356      L1-dcache-load-misses            #    0.73% of all L1-dcache accesses 
+          59905322      LLC-load-misses                  #    8.11% of all LL-cache accesses  
+         738759435      LLC-loads                        #   19.691 M/sec                     
+
+      12.549163282 seconds time elapsed
+
+      19.896454000 seconds user
+      17.353172000 seconds sys
+
+

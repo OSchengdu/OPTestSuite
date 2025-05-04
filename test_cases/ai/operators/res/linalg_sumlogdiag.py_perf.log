@@ -1,0 +1,24 @@
+# started on Mon Sep  9 11:29:47 2024
+
+
+ Performance counter stats for 'python linalg_sumlogdiag.py':
+
+       12486571764 ns   duration_time                    #  342.768 M/sec                     
+          36428.62 msec task-clock                       #    2.917 CPUs utilized             
+       72699804525      cycles                           #    1.996 GHz                       
+       37381305604      instructions                     #    0.51  insn per cycle            
+         795391123      cache-references                 #   21.834 M/sec                     
+         795401800      cache-misses                     #  100.00% of all cache refs         
+        6130366103      branches                         #  168.284 M/sec                     
+         167907601      branch-misses                    #    2.74% of all branches           
+       10175223077      L1-dcache-loads                  #  279.319 M/sec                     
+          79418623      L1-dcache-load-misses            #    0.78% of all L1-dcache accesses 
+          55384075      LLC-load-misses                  #    6.96% of all LL-cache accesses  
+         795448164      LLC-loads                        #   21.836 M/sec                     
+
+      12.486571764 seconds time elapsed
+
+      18.445934000 seconds user
+      17.695078000 seconds sys
+
+

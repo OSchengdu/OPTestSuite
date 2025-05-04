@@ -1,0 +1,24 @@
+# started on Mon Sep  9 10:08:09 2024
+
+
+ Performance counter stats for 'python LayerNorm.py':
+
+       14471435357 ns   duration_time                    #  290.099 M/sec                     
+          49884.53 msec task-clock                       #    3.447 CPUs utilized             
+       99043096099      cycles                           #    1.985 GHz                       
+       55126227703      instructions                     #    0.56  insn per cycle            
+         983471633      cache-references                 #   19.715 M/sec                     
+         983482445      cache-misses                     #  100.00% of all cache refs         
+        9073432843      branches                         #  181.889 M/sec                     
+         187423054      branch-misses                    #    2.07% of all branches           
+       13334717152      L1-dcache-loads                  #  267.312 M/sec                     
+         170228878      L1-dcache-load-misses            #    1.28% of all L1-dcache accesses 
+         160457618      LLC-load-misses                  #   16.31% of all LL-cache accesses  
+         983529776      LLC-loads                        #   19.716 M/sec                     
+
+      14.471435357 seconds time elapsed
+
+      25.420711000 seconds user
+      24.274145000 seconds sys
+
+

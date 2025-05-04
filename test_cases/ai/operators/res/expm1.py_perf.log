@@ -1,0 +1,24 @@
+# started on Mon Sep  9 10:54:58 2024
+
+
+ Performance counter stats for 'python expm1.py':
+
+       12433768316 ns   duration_time                    #  306.504 M/sec                     
+          40566.41 msec task-clock                       #    3.263 CPUs utilized             
+       80977499293      cycles                           #    1.996 GHz                       
+       43816601255      instructions                     #    0.54  insn per cycle            
+         809619075      cache-references                 #   19.958 M/sec                     
+         809629417      cache-misses                     #  100.00% of all cache refs         
+        6342099450      branches                         #  156.339 M/sec                     
+         210648665      branch-misses                    #    3.32% of all branches           
+       11751581792      L1-dcache-loads                  #  289.688 M/sec                     
+          84308517      L1-dcache-load-misses            #    0.72% of all L1-dcache accesses 
+          64035813      LLC-load-misses                  #    7.91% of all LL-cache accesses  
+         809673926      LLC-loads                        #   19.959 M/sec                     
+
+      12.433768316 seconds time elapsed
+
+      22.608670000 seconds user
+      17.600302000 seconds sys
+
+

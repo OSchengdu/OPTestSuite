@@ -1,0 +1,24 @@
+# started on Mon Sep  9 11:47:13 2024
+
+
+ Performance counter stats for 'python ones_like.py':
+
+       11518717828 ns   duration_time                    #  322.622 M/sec                     
+          35703.40 msec task-clock                       #    3.100 CPUs utilized             
+       71335402942      cycles                           #    1.998 GHz                       
+       38093124150      instructions                     #    0.53  insn per cycle            
+         749241849      cache-references                 #   20.985 M/sec                     
+         749251537      cache-misses                     #  100.00% of all cache refs         
+        6023839377      branches                         #  168.719 M/sec                     
+         164286671      branch-misses                    #    2.73% of all branches           
+       10497395202      L1-dcache-loads                  #  294.017 M/sec                     
+          76987747      L1-dcache-load-misses            #    0.73% of all L1-dcache accesses 
+          54442907      LLC-load-misses                  #    7.27% of all LL-cache accesses  
+         749295412      LLC-loads                        #   20.987 M/sec                     
+
+      11.518717828 seconds time elapsed
+
+      18.739359000 seconds user
+      16.690193000 seconds sys
+
+

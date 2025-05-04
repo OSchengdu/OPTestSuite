@@ -1,0 +1,24 @@
+# started on Mon Sep  9 10:51:59 2024
+
+
+ Performance counter stats for 'python dot.py':
+
+       78644900856 ns   duration_time                    #  766.064 M/sec                     
+         102661.02 msec task-clock                       #    1.305 CPUs utilized             
+      205231942814      cycles                           #    1.999 GHz                       
+      296377028802      instructions                     #    1.44  insn per cycle            
+        8787009656      cache-references                 #   85.592 M/sec                     
+        8787019180      cache-misses                     #  100.00% of all cache refs         
+       13421398207      branches                         #  130.735 M/sec                     
+         309446173      branch-misses                    #    2.31% of all branches           
+      124679047096      L1-dcache-loads                  #    1.214 G/sec                     
+         318171377      L1-dcache-load-misses            #    0.26% of all L1-dcache accesses 
+         334503234      LLC-load-misses                  #    3.81% of all LL-cache accesses  
+        8787063975      LLC-loads                        #   85.593 M/sec                     
+
+      78.644900856 seconds time elapsed
+
+      85.182603000 seconds user
+      16.898126000 seconds sys
+
+

@@ -1,0 +1,24 @@
+# started on Mon Sep  9 12:50:19 2024
+
+
+ Performance counter stats for 'python sample_poisson.py':
+
+       11505369427 ns   duration_time                    #  335.683 M/sec                     
+          34274.46 msec task-clock                       #    2.979 CPUs utilized             
+       68531561207      cycles                           #    1.999 GHz                       
+       35979978633      instructions                     #    0.53  insn per cycle            
+         745377738      cache-references                 #   21.747 M/sec                     
+         745385660      cache-misses                     #  100.00% of all cache refs         
+        5669976588      branches                         #  165.429 M/sec                     
+         162054587      branch-misses                    #    2.86% of all branches           
+       10055494213      L1-dcache-loads                  #  293.382 M/sec                     
+          77961562      L1-dcache-load-misses            #    0.78% of all L1-dcache accesses 
+          53408575      LLC-load-misses                  #    7.16% of all LL-cache accesses  
+         745417978      LLC-loads                        #   21.748 M/sec                     
+
+      11.505369427 seconds time elapsed
+
+      18.276278000 seconds user
+      15.719208000 seconds sys
+
+

@@ -1,0 +1,24 @@
+# started on Mon Sep  9 09:51:52 2024
+
+
+ Performance counter stats for 'python Conv1DTranspose.py':
+
+       63349686533 ns   duration_time                    #  895.889 M/sec                     
+          70711.57 msec task-clock                       #    1.116 CPUs utilized             
+      141058824558      cycles                           #    1.995 GHz                       
+       35909063655      instructions                     #    0.25  insn per cycle            
+         502421263      cache-references                 #    7.105 M/sec                     
+         502428115      cache-misses                     #  100.00% of all cache refs         
+       10658815203      branches                         #  150.737 M/sec                     
+         164128564      branch-misses                    #    1.54% of all branches           
+        9757214252      L1-dcache-loads                  #  137.986 M/sec                     
+          84391468      L1-dcache-load-misses            #    0.86% of all L1-dcache accesses 
+         103747214      LLC-load-misses                  #   20.65% of all LL-cache accesses  
+         502454514      LLC-loads                        #    7.106 M/sec                     
+
+      63.349686533 seconds time elapsed
+
+      48.955249000 seconds user
+      21.469636000 seconds sys
+
+

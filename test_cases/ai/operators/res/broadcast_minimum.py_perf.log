@@ -1,0 +1,24 @@
+# started on Mon Sep  9 10:41:49 2024
+
+
+ Performance counter stats for 'python broadcast_minimum.py':
+
+       12990643582 ns   duration_time                    #  353.908 M/sec                     
+          36706.25 msec task-clock                       #    2.826 CPUs utilized             
+       73318160430      cycles                           #    1.997 GHz                       
+       38517799078      instructions                     #    0.53  insn per cycle            
+         774715350      cache-references                 #   21.106 M/sec                     
+         774726349      cache-misses                     #  100.00% of all cache refs         
+        6148577631      branches                         #  167.508 M/sec                     
+         224738642      branch-misses                    #    3.66% of all branches           
+       10628494983      L1-dcache-loads                  #  289.555 M/sec                     
+          80579974      L1-dcache-load-misses            #    0.76% of all L1-dcache accesses 
+          77015128      LLC-load-misses                  #    9.94% of all LL-cache accesses  
+         774772952      LLC-loads                        #   21.107 M/sec                     
+
+      12.990643582 seconds time elapsed
+
+      20.241076000 seconds user
+      16.151551000 seconds sys
+
+

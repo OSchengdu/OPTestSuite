@@ -1,0 +1,24 @@
+# started on Mon Sep  9 10:55:22 2024
+
+
+ Performance counter stats for 'python fix.py':
+
+       12510648086 ns   duration_time                    #  317.274 M/sec                     
+          39431.65 msec task-clock                       #    3.152 CPUs utilized             
+       78761211966      cycles                           #    1.997 GHz                       
+       39983802365      instructions                     #    0.51  insn per cycle            
+         816755476      cache-references                 #   20.713 M/sec                     
+         816766158      cache-misses                     #  100.00% of all cache refs         
+        6240795901      branches                         #  158.269 M/sec                     
+         190230494      branch-misses                    #    3.05% of all branches           
+       10609206139      L1-dcache-loads                  #  269.053 M/sec                     
+          79157661      L1-dcache-load-misses            #    0.75% of all L1-dcache accesses 
+          56385047      LLC-load-misses                  #    6.90% of all LL-cache accesses  
+         816811516      LLC-loads                        #   20.715 M/sec                     
+
+      12.510648086 seconds time elapsed
+
+      22.332782000 seconds user
+      16.739726000 seconds sys
+
+

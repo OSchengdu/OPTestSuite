@@ -1,0 +1,24 @@
+# started on Mon Sep  9 12:41:14 2024
+
+
+ Performance counter stats for 'python round.py':
+
+       13434914559 ns   duration_time                    #  363.630 M/sec                     
+          36946.64 msec task-clock                       #    2.750 CPUs utilized             
+       73818894998      cycles                           #    1.998 GHz                       
+       37498756317      instructions                     #    0.51  insn per cycle            
+         845211988      cache-references                 #   22.877 M/sec                     
+         845222956      cache-misses                     #  100.00% of all cache refs         
+        5739442047      branches                         #  155.344 M/sec                     
+         165252960      branch-misses                    #    2.88% of all branches           
+       10157425341      L1-dcache-loads                  #  274.922 M/sec                     
+          73221253      L1-dcache-load-misses            #    0.72% of all L1-dcache accesses 
+          56510091      LLC-load-misses                  #    6.69% of all LL-cache accesses  
+         845267065      LLC-loads                        #   22.878 M/sec                     
+
+      13.434914559 seconds time elapsed
+
+      19.779459000 seconds user
+      16.856741000 seconds sys
+
+

@@ -1,0 +1,33 @@
+[12:35:08] /home/tanjunhan/MXNet/src/storage/storage.cc:202: Using Pooled (Naive) StorageManager for CPU
+Traceback (most recent call last):
+  File "/home/tanjunhan/MXNet/reshape.py", line 11, in <module>
+    reshape_res = run_performance_test(
+                  ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tanjunhan/MXNet/benchmark/opperf/utils/benchmark_utils.py", line 251, in run_performance_test
+    benchmark_result = _run_operator_performance_test(op, inputs, run_backward, warmup, runs, kwargs_list, profiler)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tanjunhan/MXNet/benchmark/opperf/utils/benchmark_utils.py", line 188, in _run_operator_performance_test
+    _, _ = benchmark_helper_func(op, warmup, **kwargs_list[0])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tanjunhan/MXNet/benchmark/opperf/utils/profiler_utils.py", line 200, in cpp_profile_it
+    res = func(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tanjunhan/MXNet/benchmark/opperf/utils/ndarray_utils.py", line 58, in nd_forward_backward_and_profile
+    res = op(**kwargs_new)
+          ^^^^^^^^^^^^^^^^
+  File "<string>", line 97, in reshape
+  File "/home/tanjunhan/MXNet/python/mxnet/_ctypes/ndarray.py", line 76, in _imperative_invoke
+    check_call(_LIB.MXImperativeInvoke(
+  File "/home/tanjunhan/MXNet/python/mxnet/base.py", line 253, in check_call
+    raise get_last_ffi_error()
+mxnet.base.MXNetError: MXNetError: Cannot find argument 'newshape', Possible Arguments:
+----------------
+shape : Shape(tuple), optional, default=[]
+    The target shape
+reverse : boolean, optional, default=0
+    If true then the special values are inferred from right to left
+target_shape : Shape(tuple), optional, default=[]
+    (Deprecated! Use ``shape`` instead.) Target new shape. One and only one dim can be 0, in which case it will be inferred from the rest of dims
+keep_highest : boolean, optional, default=0
+    (Deprecated! Use ``shape`` instead.) Whether keep the highest dim unchanged.If set to true, then the first dim in target_shape is ignored,and always fixed as input
+, in operator Reshape(name="", newshape="(1048576,)")

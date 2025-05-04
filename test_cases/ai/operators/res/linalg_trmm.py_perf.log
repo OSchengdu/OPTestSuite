@@ -1,0 +1,24 @@
+# started on Mon Sep  9 11:31:07 2024
+
+
+ Performance counter stats for 'python linalg_trmm.py':
+
+       56550692312 ns   duration_time                    #  692.185 M/sec                     
+          81698.77 msec task-clock                       #    1.445 CPUs utilized             
+      163256894284      cycles                           #    1.998 GHz                       
+      211728348514      instructions                     #    1.30  insn per cycle            
+        6354914370      cache-references                 #   77.785 M/sec                     
+        6354924371      cache-misses                     #  100.00% of all cache refs         
+       11279155868      branches                         #  138.058 M/sec                     
+         258937411      branch-misses                    #    2.30% of all branches           
+       86746823452      L1-dcache-loads                  #    1.062 G/sec                     
+         248505493      L1-dcache-load-misses            #    0.29% of all L1-dcache accesses 
+         247345205      LLC-load-misses                  #    3.89% of all LL-cache accesses  
+        6354968677      LLC-loads                        #   77.785 M/sec                     
+
+      56.550692312 seconds time elapsed
+
+      63.998722000 seconds user
+      17.178603000 seconds sys
+
+

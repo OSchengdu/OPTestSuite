@@ -1,0 +1,24 @@
+# started on Mon Sep  9 10:43:28 2024
+
+
+ Performance counter stats for 'python concat1.py':
+
+       11580192107 ns   duration_time                    #  333.906 M/sec                     
+          34681.02 msec task-clock                       #    2.995 CPUs utilized             
+       69334175050      cycles                           #    1.999 GHz                       
+       37827776658      instructions                     #    0.55  insn per cycle            
+         719224515      cache-references                 #   20.738 M/sec                     
+         719231738      cache-misses                     #  100.00% of all cache refs         
+        6953565573      branches                         #  200.501 M/sec                     
+         163753360      branch-misses                    #    2.35% of all branches           
+       10492947104      L1-dcache-loads                  #  302.556 M/sec                     
+          75983005      L1-dcache-load-misses            #    0.72% of all L1-dcache accesses 
+          56462386      LLC-load-misses                  #    7.85% of all LL-cache accesses  
+         719264252      LLC-loads                        #   20.739 M/sec                     
+
+      11.580192107 seconds time elapsed
+
+      19.000645000 seconds user
+      15.381300000 seconds sys
+
+

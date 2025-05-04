@@ -1,0 +1,17 @@
+[
+    {
+        "one_hot": [
+            {
+                "inputs": {
+                    "indices": [
+                        1024
+                    ],
+                    "depth": 10,
+                    "dtype": "float32"
+                },
+                "max_storage_mem_alloc_cpu/0": 20.48,
+                "avg_time_forward_one_hot": 13.0642
+            }
+        ]
+    }
+]

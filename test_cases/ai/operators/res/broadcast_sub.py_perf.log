@@ -1,0 +1,24 @@
+# started on Mon Sep  9 10:42:34 2024
+
+
+ Performance counter stats for 'python broadcast_sub.py':
+
+       13211527049 ns   duration_time                    #  358.904 M/sec                     
+          36810.71 msec task-clock                       #    2.786 CPUs utilized             
+       73468654925      cycles                           #    1.996 GHz                       
+       37966228409      instructions                     #    0.52  insn per cycle            
+         749933685      cache-references                 #   20.373 M/sec                     
+         749943912      cache-misses                     #  100.00% of all cache refs         
+        6091821271      branches                         #  165.490 M/sec                     
+         173381964      branch-misses                    #    2.85% of all branches           
+       10373249726      L1-dcache-loads                  #  281.800 M/sec                     
+          78993890      L1-dcache-load-misses            #    0.76% of all L1-dcache accesses 
+          72355948      LLC-load-misses                  #    9.65% of all LL-cache accesses  
+         749987836      LLC-loads                        #   20.374 M/sec                     
+
+      13.211527049 seconds time elapsed
+
+      19.521973000 seconds user
+      16.992823000 seconds sys
+
+

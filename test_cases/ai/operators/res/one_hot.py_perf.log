@@ -1,0 +1,24 @@
+# started on Mon Sep  9 11:47:01 2024
+
+
+ Performance counter stats for 'python one_hot.py':
+
+       12477583188 ns   duration_time                    #  344.931 M/sec                     
+          36174.19 msec task-clock                       #    2.899 CPUs utilized             
+       72188278981      cycles                           #    1.996 GHz                       
+       38394599699      instructions                     #    0.53  insn per cycle            
+         766990848      cache-references                 #   21.203 M/sec                     
+         767000732      cache-misses                     #  100.00% of all cache refs         
+        6368756343      branches                         #  176.058 M/sec                     
+         166010660      branch-misses                    #    2.61% of all branches           
+       10548959545      L1-dcache-loads                  #  291.616 M/sec                     
+          74357124      L1-dcache-load-misses            #    0.70% of all L1-dcache accesses 
+          54786749      LLC-load-misses                  #    7.14% of all LL-cache accesses  
+         767046603      LLC-loads                        #   21.204 M/sec                     
+
+      12.477583188 seconds time elapsed
+
+      18.348682000 seconds user
+      17.525916000 seconds sys
+
+

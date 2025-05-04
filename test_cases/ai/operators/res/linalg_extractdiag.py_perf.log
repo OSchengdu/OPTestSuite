@@ -1,0 +1,24 @@
+# started on Mon Sep  9 11:14:34 2024
+
+
+ Performance counter stats for 'python linalg_extractdiag.py':
+
+       12640071853 ns   duration_time                    #  350.427 M/sec                     
+          36070.46 msec task-clock                       #    2.854 CPUs utilized             
+       71979371368      cycles                           #    1.996 GHz                       
+       37749151072      instructions                     #    0.52  insn per cycle            
+         742444478      cache-references                 #   20.583 M/sec                     
+         742454245      cache-misses                     #  100.00% of all cache refs         
+        6173479347      branches                         #  171.151 M/sec                     
+         169273361      branch-misses                    #    2.74% of all branches           
+       10314746527      L1-dcache-loads                  #  285.961 M/sec                     
+          75917048      L1-dcache-load-misses            #    0.74% of all L1-dcache accesses 
+          55559525      LLC-load-misses                  #    7.48% of all LL-cache accesses  
+         742501003      LLC-loads                        #   20.585 M/sec                     
+
+      12.640071853 seconds time elapsed
+
+      18.727384000 seconds user
+      17.046657000 seconds sys
+
+

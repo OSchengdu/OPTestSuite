@@ -1,0 +1,14 @@
+[
+    {
+        "prod": [
+            {
+                "inputs": {
+                    "data": "<NDArray 1024x1024 @cpu(0)>"
+                },
+                "max_storage_mem_alloc_cpu/0": 0.002,
+                "avg_time_forward_prod": 5.0199,
+                "avg_time_backward_prod": 7.1142
+            }
+        ]
+    }
+]

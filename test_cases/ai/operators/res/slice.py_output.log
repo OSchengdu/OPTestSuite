@@ -1,0 +1,25 @@
+[
+    {
+        "slice": [
+            {
+                "inputs": {
+                    "data": [
+                        1024,
+                        1024
+                    ],
+                    "begin": [
+                        0,
+                        0
+                    ],
+                    "end": [
+                        512,
+                        512
+                    ]
+                },
+                "max_storage_mem_alloc_cpu/0": 524.288,
+                "avg_time_forward_slice": 5.3198,
+                "avg_time_backward_slice": 6.7026
+            }
+        ]
+    }
+]

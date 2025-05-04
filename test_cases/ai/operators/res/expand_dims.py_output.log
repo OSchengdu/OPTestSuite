@@ -1,0 +1,17 @@
+[
+    {
+        "expand_dims": [
+            {
+                "inputs": {
+                    "data": [
+                        1024,
+                        1024
+                    ],
+                    "axis": 0
+                },
+                "max_storage_mem_alloc_cpu/0": 2097.1521,
+                "avg_time_forward_expand_dims": 0.7603
+            }
+        ]
+    }
+]

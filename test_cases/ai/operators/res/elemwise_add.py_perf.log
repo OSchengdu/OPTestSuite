@@ -1,0 +1,24 @@
+# started on Mon Sep  9 10:53:18 2024
+
+
+ Performance counter stats for 'python elemwise_add.py':
+
+       11551117285 ns   duration_time                    #  320.808 M/sec                     
+          36006.36 msec task-clock                       #    3.117 CPUs utilized             
+       71935553857      cycles                           #    1.998 GHz                       
+       38485216138      instructions                     #    0.53  insn per cycle            
+         791198636      cache-references                 #   21.974 M/sec                     
+         791208819      cache-misses                     #  100.00% of all cache refs         
+        5934788946      branches                         #  164.826 M/sec                     
+         166750271      branch-misses                    #    2.81% of all branches           
+       10628099411      L1-dcache-loads                  #  295.173 M/sec                     
+          87057688      L1-dcache-load-misses            #    0.82% of all L1-dcache accesses 
+          64033206      LLC-load-misses                  #    8.09% of all LL-cache accesses  
+         791253698      LLC-loads                        #   21.975 M/sec                     
+
+      11.551117285 seconds time elapsed
+
+      19.176577000 seconds user
+      16.501673000 seconds sys
+
+

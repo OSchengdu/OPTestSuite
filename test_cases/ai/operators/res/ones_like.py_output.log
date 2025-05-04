@@ -1,0 +1,16 @@
+[
+    {
+        "ones_like": [
+            {
+                "inputs": {
+                    "data": [
+                        1024,
+                        1024
+                    ]
+                },
+                "max_storage_mem_alloc_cpu/0": 2097.1521,
+                "avg_time_forward_ones_like": 1.6433
+            }
+        ]
+    }
+]

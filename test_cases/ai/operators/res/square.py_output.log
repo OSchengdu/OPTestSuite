@@ -1,0 +1,17 @@
+[
+    {
+        "square": [
+            {
+                "inputs": {
+                    "data": [
+                        1024,
+                        1024
+                    ]
+                },
+                "max_storage_mem_alloc_cpu/0": 2097.1521,
+                "avg_time_forward_square": 1.8134,
+                "avg_time_backward_square": 5.2788
+            }
+        ]
+    }
+]

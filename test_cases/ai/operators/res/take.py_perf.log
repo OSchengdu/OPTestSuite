@@ -1,0 +1,24 @@
+# started on Mon Sep  9 13:21:59 2024
+
+
+ Performance counter stats for 'python take.py':
+
+       12674675404 ns   duration_time                    #  354.027 M/sec                     
+          35801.45 msec task-clock                       #    2.825 CPUs utilized             
+       71435432440      cycles                           #    1.995 GHz                       
+       38175085773      instructions                     #    0.53  insn per cycle            
+         736202065      cache-references                 #   20.563 M/sec                     
+         736213520      cache-misses                     #  100.00% of all cache refs         
+        5893186570      branches                         #  164.607 M/sec                     
+         170737884      branch-misses                    #    2.90% of all branches           
+       10570212288      L1-dcache-loads                  #  295.245 M/sec                     
+          75327913      L1-dcache-load-misses            #    0.71% of all L1-dcache accesses 
+          65919870      LLC-load-misses                  #    8.95% of all LL-cache accesses  
+         736259396      LLC-loads                        #   20.565 M/sec                     
+
+      12.674675404 seconds time elapsed
+
+      18.722855000 seconds user
+      16.815104000 seconds sys
+
+

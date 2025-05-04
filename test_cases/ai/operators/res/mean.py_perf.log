@@ -1,0 +1,24 @@
+# started on Mon Sep  9 11:34:29 2024
+
+
+ Performance counter stats for 'python mean.py':
+
+       12641990762 ns   duration_time                    #  321.909 M/sec                     
+          39271.99 msec task-clock                       #    3.106 CPUs utilized             
+       78312567215      cycles                           #    1.994 GHz                       
+       40594318078      instructions                     #    0.52  insn per cycle            
+         781816044      cache-references                 #   19.908 M/sec                     
+         781826666      cache-misses                     #  100.00% of all cache refs         
+        6575370778      branches                         #  167.432 M/sec                     
+         173619770      branch-misses                    #    2.64% of all branches           
+       10928357618      L1-dcache-loads                  #  278.274 M/sec                     
+          79768415      L1-dcache-load-misses            #    0.73% of all L1-dcache accesses 
+          62062348      LLC-load-misses                  #    7.94% of all LL-cache accesses  
+         781872205      LLC-loads                        #   19.909 M/sec                     
+
+      12.641990762 seconds time elapsed
+
+      20.731098000 seconds user
+      18.271996000 seconds sys
+
+

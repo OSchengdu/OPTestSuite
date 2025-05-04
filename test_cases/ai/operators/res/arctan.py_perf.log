@@ -1,0 +1,24 @@
+# started on Mon Sep  9 10:27:33 2024
+
+
+ Performance counter stats for 'python arctan.py':
+
+       14475088102 ns   duration_time                    #  378.604 M/sec                     
+          38232.80 msec task-clock                       #    2.641 CPUs utilized             
+       76389403585      cycles                           #    1.998 GHz                       
+       41694472357      instructions                     #    0.55  insn per cycle            
+         791713813      cache-references                 #   20.708 M/sec                     
+         791724290      cache-misses                     #  100.00% of all cache refs         
+        6250938332      branches                         #  163.497 M/sec                     
+         212863583      branch-misses                    #    3.41% of all branches           
+       11339037940      L1-dcache-loads                  #  296.579 M/sec                     
+          77998749      L1-dcache-load-misses            #    0.69% of all L1-dcache accesses 
+          63970948      LLC-load-misses                  #    8.08% of all LL-cache accesses  
+         791770063      LLC-loads                        #   20.709 M/sec                     
+
+      14.475088102 seconds time elapsed
+
+      21.110901000 seconds user
+      16.802685000 seconds sys
+
+

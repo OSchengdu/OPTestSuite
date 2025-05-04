@@ -1,0 +1,14 @@
+[
+    {
+        "sum": [
+            {
+                "inputs": {
+                    "data": "<NDArray 1024x1024 @cpu(0)>"
+                },
+                "max_storage_mem_alloc_cpu/0": 0.002,
+                "avg_time_forward_sum": 5.26,
+                "avg_time_backward_sum": 6.3199
+            }
+        ]
+    }
+]

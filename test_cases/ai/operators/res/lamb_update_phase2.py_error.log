@@ -1,0 +1,61 @@
+[11:13:26] /home/tanjunhan/MXNet/src/storage/storage.cc:202: Using Pooled (Naive) StorageManager for CPU
+Traceback (most recent call last):
+  File "/home/tanjunhan/MXNet/lamb_update_phase2.py", line 16, in <module>
+    lamb_update_phase2_res = run_performance_test(
+                             ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tanjunhan/MXNet/benchmark/opperf/utils/benchmark_utils.py", line 251, in run_performance_test
+    benchmark_result = _run_operator_performance_test(op, inputs, run_backward, warmup, runs, kwargs_list, profiler)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tanjunhan/MXNet/benchmark/opperf/utils/benchmark_utils.py", line 188, in _run_operator_performance_test
+    _, _ = benchmark_helper_func(op, warmup, **kwargs_list[0])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tanjunhan/MXNet/benchmark/opperf/utils/profiler_utils.py", line 200, in cpp_profile_it
+    res = func(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tanjunhan/MXNet/benchmark/opperf/utils/ndarray_utils.py", line 58, in nd_forward_backward_and_profile
+    res = op(**kwargs_new)
+          ^^^^^^^^^^^^^^^^
+  File "<string>", line 83, in lamb_update_phase2
+  File "/home/tanjunhan/MXNet/python/mxnet/_ctypes/ndarray.py", line 76, in _imperative_invoke
+    check_call(_LIB.MXImperativeInvoke(
+  File "/home/tanjunhan/MXNet/python/mxnet/base.py", line 253, in check_call
+    raise get_last_ffi_error()
+mxnet.base.MXNetError: MXNetError: Cannot find argument 'wd', Possible Arguments:
+----------------
+lr : float, required
+    Learning rate
+lower_bound : float, optional, default=-1
+    Lower limit of norm of weight. If lower_bound <= 0, Lower limit is not set
+upper_bound : float, optional, default=-1
+    Upper limit of norm of weight. If upper_bound <= 0, Upper limit is not set
+, in operator lamb_update_phase2(name="", wd="0.0001", epsilon="1e-08", beta2="0.999", beta1="0.9", var="
+[[0. 0. 0. ... 0. 0. 0.]
+ [0. 0. 0. ... 0. 0. 0.]
+ [0. 0. 0. ... 0. 0. 0.]
+ ...
+ [0. 0. 0. ... 0. 0. 0.]
+ [0. 0. 0. ... 0. 0. 0.]
+ [0. 0. 0. ... 0. 0. 0.]]
+<NDArray 1024x1024 @cpu(0)>", mean="
+[[0. 0. 0. ... 0. 0. 0.]
+ [0. 0. 0. ... 0. 0. 0.]
+ [0. 0. 0. ... 0. 0. 0.]
+ ...
+ [0. 0. 0. ... 0. 0. 0.]
+ [0. 0. 0. ... 0. 0. 0.]
+ [0. 0. 0. ... 0. 0. 0.]]
+<NDArray 1024x1024 @cpu(0)>", lr="0.01", grad="
+[[-0.65388554 -1.4954339  -0.01459302 ... -1.8887284  -0.4230813
+   0.15737107]
+ [ 0.5700392   0.54250383 -0.49878636 ...  1.7059267  -1.957891
+   0.4355468 ]
+ [-0.2912375   0.36832035 -1.6420993  ... -0.6301572   0.03442273
+   0.03118982]
+ ...
+ [ 0.20228636 -0.6704853   0.62741923 ...  0.6416753   1.4723577
+  -0.74646074]
+ [-0.7823824   0.234919   -0.4012149  ... -0.46937215  0.0658248
+   0.97341555]
+ [ 0.83743095  0.5532029   1.181605   ... -0.01182567 -1.5466638
+   0.09687976]]
+<NDArray 1024x1024 @cpu(0)>")

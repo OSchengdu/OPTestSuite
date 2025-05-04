@@ -1,0 +1,24 @@
+# started on Mon Sep  9 10:54:08 2024
+
+
+ Performance counter stats for 'python erf.py':
+
+       12517751856 ns   duration_time                    #  307.908 M/sec                     
+          40654.24 msec task-clock                       #    3.248 CPUs utilized             
+       81151533309      cycles                           #    1.996 GHz                       
+       44181541324      instructions                     #    0.54  insn per cycle            
+         857423049      cache-references                 #   21.091 M/sec                     
+         857432935      cache-misses                     #  100.00% of all cache refs         
+        6440559032      branches                         #  158.423 M/sec                     
+         201601357      branch-misses                    #    3.13% of all branches           
+       12006927893      L1-dcache-loads                  #  295.343 M/sec                     
+          84734639      L1-dcache-load-misses            #    0.71% of all L1-dcache accesses 
+          66029740      LLC-load-misses                  #    7.70% of all LL-cache accesses  
+         857477100      LLC-loads                        #   21.092 M/sec                     
+
+      12.517751856 seconds time elapsed
+
+      22.373339000 seconds user
+      17.949073000 seconds sys
+
+

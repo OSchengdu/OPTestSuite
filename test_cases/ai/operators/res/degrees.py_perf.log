@@ -1,0 +1,24 @@
+# started on Mon Sep  9 10:43:43 2024
+
+
+ Performance counter stats for 'python degrees.py':
+
+       13001316623 ns   duration_time                    #  357.682 M/sec                     
+          36348.82 msec task-clock                       #    2.796 CPUs utilized             
+       72533599173      cycles                           #    1.995 GHz                       
+       37396937908      instructions                     #    0.52  insn per cycle            
+         740217953      cache-references                 #   20.364 M/sec                     
+         740229289      cache-misses                     #  100.00% of all cache refs         
+        6050653622      branches                         #  166.461 M/sec                     
+         169525622      branch-misses                    #    2.80% of all branches           
+       10261898154      L1-dcache-loads                  #  282.317 M/sec                     
+          76116712      L1-dcache-load-misses            #    0.74% of all L1-dcache accesses 
+          65695708      LLC-load-misses                  #    8.87% of all LL-cache accesses  
+         740274583      LLC-loads                        #   20.366 M/sec                     
+
+      13.001316623 seconds time elapsed
+
+      19.217665000 seconds user
+      16.824286000 seconds sys
+
+

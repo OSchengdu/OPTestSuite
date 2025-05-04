@@ -1,0 +1,24 @@
+# started on Mon Sep  9 13:05:55 2024
+
+
+ Performance counter stats for 'python size_array.py':
+
+       12246693143 ns   duration_time                    #  445.114 M/sec                     
+          27513.60 msec task-clock                       #    2.247 CPUs utilized             
+       54586533677      cycles                           #    1.984 GHz                       
+       24311719607      instructions                     #    0.45  insn per cycle            
+         507737845      cache-references                 #   18.454 M/sec                     
+         507748473      cache-misses                     #  100.00% of all cache refs         
+        4731065085      branches                         #  171.954 M/sec                     
+         162529962      branch-misses                    #    3.44% of all branches           
+        6608823420      L1-dcache-loads                  #  240.202 M/sec                     
+          74209588      L1-dcache-load-misses            #    1.12% of all L1-dcache accesses 
+          57461782      LLC-load-misses                  #   11.32% of all LL-cache accesses  
+         507792670      LLC-loads                        #   18.456 M/sec                     
+
+      12.246693143 seconds time elapsed
+
+      16.413843000 seconds user
+      12.950945000 seconds sys
+
+

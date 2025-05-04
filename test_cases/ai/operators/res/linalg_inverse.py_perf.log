@@ -1,0 +1,24 @@
+# started on Mon Sep  9 11:17:33 2024
+
+
+ Performance counter stats for 'python linalg_inverse.py':
+
+       89459943591 ns   duration_time                    #  797.109 M/sec                     
+         112230.57 msec task-clock                       #    1.255 CPUs utilized             
+      224400266877      cycles                           #    1.999 GHz                       
+      303686596241      instructions                     #    1.35  insn per cycle            
+        8896222514      cache-references                 #   79.267 M/sec                     
+        8896232627      cache-misses                     #  100.00% of all cache refs         
+       14430076860      branches                         #  128.575 M/sec                     
+         330695898      branch-misses                    #    2.29% of all branches           
+      126123778947      L1-dcache-loads                  #    1.124 G/sec                     
+         429914931      L1-dcache-load-misses            #    0.34% of all L1-dcache accesses 
+         650554756      LLC-load-misses                  #    7.31% of all LL-cache accesses  
+        8896276885      LLC-loads                        #   79.268 M/sec                     
+
+      89.459943591 seconds time elapsed
+
+      95.040668000 seconds user
+      16.420771000 seconds sys
+
+

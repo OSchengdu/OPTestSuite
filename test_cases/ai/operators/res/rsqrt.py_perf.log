@@ -1,0 +1,24 @@
+# started on Mon Sep  9 12:41:28 2024
+
+
+ Performance counter stats for 'python rsqrt.py':
+
+       12508951168 ns   duration_time                    #  307.064 M/sec                     
+          40737.21 msec task-clock                       #    3.257 CPUs utilized             
+       81317124068      cycles                           #    1.996 GHz                       
+       40687566691      instructions                     #    0.50  insn per cycle            
+         808436932      cache-references                 #   19.845 M/sec                     
+         808446860      cache-misses                     #  100.00% of all cache refs         
+        6387780574      branches                         #  156.805 M/sec                     
+         206115168      branch-misses                    #    3.23% of all branches           
+       10837779292      L1-dcache-loads                  #  266.041 M/sec                     
+          74868889      L1-dcache-load-misses            #    0.69% of all L1-dcache accesses 
+          68633776      LLC-load-misses                  #    8.49% of all LL-cache accesses  
+         808491597      LLC-loads                        #   19.847 M/sec                     
+
+      12.508951168 seconds time elapsed
+
+      22.747313000 seconds user
+      17.649271000 seconds sys
+
+

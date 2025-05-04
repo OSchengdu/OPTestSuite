@@ -1,0 +1,24 @@
+# started on Mon Sep  9 10:40:02 2024
+
+
+ Performance counter stats for 'python broadcast_add.py':
+
+       12595775433 ns   duration_time                    #  343.683 M/sec                     
+          36649.37 msec task-clock                       #    2.910 CPUs utilized             
+       73099675714      cycles                           #    1.995 GHz                       
+       37422800570      instructions                     #    0.51  insn per cycle            
+         856965069      cache-references                 #   23.383 M/sec                     
+         856976143      cache-misses                     #  100.00% of all cache refs         
+        6094118775      branches                         #  166.282 M/sec                     
+         169147222      branch-misses                    #    2.78% of all branches           
+       10146381053      L1-dcache-loads                  #  276.850 M/sec                     
+          76618307      L1-dcache-load-misses            #    0.76% of all L1-dcache accesses 
+          65177851      LLC-load-misses                  #    7.61% of all LL-cache accesses  
+         857019909      LLC-loads                        #   23.384 M/sec                     
+
+      12.595775433 seconds time elapsed
+
+      19.037658000 seconds user
+      17.336075000 seconds sys
+
+

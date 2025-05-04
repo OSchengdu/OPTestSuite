@@ -1,0 +1,21 @@
+[
+    {
+        "Correlation": [
+            {
+                "inputs": {
+                    "data1": "<NDArray 1x3x32x32 @cpu(0)>",
+                    "data2": "<NDArray 1x3x32x32 @cpu(0)>",
+                    "kernel_size": 1,
+                    "max_displacement": 4,
+                    "stride1": 1,
+                    "stride2": 1,
+                    "pad_size": 4,
+                    "is_multiply": true
+                },
+                "max_storage_mem_alloc_cpu/0": 185.088,
+                "avg_time_forward_Correlation": 21.8482,
+                "avg_time_backward_Correlation": 23.6853
+            }
+        ]
+    }
+]

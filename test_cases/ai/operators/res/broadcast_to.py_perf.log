@@ -1,0 +1,24 @@
+# started on Mon Sep  9 10:42:44 2024
+
+
+ Performance counter stats for 'python broadcast_to.py':
+
+       13665950625 ns   duration_time                    #  340.848 M/sec                     
+          40093.98 msec task-clock                       #    2.934 CPUs utilized             
+       79988889856      cycles                           #    1.995 GHz                       
+       33721996287      instructions                     #    0.42  insn per cycle            
+         822432863      cache-references                 #   20.513 M/sec                     
+         822443463      cache-misses                     #  100.00% of all cache refs         
+        5931642896      branches                         #  147.943 M/sec                     
+         172952897      branch-misses                    #    2.92% of all branches           
+        9253766688      L1-dcache-loads                  #  230.802 M/sec                     
+         115886725      L1-dcache-load-misses            #    1.25% of all L1-dcache accesses 
+         103454294      LLC-load-misses                  #   12.58% of all LL-cache accesses  
+         822489249      LLC-loads                        #   20.514 M/sec                     
+
+      13.665950625 seconds time elapsed
+
+      23.661440000 seconds user
+      16.105018000 seconds sys
+
+

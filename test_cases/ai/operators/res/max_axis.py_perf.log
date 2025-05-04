@@ -1,0 +1,24 @@
+# started on Mon Sep  9 11:34:17 2024
+
+
+ Performance counter stats for 'python max_axis.py':
+
+       12914359755 ns   duration_time                    #  315.879 M/sec                     
+          40883.92 msec task-clock                       #    3.166 CPUs utilized             
+       81602804025      cycles                           #    1.996 GHz                       
+       47515059620      instructions                     #    0.58  insn per cycle            
+         823959663      cache-references                 #   20.154 M/sec                     
+         823969922      cache-misses                     #  100.00% of all cache refs         
+        7100072358      branches                         #  173.664 M/sec                     
+         211260478      branch-misses                    #    2.98% of all branches           
+       12072334607      L1-dcache-loads                  #  295.283 M/sec                     
+          76411035      L1-dcache-load-misses            #    0.63% of all L1-dcache accesses 
+          67424727      LLC-load-misses                  #    8.18% of all LL-cache accesses  
+         824015201      LLC-loads                        #   20.155 M/sec                     
+
+      12.914359755 seconds time elapsed
+
+      23.339843000 seconds user
+      17.175806000 seconds sys
+
+

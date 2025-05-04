@@ -1,0 +1,17 @@
+[
+    {
+        "linalg_det": [
+            {
+                "inputs": {
+                    "A": [
+                        1024,
+                        1024
+                    ]
+                },
+                "max_storage_mem_alloc_cpu/0": 2099.2019,
+                "avg_time_forward_linalg_det": 242.0025,
+                "avg_time_backward_linalg_det": 492.9541
+            }
+        ]
+    }
+]

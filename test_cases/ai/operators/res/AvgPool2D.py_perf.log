@@ -1,0 +1,24 @@
+# started on Mon Sep  9 09:50:17 2024
+
+
+ Performance counter stats for 'python AvgPool2D.py':
+
+       18855611444 ns   duration_time                    #  591.437 M/sec                     
+          31880.99 msec task-clock                       #    1.691 CPUs utilized             
+       63409556360      cycles                           #    1.989 GHz                       
+       27414668686      instructions                     #    0.43  insn per cycle            
+         465731940      cache-references                 #   14.608 M/sec                     
+         465738243      cache-misses                     #  100.00% of all cache refs         
+        7697492468      branches                         #  241.445 M/sec                     
+         162877709      branch-misses                    #    2.12% of all branches           
+        7440585560      L1-dcache-loads                  #  233.386 M/sec                     
+          75182787      L1-dcache-load-misses            #    1.01% of all L1-dcache accesses 
+          67670556      LLC-load-misses                  #   14.53% of all LL-cache accesses  
+         465765034      LLC-loads                        #   14.609 M/sec                     
+
+      18.855611444 seconds time elapsed
+
+      20.796696000 seconds user
+      12.214810000 seconds sys
+
+

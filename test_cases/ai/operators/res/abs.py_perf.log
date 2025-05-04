@@ -1,0 +1,24 @@
+# started on Mon Sep  9 10:24:58 2024
+
+
+ Performance counter stats for 'python abs.py':
+
+       12758116618 ns   duration_time                    #  346.465 M/sec                     
+          36823.72 msec task-clock                       #    2.886 CPUs utilized             
+       73508983971      cycles                           #    1.996 GHz                       
+       39012102586      instructions                     #    0.53  insn per cycle            
+         797164009      cache-references                 #   21.648 M/sec                     
+         797174976      cache-misses                     #  100.00% of all cache refs         
+        6075972815      branches                         #  165.002 M/sec                     
+         185941930      branch-misses                    #    3.06% of all branches           
+       10639875265      L1-dcache-loads                  #  288.941 M/sec                     
+          80516805      L1-dcache-load-misses            #    0.76% of all L1-dcache accesses 
+          63535300      LLC-load-misses                  #    7.97% of all LL-cache accesses  
+         797223295      LLC-loads                        #   21.650 M/sec                     
+
+      12.758116618 seconds time elapsed
+
+      19.050664000 seconds user
+      17.494649000 seconds sys
+
+

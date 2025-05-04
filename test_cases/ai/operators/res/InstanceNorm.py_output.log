@@ -1,0 +1,16 @@
+[
+    {
+        "InstanceNorm": [
+            {
+                "inputs": {
+                    "data": "<NDArray 1024x128x32x32 @cpu(0)>",
+                    "gamma": "<NDArray 128 @cpu(0)>",
+                    "beta": "<NDArray 128 @cpu(0)>",
+                    "eps": 1e-05
+                },
+                "max_storage_mem_alloc_cpu/0": 268959.75,
+                "avg_time_forward_InstanceNorm": 243.8008
+            }
+        ]
+    }
+]

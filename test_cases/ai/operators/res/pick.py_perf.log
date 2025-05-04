@@ -1,0 +1,24 @@
+# started on Mon Sep  9 11:49:41 2024
+
+
+ Performance counter stats for 'python pick.py':
+
+       13357048041 ns   duration_time                    #  352.491 M/sec                     
+          37893.34 msec task-clock                       #    2.837 CPUs utilized             
+       75539322431      cycles                           #    1.993 GHz                       
+       38318861907      instructions                     #    0.51  insn per cycle            
+         837519755      cache-references                 #   22.102 M/sec                     
+         837529737      cache-misses                     #  100.00% of all cache refs         
+        6085330220      branches                         #  160.591 M/sec                     
+         175299537      branch-misses                    #    2.88% of all branches           
+       10488907947      L1-dcache-loads                  #  276.801 M/sec                     
+          81331702      L1-dcache-load-misses            #    0.78% of all L1-dcache accesses 
+          60655348      LLC-load-misses                  #    7.24% of all LL-cache accesses  
+         837574493      LLC-loads                        #   22.103 M/sec                     
+
+      13.357048041 seconds time elapsed
+
+      18.612082000 seconds user
+      18.997540000 seconds sys
+
+

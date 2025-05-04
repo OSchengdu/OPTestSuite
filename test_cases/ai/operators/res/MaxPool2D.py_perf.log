@@ -1,0 +1,24 @@
+# started on Mon Sep  9 10:09:00 2024
+
+
+ Performance counter stats for 'python MaxPool2D.py':
+
+       11609960245 ns   duration_time                    #  334.444 M/sec                     
+          34714.23 msec task-clock                       #    2.990 CPUs utilized             
+       69411340709      cycles                           #    2.000 GHz                       
+       35098475961      instructions                     #    0.51  insn per cycle            
+         774674126      cache-references                 #   22.316 M/sec                     
+         774681141      cache-misses                     #  100.00% of all cache refs         
+        5636077135      branches                         #  162.356 M/sec                     
+         166594657      branch-misses                    #    2.96% of all branches           
+        9749194389      L1-dcache-loads                  #  280.841 M/sec                     
+          72018681      L1-dcache-load-misses            #    0.74% of all L1-dcache accesses 
+          55858649      LLC-load-misses                  #    7.21% of all LL-cache accesses  
+         774712250      LLC-loads                        #   22.317 M/sec                     
+
+      11.609960245 seconds time elapsed
+
+      17.708268000 seconds user
+      16.729740000 seconds sys
+
+

@@ -1,0 +1,17 @@
+[
+    {
+        "degrees": [
+            {
+                "inputs": {
+                    "data": [
+                        1024,
+                        1024
+                    ]
+                },
+                "max_storage_mem_alloc_cpu/0": 2097.1521,
+                "avg_time_forward_degrees": 5.7441,
+                "avg_time_backward_degrees": 2.2253
+            }
+        ]
+    }
+]

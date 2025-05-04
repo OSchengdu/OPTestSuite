@@ -1,0 +1,18 @@
+[
+    {
+        "GroupNorm": [
+            {
+                "inputs": {
+                    "data": "<NDArray 1024x128x32x32 @cpu(0)>",
+                    "gamma": "<NDArray 128 @cpu(0)>",
+                    "beta": "<NDArray 128 @cpu(0)>",
+                    "num_groups": 16,
+                    "eps": 1e-05
+                },
+                "max_storage_mem_alloc_cpu/0": 805437.6875,
+                "avg_time_forward_GroupNorm": 243.0991,
+                "avg_time_backward_GroupNorm": 1057.1377
+            }
+        ]
+    }
+]

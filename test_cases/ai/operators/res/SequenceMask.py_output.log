@@ -1,0 +1,18 @@
+[
+    {
+        "SequenceMask": [
+            {
+                "inputs": {
+                    "data": "<NDArray 10x1024 @cpu(0)>",
+                    "use_sequence_length": false,
+                    "sequence_length": null,
+                    "value": 0.0,
+                    "axis": 0
+                },
+                "max_storage_mem_alloc_cpu/0": 40.96,
+                "avg_time_forward_SequenceMask": 5.9734,
+                "avg_time_backward_SequenceMask": 5.8572
+            }
+        ]
+    }
+]

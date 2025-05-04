@@ -1,0 +1,24 @@
+# started on Mon Sep  9 13:22:28 2024
+
+
+ Performance counter stats for 'python transpose.py':
+
+       14553549749 ns   duration_time                    #  384.987 M/sec                     
+          37802.70 msec task-clock                       #    2.597 CPUs utilized             
+       75423028748      cycles                           #    1.995 GHz                       
+       36418870922      instructions                     #    0.48  insn per cycle            
+         784680594      cache-references                 #   20.757 M/sec                     
+         784691132      cache-misses                     #  100.00% of all cache refs         
+        6226431513      branches                         #  164.709 M/sec                     
+         177650863      branch-misses                    #    2.85% of all branches           
+        9871987108      L1-dcache-loads                  #  261.145 M/sec                     
+         151782877      L1-dcache-load-misses            #    1.54% of all L1-dcache accesses 
+          80762268      LLC-load-misses                  #   10.29% of all LL-cache accesses  
+         784736892      LLC-loads                        #   20.759 M/sec                     
+
+      14.553549749 seconds time elapsed
+
+      19.630165000 seconds user
+      17.850809000 seconds sys
+
+

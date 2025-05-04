@@ -1,0 +1,17 @@
+[
+    {
+        "erfinv": [
+            {
+                "inputs": {
+                    "data": [
+                        1024,
+                        1024
+                    ]
+                },
+                "max_storage_mem_alloc_cpu/0": 2097.1521,
+                "avg_time_forward_erfinv": 9.3316,
+                "avg_time_backward_erfinv": 4.8614
+            }
+        ]
+    }
+]

@@ -1,0 +1,24 @@
+# started on Mon Sep  9 11:34:15 2024
+
+
+ Performance counter stats for 'python max.py':
+
+       12870872889 ns   duration_time                    #  317.566 M/sec                     
+          40529.72 msec task-clock                       #    3.149 CPUs utilized             
+       80903899820      cycles                           #    1.996 GHz                       
+       46583298395      instructions                     #    0.58  insn per cycle            
+         820633905      cache-references                 #   20.248 M/sec                     
+         820644622      cache-misses                     #  100.00% of all cache refs         
+        6857612038      branches                         #  169.200 M/sec                     
+         195473557      branch-misses                    #    2.85% of all branches           
+       11716332239      L1-dcache-loads                  #  289.080 M/sec                     
+          79615575      L1-dcache-load-misses            #    0.68% of all L1-dcache accesses 
+          64563702      LLC-load-misses                  #    7.87% of all LL-cache accesses  
+         820692093      LLC-loads                        #   20.249 M/sec                     
+
+      12.870872889 seconds time elapsed
+
+      22.476455000 seconds user
+      17.753879000 seconds sys
+
+

@@ -1,0 +1,24 @@
+# started on Mon Sep  9 10:36:21 2024
+
+
+ Performance counter stats for 'python argmin.py':
+
+       12997326886 ns   duration_time                    #  357.768 M/sec                     
+          36328.96 msec task-clock                       #    2.795 CPUs utilized             
+       72542319900      cycles                           #    1.997 GHz                       
+       38720410484      instructions                     #    0.53  insn per cycle            
+         776863046      cache-references                 #   21.384 M/sec                     
+         776874123      cache-misses                     #  100.00% of all cache refs         
+        6315358396      branches                         #  173.838 M/sec                     
+         173034613      branch-misses                    #    2.74% of all branches           
+       10522992233      L1-dcache-loads                  #  289.659 M/sec                     
+          75178996      L1-dcache-load-misses            #    0.71% of all L1-dcache accesses 
+          61323807      LLC-load-misses                  #    7.89% of all LL-cache accesses  
+         776920859      LLC-loads                        #   21.386 M/sec                     
+
+      12.997326886 seconds time elapsed
+
+      18.713832000 seconds user
+      17.329020000 seconds sys
+
+

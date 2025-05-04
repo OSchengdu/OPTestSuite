@@ -1,0 +1,24 @@
+# started on Mon Sep  9 10:43:13 2024
+
+
+ Performance counter stats for 'python clip.py':
+
+       14262656419 ns   duration_time                    #  372.006 M/sec                     
+          38339.84 msec task-clock                       #    2.688 CPUs utilized             
+       76449443502      cycles                           #    1.994 GHz                       
+       38437859949      instructions                     #    0.50  insn per cycle            
+         812052139      cache-references                 #   21.180 M/sec                     
+         812063075      cache-misses                     #  100.00% of all cache refs         
+        6843743651      branches                         #  178.502 M/sec                     
+         213320083      branch-misses                    #    3.12% of all branches           
+       10444085943      L1-dcache-loads                  #  272.408 M/sec                     
+          84417686      L1-dcache-load-misses            #    0.81% of all L1-dcache accesses 
+          76955350      LLC-load-misses                  #    9.48% of all LL-cache accesses  
+         812111185      LLC-loads                        #   21.182 M/sec                     
+
+      14.262656419 seconds time elapsed
+
+      19.836963000 seconds user
+      18.210075000 seconds sys
+
+

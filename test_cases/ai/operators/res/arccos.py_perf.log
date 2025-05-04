@@ -1,0 +1,24 @@
+# started on Mon Sep  9 10:26:42 2024
+
+
+ Performance counter stats for 'python arccos.py':
+
+       12486279085 ns   duration_time                    #  303.388 M/sec                     
+          41156.14 msec task-clock                       #    3.296 CPUs utilized             
+       82161209206      cycles                           #    1.996 GHz                       
+       41475184842      instructions                     #    0.50  insn per cycle            
+         806645826      cache-references                 #   19.600 M/sec                     
+         806656356      cache-misses                     #  100.00% of all cache refs         
+        6284640119      branches                         #  152.702 M/sec                     
+         214049748      branch-misses                    #    3.41% of all branches           
+       11167690948      L1-dcache-loads                  #  271.349 M/sec                     
+          90540585      L1-dcache-load-misses            #    0.81% of all L1-dcache accesses 
+          67726628      LLC-load-misses                  #    8.40% of all LL-cache accesses  
+         806700724      LLC-loads                        #   19.601 M/sec                     
+
+      12.486279085 seconds time elapsed
+
+      23.233260000 seconds user
+      17.578739000 seconds sys
+
+

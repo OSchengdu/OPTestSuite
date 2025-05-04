@@ -1,0 +1,14 @@
+[10:09:22] /home/tanjunhan/MXNet/src/storage/storage.cc:202: Using Pooled (Naive) StorageManager for CPU
+Traceback (most recent call last):
+  File "/home/tanjunhan/MXNet/RNN.py", line 13, in <module>
+    rnn_res = run_performance_test(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tanjunhan/MXNet/benchmark/opperf/utils/benchmark_utils.py", line 250, in run_performance_test
+    kwargs_list = _prepare_op_inputs(inputs, run_backward, dtype, ctx, op.__module__)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tanjunhan/MXNet/benchmark/opperf/utils/benchmark_utils.py", line 47, in _prepare_op_inputs
+    kwargs[key] = get_array_fn(ctx=ctx, in_tensor=value,
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tanjunhan/MXNet/benchmark/opperf/utils/ndarray_utils.py", line 140, in get_mx_ndarray
+    raise ValueError("Invalid input type for creating input tensor. Input can be tuple() of shape or Numpy Array or"
+ValueError: ('Invalid input type for creating input tensor. Input can be tuple() of shape or Numpy Array or MXNet NDArray. Given - ', None)

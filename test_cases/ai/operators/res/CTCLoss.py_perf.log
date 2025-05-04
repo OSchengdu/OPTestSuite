@@ -1,0 +1,24 @@
+# started on Mon Sep  9 09:50:41 2024
+
+
+ Performance counter stats for 'python CTCLoss.py':
+
+       62082668399 ns   duration_time                    #  981.032 M/sec                     
+          63283.00 msec task-clock                       #    1.019 CPUs utilized             
+      126366362930      cycles                           #    1.997 GHz                       
+       31862376885      instructions                     #    0.25  insn per cycle            
+         493184953      cache-references                 #    7.793 M/sec                     
+         493190657      cache-misses                     #  100.00% of all cache refs         
+        9598685343      branches                         #  151.679 M/sec                     
+         164220846      branch-misses                    #    1.71% of all branches           
+        8697223076      L1-dcache-loads                  #  137.434 M/sec                     
+          89817607      L1-dcache-load-misses            #    1.03% of all L1-dcache accesses 
+          99442991      LLC-load-misses                  #   20.16% of all LL-cache accesses  
+         493217073      LLC-loads                        #    7.794 M/sec                     
+
+      62.082668399 seconds time elapsed
+
+      43.975471000 seconds user
+      18.833123000 seconds sys
+
+

@@ -1,0 +1,16 @@
+[
+    {
+        "shape_array": [
+            {
+                "inputs": {
+                    "data": [
+                        1024,
+                        1024
+                    ]
+                },
+                "max_storage_mem_alloc_cpu/0": 0.008,
+                "avg_time_forward_shape_array": 0.0625
+            }
+        ]
+    }
+]

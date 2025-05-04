@@ -1,0 +1,24 @@
+# started on Mon Sep  9 13:21:03 2024
+
+
+ Performance counter stats for 'python squeeze.py':
+
+       11473285948 ns   duration_time                    #  321.085 M/sec                     
+          35732.91 msec task-clock                       #    3.114 CPUs utilized             
+       71388426266      cycles                           #    1.998 GHz                       
+       37510739932      instructions                     #    0.53  insn per cycle            
+         754964101      cache-references                 #   21.128 M/sec                     
+         754974728      cache-misses                     #  100.00% of all cache refs         
+        5738099024      branches                         #  160.583 M/sec                     
+         166327878      branch-misses                    #    2.90% of all branches           
+       10373703996      L1-dcache-loads                  #  290.312 M/sec                     
+          71520254      L1-dcache-load-misses            #    0.69% of all L1-dcache accesses 
+          59404702      LLC-load-misses                  #    7.87% of all LL-cache accesses  
+         755020820      LLC-loads                        #   21.130 M/sec                     
+
+      11.473285948 seconds time elapsed
+
+      18.692043000 seconds user
+      16.752872000 seconds sys
+
+

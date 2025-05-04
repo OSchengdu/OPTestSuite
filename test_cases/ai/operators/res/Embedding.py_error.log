@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/home/tanjunhan/MXNet/Embedding.py", line 9, in <module>
+    data = nd.array([[1, 2, 3], [4, 5, 6]], ctx=ctx)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tanjunhan/MXNet/python/mxnet/ndarray/utils.py", line 141, in array
+    if spsp is not None and isinstance(source_array, spsp.csr.csr_matrix):
+                                                     ^^^^^^^^
+AttributeError: module 'scipy.sparse' has no attribute 'csr'

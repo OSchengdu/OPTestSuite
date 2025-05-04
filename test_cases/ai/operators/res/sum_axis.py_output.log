@@ -1,0 +1,18 @@
+[
+    {
+        "sum_axis": [
+            {
+                "inputs": {
+                    "data": [
+                        1024,
+                        1024
+                    ],
+                    "axis": 1
+                },
+                "max_storage_mem_alloc_cpu/0": 2.048,
+                "avg_time_forward_sum_axis": 5.2624,
+                "avg_time_backward_sum_axis": 4.2621
+            }
+        ]
+    }
+]

@@ -1,0 +1,24 @@
+# started on Mon Sep  9 10:40:55 2024
+
+
+ Performance counter stats for 'python broadcast_hypot.py':
+
+       13324889363 ns   duration_time                    #  260.257 M/sec                     
+          51198.99 msec task-clock                       #    3.842 CPUs utilized             
+      102159135890      cycles                           #    1.995 GHz                       
+       43548589643      instructions                     #    0.43  insn per cycle            
+         845594913      cache-references                 #   16.516 M/sec                     
+         845606081      cache-misses                     #  100.00% of all cache refs         
+        6843658431      branches                         #  133.668 M/sec                     
+         177242609      branch-misses                    #    2.59% of all branches           
+       11244526693      L1-dcache-loads                  #  219.624 M/sec                     
+          97126918      L1-dcache-load-misses            #    0.86% of all L1-dcache accesses 
+          84608475      LLC-load-misses                  #   10.01% of all LL-cache accesses  
+         845653191      LLC-loads                        #   16.517 M/sec                     
+
+      13.324889363 seconds time elapsed
+
+      32.836547000 seconds user
+      17.885713000 seconds sys
+
+

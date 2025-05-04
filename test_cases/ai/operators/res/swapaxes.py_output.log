@@ -1,0 +1,19 @@
+[
+    {
+        "swapaxes": [
+            {
+                "inputs": {
+                    "data": [
+                        1024,
+                        1024
+                    ],
+                    "dim1": 0,
+                    "dim2": 1
+                },
+                "max_storage_mem_alloc_cpu/0": 2097.1521,
+                "avg_time_forward_swapaxes": 5.3256,
+                "avg_time_backward_swapaxes": 5.5686
+            }
+        ]
+    }
+]

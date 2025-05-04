@@ -1,0 +1,24 @@
+# started on Mon Sep  9 13:22:57 2024
+
+
+ Performance counter stats for 'python where.py':
+
+       13513188714 ns   duration_time                    #  345.093 M/sec                     
+          39158.10 msec task-clock                       #    2.898 CPUs utilized             
+       78029077414      cycles                           #    1.993 GHz                       
+       41470067584      instructions                     #    0.53  insn per cycle            
+         792266022      cache-references                 #   20.232 M/sec                     
+         792275842      cache-misses                     #  100.00% of all cache refs         
+        6778806818      branches                         #  173.114 M/sec                     
+         181655398      branch-misses                    #    2.68% of all branches           
+       11008609880      L1-dcache-loads                  #  281.132 M/sec                     
+          85568675      L1-dcache-load-misses            #    0.78% of all L1-dcache accesses 
+          71531438      LLC-load-misses                  #    9.03% of all LL-cache accesses  
+         792320613      LLC-loads                        #   20.234 M/sec                     
+
+      13.513188714 seconds time elapsed
+
+      19.661189000 seconds user
+      19.178938000 seconds sys
+
+

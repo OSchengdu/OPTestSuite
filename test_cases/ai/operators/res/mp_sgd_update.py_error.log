@@ -1,0 +1,49 @@
+[11:41:24] /home/tanjunhan/MXNet/src/storage/storage.cc:202: Using Pooled (Naive) StorageManager for CPU
+Traceback (most recent call last):
+  File "/home/tanjunhan/MXNet/mp_sgd_update.py", line 15, in <module>
+    mp_sgd_update_res = run_performance_test(
+                        ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tanjunhan/MXNet/benchmark/opperf/utils/benchmark_utils.py", line 251, in run_performance_test
+    benchmark_result = _run_operator_performance_test(op, inputs, run_backward, warmup, runs, kwargs_list, profiler)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tanjunhan/MXNet/benchmark/opperf/utils/benchmark_utils.py", line 188, in _run_operator_performance_test
+    _, _ = benchmark_helper_func(op, warmup, **kwargs_list[0])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tanjunhan/MXNet/benchmark/opperf/utils/profiler_utils.py", line 200, in cpp_profile_it
+    res = func(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tanjunhan/MXNet/benchmark/opperf/utils/ndarray_utils.py", line 58, in nd_forward_backward_and_profile
+    res = op(**kwargs_new)
+          ^^^^^^^^^^^^^^^^
+  File "<string>", line 64, in mp_sgd_update
+  File "/home/tanjunhan/MXNet/python/mxnet/_ctypes/ndarray.py", line 76, in _imperative_invoke
+    check_call(_LIB.MXImperativeInvoke(
+  File "/home/tanjunhan/MXNet/python/mxnet/base.py", line 253, in check_call
+    raise get_last_ffi_error()
+mxnet.base.MXNetError: MXNetError: Cannot find argument 'grad32', Possible Arguments:
+----------------
+lr : float, required
+    Learning rate
+wd : float, optional, default=0
+    Weight decay augments the objective function with a regularization term that penalizes large weights. The penalty scales with the square of the magnitude of each weight.
+rescale_grad : float, optional, default=1
+    Rescale gradient to grad = rescale_grad*grad.
+clip_gradient : float, optional, default=-1
+    Clip gradient to the range of [-clip_gradient, clip_gradient] If clip_gradient <= 0, gradient clipping is turned off. grad = max(min(grad, clip_gradient), -clip_gradient).
+lazy_update : boolean, optional, default=1
+    If true, lazy updates are applied if gradient's stype is row_sparse.
+, in operator mp_sgd_update(name="", lr="0.01", wd="0.0001", grad32="
+[[-0.9180353   0.03469553  1.476541   ...  1.0784943  -0.34599563
+  -0.25793603]
+ [-2.0647852  -0.38763127  0.22454587 ...  0.20947142 -0.26210245
+   1.2164944 ]
+ [-0.1498227   0.51285684  0.8298273  ... -0.41868407 -0.04863207
+   0.23299715]
+ ...
+ [ 0.05393018  0.8481137  -1.0324285  ... -0.46681386 -1.4234754
+  -0.5957891 ]
+ [-0.8660668  -0.45268497  0.22418684 ... -1.7835495   1.0362219
+   1.7968291 ]
+ [-0.89776325 -1.7970562   0.06579532 ...  0.07752804  0.48790142
+  -0.25106063]]
+<NDArray 1024x1024 @cpu(0)>")

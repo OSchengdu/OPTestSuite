@@ -1,0 +1,25 @@
+[11:19:29] /home/tanjunhan/MXNet/src/storage/storage.cc:202: Using Pooled (Naive) StorageManager for CPU
+Traceback (most recent call last):
+  File "/home/tanjunhan/MXNet/linalg_maketrian.py", line 11, in <module>
+    linalg_maketrian_res = run_performance_test(
+                           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tanjunhan/MXNet/benchmark/opperf/utils/benchmark_utils.py", line 251, in run_performance_test
+    benchmark_result = _run_operator_performance_test(op, inputs, run_backward, warmup, runs, kwargs_list, profiler)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tanjunhan/MXNet/benchmark/opperf/utils/benchmark_utils.py", line 188, in _run_operator_performance_test
+    _, _ = benchmark_helper_func(op, warmup, **kwargs_list[0])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tanjunhan/MXNet/benchmark/opperf/utils/profiler_utils.py", line 200, in cpp_profile_it
+    res = func(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tanjunhan/MXNet/benchmark/opperf/utils/ndarray_utils.py", line 58, in nd_forward_backward_and_profile
+    res = op(**kwargs_new)
+          ^^^^^^^^^^^^^^^^
+  File "<string>", line 83, in linalg_maketrian
+  File "/home/tanjunhan/MXNet/python/mxnet/_ctypes/ndarray.py", line 76, in _imperative_invoke
+    check_call(_LIB.MXImperativeInvoke(
+  File "/home/tanjunhan/MXNet/python/mxnet/base.py", line 253, in check_call
+    raise get_last_ffi_error()
+mxnet.base.MXNetError: Traceback (most recent call last):
+  File "/home/tanjunhan/MXNet/src/operator/tensor/./la_op.h", line 305
+MXNetError: Check failed: (m * (m + 1)) / 2 == n (1035 vs. 1024) : Input tensor of maketrian has an invalid dimension for the last axis.

@@ -1,0 +1,17 @@
+[
+    {
+        "nanprod": [
+            {
+                "inputs": {
+                    "data": [
+                        1024,
+                        1024
+                    ]
+                },
+                "max_storage_mem_alloc_cpu/0": 0.002,
+                "avg_time_forward_nanprod": 4.6299,
+                "avg_time_backward_nanprod": 6.1118
+            }
+        ]
+    }
+]

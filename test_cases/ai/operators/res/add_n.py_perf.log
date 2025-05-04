@@ -1,0 +1,24 @@
+# started on Mon Sep  9 10:25:23 2024
+
+
+ Performance counter stats for 'python add_n.py':
+
+       10845653630 ns   duration_time                    #  319.055 M/sec                     
+          33993.11 msec task-clock                       #    3.134 CPUs utilized             
+       67969525155      cycles                           #    2.000 GHz                       
+       35912565906      instructions                     #    0.53  insn per cycle            
+         733145993      cache-references                 #   21.567 M/sec                     
+         733153200      cache-misses                     #  100.00% of all cache refs         
+        5619065649      branches                         #  165.300 M/sec                     
+         161062872      branch-misses                    #    2.87% of all branches           
+       10003509558      L1-dcache-loads                  #  294.281 M/sec                     
+          69325790      L1-dcache-load-misses            #    0.69% of all L1-dcache accesses 
+          52374195      LLC-load-misses                  #    7.14% of all LL-cache accesses  
+         733181890      LLC-loads                        #   21.569 M/sec                     
+
+      10.845653630 seconds time elapsed
+
+      18.355850000 seconds user
+      15.351226000 seconds sys
+
+

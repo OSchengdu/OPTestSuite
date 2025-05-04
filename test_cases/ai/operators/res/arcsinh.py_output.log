@@ -1,0 +1,17 @@
+[
+    {
+        "arcsinh": [
+            {
+                "inputs": {
+                    "data": [
+                        1024,
+                        1024
+                    ]
+                },
+                "max_storage_mem_alloc_cpu/0": 2097.1521,
+                "avg_time_forward_arcsinh": 5.9478,
+                "avg_time_backward_arcsinh": 6.7026
+            }
+        ]
+    }
+]

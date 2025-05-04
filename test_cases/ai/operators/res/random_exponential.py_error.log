@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/home/tanjunhan/MXNet/random_exponential.py", line 10, in <module>
+    random_exponential_res = run_performance_test(
+                             ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tanjunhan/MXNet/benchmark/opperf/utils/benchmark_utils.py", line 253, in run_performance_test
+    raise ValueError(f"Unknown {op.__module__} operator provided to benchmark. - {op.__name__}")
+ValueError: Unknown mxnet.ndarray.random operator provided to benchmark. - exponential

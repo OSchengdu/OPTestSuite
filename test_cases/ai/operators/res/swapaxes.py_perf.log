@@ -1,0 +1,24 @@
+# started on Mon Sep  9 13:21:50 2024
+
+
+ Performance counter stats for 'python swapaxes.py':
+
+       13080298178 ns   duration_time                    #  327.514 M/sec                     
+          39938.08 msec task-clock                       #    3.053 CPUs utilized             
+       79709423671      cycles                           #    1.996 GHz                       
+       40290960024      instructions                     #    0.51  insn per cycle            
+         842033080      cache-references                 #   21.083 M/sec                     
+         842043828      cache-misses                     #  100.00% of all cache refs         
+        6227989878      branches                         #  155.941 M/sec                     
+         174962243      branch-misses                    #    2.81% of all branches           
+       10978873443      L1-dcache-loads                  #  274.897 M/sec                     
+         156600995      L1-dcache-load-misses            #    1.43% of all L1-dcache accesses 
+         133752217      LLC-load-misses                  #   15.88% of all LL-cache accesses  
+         842088501      LLC-loads                        #   21.085 M/sec                     
+
+      13.080298178 seconds time elapsed
+
+      22.078003000 seconds user
+      17.484704000 seconds sys
+
+

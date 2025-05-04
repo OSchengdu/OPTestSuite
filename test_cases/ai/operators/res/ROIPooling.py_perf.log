@@ -1,0 +1,24 @@
+# started on Mon Sep  9 10:09:23 2024
+
+
+ Performance counter stats for 'python ROIPooling.py':
+
+       13697096212 ns   duration_time                    #  344.034 M/sec                     
+          39813.21 msec task-clock                       #    2.907 CPUs utilized             
+       79162454216      cycles                           #    1.988 GHz                       
+       41064532115      instructions                     #    0.52  insn per cycle            
+         795882664      cache-references                 #   19.990 M/sec                     
+         795893209      cache-misses                     #  100.00% of all cache refs         
+        7015385376      branches                         #  176.207 M/sec                     
+         178613564      branch-misses                    #    2.55% of all branches           
+       10988125362      L1-dcache-loads                  #  275.992 M/sec                     
+          86735869      L1-dcache-load-misses            #    0.79% of all L1-dcache accesses 
+          57992400      LLC-load-misses                  #    7.29% of all LL-cache accesses  
+         795937475      LLC-loads                        #   19.992 M/sec                     
+
+      13.697096212 seconds time elapsed
+
+      18.583734000 seconds user
+      21.019568000 seconds sys
+
+

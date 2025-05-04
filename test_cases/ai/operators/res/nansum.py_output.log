@@ -1,0 +1,17 @@
+[
+    {
+        "nansum": [
+            {
+                "inputs": {
+                    "data": [
+                        1024,
+                        1024
+                    ]
+                },
+                "max_storage_mem_alloc_cpu/0": 0.002,
+                "avg_time_forward_nansum": 4.9336,
+                "avg_time_backward_nansum": 6.4307
+            }
+        ]
+    }
+]

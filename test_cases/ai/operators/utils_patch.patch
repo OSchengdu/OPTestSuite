@@ -1,0 +1,11 @@
+--- utils.py	2024-08-14 15:20:09.542019313 +0800
++++ utils.py.bak	2024-08-14 15:23:47.321983838 +0800
+@@ -34,7 +34,7 @@
+ int8 = onp.int8
+ int64 = onp.int64
+ bool_ = onp.bool_
+-bool = onp.bool
++bool = onp.bool_
+ 
+ pi = onp.pi
+ inf = onp.inf

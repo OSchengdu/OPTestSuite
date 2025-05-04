@@ -1,0 +1,24 @@
+# started on Mon Sep  9 12:35:10 2024
+
+
+ Performance counter stats for 'python rint.py':
+
+       13995210446 ns   duration_time                    #  342.459 M/sec                     
+          40866.81 msec task-clock                       #    2.920 CPUs utilized             
+       81606133170      cycles                           #    1.997 GHz                       
+       39322799908      instructions                     #    0.48  insn per cycle            
+         877499690      cache-references                 #   21.472 M/sec                     
+         877509828      cache-misses                     #  100.00% of all cache refs         
+        6317898418      branches                         #  154.597 M/sec                     
+         191863442      branch-misses                    #    3.04% of all branches           
+       10416228407      L1-dcache-loads                  #  254.882 M/sec                     
+          83066120      L1-dcache-load-misses            #    0.80% of all L1-dcache accesses 
+          65722086      LLC-load-misses                  #    7.49% of all LL-cache accesses  
+         877552480      LLC-loads                        #   21.473 M/sec                     
+
+      13.995210446 seconds time elapsed
+
+      22.682242000 seconds user
+      17.820461000 seconds sys
+
+

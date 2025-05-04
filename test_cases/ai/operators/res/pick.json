@@ -1,0 +1,21 @@
+[
+    {
+        "pick": [
+            {
+                "inputs": {
+                    "data": [
+                        1024,
+                        1024
+                    ],
+                    "index": [
+                        1024
+                    ],
+                    "axis": 1
+                },
+                "max_storage_mem_alloc_cpu/0": 2.048,
+                "avg_time_forward_pick": 6.1276,
+                "avg_time_backward_pick": 15.361
+            }
+        ]
+    }
+]

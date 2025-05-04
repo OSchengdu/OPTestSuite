@@ -1,0 +1,24 @@
+# started on Mon Sep  9 10:58:40 2024
+
+
+ Performance counter stats for 'python gamma.py':
+
+       12475182921 ns   duration_time                    #  185.863 M/sec                     
+          67120.36 msec task-clock                       #    5.380 CPUs utilized             
+      134091436237      cycles                           #    1.998 GHz                       
+       78484212348      instructions                     #    0.59  insn per cycle            
+         975732531      cache-references                 #   14.537 M/sec                     
+         975742361      cache-misses                     #  100.00% of all cache refs         
+       10182843490      branches                         #  151.710 M/sec                     
+         424479741      branch-misses                    #    4.17% of all branches           
+       18640137397      L1-dcache-loads                  #  277.712 M/sec                     
+          93046939      L1-dcache-load-misses            #    0.50% of all L1-dcache accesses 
+          68889895      LLC-load-misses                  #    7.06% of all LL-cache accesses  
+         975787647      LLC-loads                        #   14.538 M/sec                     
+
+      12.475182921 seconds time elapsed
+
+      49.267009000 seconds user
+      17.331954000 seconds sys
+
+

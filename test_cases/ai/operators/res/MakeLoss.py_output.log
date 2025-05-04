@@ -1,0 +1,17 @@
+[
+    {
+        "MakeLoss": [
+            {
+                "inputs": {
+                    "data": "<NDArray 1024x1024 @cpu(0)>",
+                    "grad_scale": 1.0,
+                    "valid_thresh": 0,
+                    "normalization": "null"
+                },
+                "max_storage_mem_alloc_cpu/0": 2097.1521,
+                "avg_time_forward_MakeLoss": 4.8968,
+                "avg_time_backward_MakeLoss": 4.7766
+            }
+        ]
+    }
+]

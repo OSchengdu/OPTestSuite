@@ -1,0 +1,24 @@
+# started on Mon Sep  9 11:46:11 2024
+
+
+ Performance counter stats for 'python multi_sum_sq.py':
+
+       10955827368 ns   duration_time                    #  321.269 M/sec                     
+          34101.72 msec task-clock                       #    3.113 CPUs utilized             
+       68186585173      cycles                           #    2.000 GHz                       
+       36092683819      instructions                     #    0.53  insn per cycle            
+         739970350      cache-references                 #   21.699 M/sec                     
+         739978043      cache-misses                     #  100.00% of all cache refs         
+        5617047576      branches                         #  164.715 M/sec                     
+         162488608      branch-misses                    #    2.89% of all branches           
+       10099978371      L1-dcache-loads                  #  296.172 M/sec                     
+          67269153      L1-dcache-load-misses            #    0.67% of all L1-dcache accesses 
+          52487344      LLC-load-misses                  #    7.09% of all LL-cache accesses  
+         740010181      LLC-loads                        #   21.700 M/sec                     
+
+      10.955827368 seconds time elapsed
+
+      17.524426000 seconds user
+      16.272316000 seconds sys
+
+

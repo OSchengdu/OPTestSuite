@@ -1,0 +1,24 @@
+# started on Mon Sep  9 12:34:56 2024
+
+
+ Performance counter stats for 'python reshape_like.py':
+
+       14040997072 ns   duration_time                    #  397.216 M/sec                     
+          35348.56 msec task-clock                       #    2.518 CPUs utilized             
+       70592500629      cycles                           #    1.997 GHz                       
+       35093612053      instructions                     #    0.50  insn per cycle            
+         696064003      cache-references                 #   19.691 M/sec                     
+         696074416      cache-misses                     #  100.00% of all cache refs         
+        6019868253      branches                         #  170.300 M/sec                     
+         173437780      branch-misses                    #    2.88% of all branches           
+        9669374783      L1-dcache-loads                  #  273.544 M/sec                     
+          83680029      L1-dcache-load-misses            #    0.87% of all L1-dcache accesses 
+          67916798      LLC-load-misses                  #    9.76% of all LL-cache accesses  
+         696118549      LLC-loads                        #   19.693 M/sec                     
+
+      14.040997072 seconds time elapsed
+
+      19.088002000 seconds user
+      15.919234000 seconds sys
+
+

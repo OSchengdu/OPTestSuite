@@ -1,0 +1,24 @@
+# started on Mon Sep  9 10:08:24 2024
+
+
+ Performance counter stats for 'python LeakyReLU.py':
+
+       12556844908 ns   duration_time                    #  350.487 M/sec                     
+          35826.86 msec task-clock                       #    2.853 CPUs utilized             
+       71573426112      cycles                           #    1.998 GHz                       
+       37881638248      instructions                     #    0.53  insn per cycle            
+         793515297      cache-references                 #   22.149 M/sec                     
+         793525930      cache-misses                     #  100.00% of all cache refs         
+        5832314257      branches                         #  162.792 M/sec                     
+         204667113      branch-misses                    #    3.51% of all branches           
+       10417682881      L1-dcache-loads                  #  290.779 M/sec                     
+          82338320      L1-dcache-load-misses            #    0.79% of all L1-dcache accesses 
+          62912208      LLC-load-misses                  #    7.93% of all LL-cache accesses  
+         793574437      LLC-loads                        #   22.150 M/sec                     
+
+      12.556844908 seconds time elapsed
+
+      18.599316000 seconds user
+      16.904015000 seconds sys
+
+

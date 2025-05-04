@@ -1,0 +1,15 @@
+[
+    {
+        "sort": [
+            {
+                "inputs": {
+                    "data": "<NDArray 1024x1024 @cpu(0)>",
+                    "axis": 1,
+                    "is_ascend": true
+                },
+                "max_storage_mem_alloc_cpu/0": 4194.3042,
+                "avg_time_forward_sort": 22.4358
+            }
+        ]
+    }
+]

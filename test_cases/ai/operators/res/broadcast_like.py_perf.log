@@ -1,0 +1,24 @@
+# started on Mon Sep  9 10:41:15 2024
+
+
+ Performance counter stats for 'python broadcast_like.py':
+
+       12933925915 ns   duration_time                    #  301.887 M/sec                     
+          42843.66 msec task-clock                       #    3.313 CPUs utilized             
+       85423930984      cycles                           #    1.994 GHz                       
+       36716088852      instructions                     #    0.43  insn per cycle            
+         859981312      cache-references                 #   20.073 M/sec                     
+         859992570      cache-misses                     #  100.00% of all cache refs         
+        6059381056      branches                         #  141.430 M/sec                     
+         173687107      branch-misses                    #    2.87% of all branches           
+        9984084937      L1-dcache-loads                  #  233.035 M/sec                     
+         125838396      L1-dcache-load-misses            #    1.26% of all L1-dcache accesses 
+          97652353      LLC-load-misses                  #   11.35% of all LL-cache accesses  
+         860038482      LLC-loads                        #   20.074 M/sec                     
+
+      12.933925915 seconds time elapsed
+
+      24.679671000 seconds user
+      17.792374000 seconds sys
+
+

@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/home/tanjunhan/MXNet/multi_mp_lamb_update.py", line 7, in <module>
+    op = nd.multi_mp_lamb_update
+         ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'mxnet.ndarray' has no attribute 'multi_mp_lamb_update'. Did you mean: 'multi_mp_sgd_update'?

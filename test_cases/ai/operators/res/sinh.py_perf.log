@@ -1,0 +1,24 @@
+# started on Mon Sep  9 13:05:55 2024
+
+
+ Performance counter stats for 'python sinh.py':
+
+       12896286503 ns   duration_time                    #  342.101 M/sec                     
+          37697.30 msec task-clock                       #    2.923 CPUs utilized             
+       74868860536      cycles                           #    1.986 GHz                       
+       33495964605      instructions                     #    0.45  insn per cycle            
+         579319687      cache-references                 #   15.368 M/sec                     
+         579330046      cache-misses                     #  100.00% of all cache refs         
+        5525270886      branches                         #  146.569 M/sec                     
+         223603959      branch-misses                    #    4.05% of all branches           
+        8410916827      L1-dcache-loads                  #  223.117 M/sec                     
+          78428332      L1-dcache-load-misses            #    0.93% of all L1-dcache accesses 
+          69996573      LLC-load-misses                  #   12.08% of all LL-cache accesses  
+         579376230      LLC-loads                        #   15.369 M/sec                     
+
+      12.896286503 seconds time elapsed
+
+      25.386171000 seconds user
+      14.123084000 seconds sys
+
+

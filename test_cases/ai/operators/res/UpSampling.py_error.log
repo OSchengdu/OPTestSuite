@@ -1,0 +1,66 @@
+[10:21:31] /home/tanjunhan/MXNet/src/storage/storage.cc:202: Using Pooled (Naive) StorageManager for CPU
+Traceback (most recent call last):
+  File "/home/tanjunhan/MXNet/UpSampling.py", line 12, in <module>
+    up_sampling_res = run_performance_test(
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tanjunhan/MXNet/benchmark/opperf/utils/benchmark_utils.py", line 251, in run_performance_test
+    benchmark_result = _run_operator_performance_test(op, inputs, run_backward, warmup, runs, kwargs_list, profiler)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tanjunhan/MXNet/benchmark/opperf/utils/benchmark_utils.py", line 188, in _run_operator_performance_test
+    _, _ = benchmark_helper_func(op, warmup, **kwargs_list[0])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tanjunhan/MXNet/benchmark/opperf/utils/profiler_utils.py", line 200, in cpp_profile_it
+    res = func(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tanjunhan/MXNet/benchmark/opperf/utils/ndarray_utils.py", line 58, in nd_forward_backward_and_profile
+    res = op(**kwargs_new)
+          ^^^^^^^^^^^^^^^^
+  File "<string>", line 91, in UpSampling
+  File "/home/tanjunhan/MXNet/python/mxnet/_ctypes/ndarray.py", line 76, in _imperative_invoke
+    check_call(_LIB.MXImperativeInvoke(
+  File "/home/tanjunhan/MXNet/python/mxnet/base.py", line 253, in check_call
+    raise get_last_ffi_error()
+mxnet.base.MXNetError: MXNetError: value 0 for Parameter num_args should be greater equal to 1
+num_args: Number of inputs to be upsampled. For nearest neighbor upsampling, this can be 1-N; the size of output will be(scale*h_0,scale*w_0) and all other inputs will be upsampled to thesame size. For bilinear upsampling this must be 2; 1 input and 1 weight., in operator UpSampling(name="", num_args="0", sample_type="nearest", scale="2", data="
+[[[[-0.6689517  -0.41502526 -1.6276811  ... -1.6470659  -1.417689
+    -0.27340612]
+   [ 1.1676565   2.2406352  -0.657594   ... -0.7466264  -0.31619424
+    -0.22131734]
+   [ 0.9319588  -0.5447732   2.9315891  ... -0.7496103  -0.21608652
+     0.09036686]
+   ...
+   [ 0.69776756 -2.8828983   1.5834725  ... -0.5316141  -1.3794526
+     0.7634014 ]
+   [ 0.35338664 -0.54615235  1.2963024  ... -0.69343257  0.05530708
+    -0.02337617]
+   [ 0.534231    0.9606197   0.8189927  ... -0.25155532 -0.6333073
+    -0.20070985]]
+
+  [[-1.2068644   0.16798578  0.79130125 ...  0.62159216 -0.1009233
+     1.6894952 ]
+   [ 0.25609216 -1.2434961   0.68043554 ...  0.6779503   0.55052197
+     1.1034364 ]
+   [-0.91802114  0.31918493 -1.1193168  ...  0.13299127  0.00389433
+    -0.5887866 ]
+   ...
+   [ 0.777665   -0.8575767   0.9591629  ... -1.3339709   0.07917884
+    -0.7314038 ]
+   [-1.8969233   1.4164072  -1.413668   ...  1.5288597   0.6446182
+    -0.454091  ]
+   [-1.0245755  -0.0531764  -1.5160917  ... -1.9660202  -0.7751327
+     0.34604365]]
+
+  [[-0.09416448  1.366012   -0.42957118 ... -1.5023577   0.22826716
+     0.77042407]
+   [ 0.30857107 -2.585452   -1.0594856  ... -0.55228895 -0.2577819
+     0.2608392 ]
+   [-0.01176144 -0.26401377 -0.3062871  ... -0.18354444  0.7074632
+     1.187068  ]
+   ...
+   [-1.2708476  -1.6304073   0.12189916 ...  0.68720526  1.0259742
+     0.03638508]
+   [ 0.7685061  -1.4933708   1.0599182  ... -1.4557357   0.2067731
+     1.4266667 ]
+   [-0.2790342   0.01010433 -0.9132071  ...  0.3990915   0.4935959
+    -1.775435  ]]]]
+<NDArray 1x3x256x256 @cpu(0)>")

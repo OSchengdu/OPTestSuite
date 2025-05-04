@@ -1,0 +1,24 @@
+# started on Mon Sep  9 11:46:23 2024
+
+
+ Performance counter stats for 'python nanprod.py':
+
+       12474137148 ns   duration_time                    #  308.635 M/sec                     
+          40417.17 msec task-clock                       #    3.240 CPUs utilized             
+       80675911919      cycles                           #    1.996 GHz                       
+       47686465084      instructions                     #    0.59  insn per cycle            
+         799622352      cache-references                 #   19.784 M/sec                     
+         799632309      cache-misses                     #  100.00% of all cache refs         
+        7119888895      branches                         #  176.160 M/sec                     
+         189920668      branch-misses                    #    2.67% of all branches           
+       11975665698      L1-dcache-loads                  #  296.301 M/sec                     
+          78904091      L1-dcache-load-misses            #    0.66% of all L1-dcache accesses 
+          61332427      LLC-load-misses                  #    7.67% of all LL-cache accesses  
+         799675908      LLC-loads                        #   19.786 M/sec                     
+
+      12.474137148 seconds time elapsed
+
+      22.625796000 seconds user
+      17.453442000 seconds sys
+
+

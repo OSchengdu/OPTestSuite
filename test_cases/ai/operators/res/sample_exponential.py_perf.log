@@ -1,0 +1,24 @@
+# started on Mon Sep  9 12:41:40 2024
+
+
+ Performance counter stats for 'python sample_exponential.py':
+
+       11390574813 ns   duration_time                    #  330.524 M/sec                     
+          34462.19 msec task-clock                       #    3.026 CPUs utilized             
+       68906311246      cycles                           #    1.999 GHz                       
+       34302706413      instructions                     #    0.50  insn per cycle            
+         825975684      cache-references                 #   23.968 M/sec                     
+         825982520      cache-misses                     #  100.00% of all cache refs         
+        5573856433      branches                         #  161.738 M/sec                     
+         158327776      branch-misses                    #    2.84% of all branches           
+        9567574011      L1-dcache-loads                  #  277.625 M/sec                     
+          69572510      L1-dcache-load-misses            #    0.73% of all L1-dcache accesses 
+          52584034      LLC-load-misses                  #    6.37% of all LL-cache accesses  
+         826014373      LLC-loads                        #   23.969 M/sec                     
+
+      11.390574813 seconds time elapsed
+
+      18.261232000 seconds user
+      15.901357000 seconds sys
+
+

@@ -1,0 +1,24 @@
+# started on Mon Sep  9 09:53:39 2024
+
+
+ Performance counter stats for 'python FullyConnected.py':
+
+          65104668 ns   duration_time                    #    1.080 G/sec                     
+             60.29 msec task-clock                       #    0.926 CPUs utilized             
+         120555168      cycles                           #    2.000 GHz                       
+          62152719      instructions                     #    0.52  insn per cycle            
+           2691302      cache-references                 #   44.638 M/sec                     
+           2691365      cache-misses                     #  100.00% of all cache refs         
+           8081824      branches                         #  134.046 M/sec                     
+            870727      branch-misses                    #   10.77% of all branches           
+          18880235      L1-dcache-loads                  #  313.150 M/sec                     
+            600818      L1-dcache-load-misses            #    3.18% of all L1-dcache accesses 
+            461637      LLC-load-misses                  #   17.15% of all LL-cache accesses  
+           2691591      LLC-loads                        #   44.643 M/sec                     
+
+       0.065104668 seconds time elapsed
+
+       0.048010000 seconds user
+       0.016111000 seconds sys
+
+

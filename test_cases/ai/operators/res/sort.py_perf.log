@@ -1,0 +1,24 @@
+# started on Mon Sep  9 13:07:12 2024
+
+
+ Performance counter stats for 'python sort.py':
+
+       14507555780 ns   duration_time                    #  292.815 M/sec                     
+          49545.10 msec task-clock                       #    3.415 CPUs utilized             
+       98673762727      cycles                           #    1.992 GHz                       
+       58571531368      instructions                     #    0.59  insn per cycle            
+         863846007      cache-references                 #   17.436 M/sec                     
+         863856943      cache-misses                     #  100.00% of all cache refs         
+        8306408362      branches                         #  167.653 M/sec                     
+         381719837      branch-misses                    #    4.60% of all branches           
+       15548745064      L1-dcache-loads                  #  313.830 M/sec                     
+         102370544      L1-dcache-load-misses            #    0.66% of all L1-dcache accesses 
+          81236512      LLC-load-misses                  #    9.40% of all LL-cache accesses  
+         863905106      LLC-loads                        #   17.437 M/sec                     
+
+      14.507555780 seconds time elapsed
+
+      28.044168000 seconds user
+      21.184131000 seconds sys
+
+

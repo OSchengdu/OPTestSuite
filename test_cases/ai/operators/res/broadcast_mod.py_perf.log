@@ -1,0 +1,24 @@
+# started on Mon Sep  9 10:42:02 2024
+
+
+ Performance counter stats for 'python broadcast_mod.py':
+
+       15256985561 ns   duration_time                    #  369.371 M/sec                     
+          41305.31 msec task-clock                       #    2.707 CPUs utilized             
+       82456296038      cycles                           #    1.996 GHz                       
+       42885132154      instructions                     #    0.52  insn per cycle            
+         808609801      cache-references                 #   19.576 M/sec                     
+         808620271      cache-misses                     #  100.00% of all cache refs         
+        6574943520      branches                         #  159.179 M/sec                     
+         236360890      branch-misses                    #    3.59% of all branches           
+       11369090413      L1-dcache-loads                  #  275.245 M/sec                     
+          98640802      L1-dcache-load-misses            #    0.87% of all L1-dcache accesses 
+          80214365      LLC-load-misses                  #    9.92% of all LL-cache accesses  
+         808665699      LLC-loads                        #   19.578 M/sec                     
+
+      15.256985561 seconds time elapsed
+
+      24.428669000 seconds user
+      16.458999000 seconds sys
+
+

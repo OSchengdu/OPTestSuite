@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/home/tanjunhan/MXNet/fill_element_0index.py", line 11, in <module>
+    indices = nd.array([0], ctx=ctx)
+              ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tanjunhan/MXNet/python/mxnet/ndarray/utils.py", line 141, in array
+    if spsp is not None and isinstance(source_array, spsp.csr.csr_matrix):
+                                                     ^^^^^^^^
+AttributeError: module 'scipy.sparse' has no attribute 'csr'

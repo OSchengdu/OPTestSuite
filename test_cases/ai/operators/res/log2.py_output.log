@@ -1,0 +1,17 @@
+[
+    {
+        "log2": [
+            {
+                "inputs": {
+                    "data": [
+                        1024,
+                        1024
+                    ]
+                },
+                "max_storage_mem_alloc_cpu/0": 2097.1521,
+                "avg_time_forward_log2": 6.0382,
+                "avg_time_backward_log2": 6.4879
+            }
+        ]
+    }
+]

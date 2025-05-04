@@ -1,0 +1,17 @@
+[
+    {
+        "expm1": [
+            {
+                "inputs": {
+                    "data": [
+                        1024,
+                        1024
+                    ]
+                },
+                "max_storage_mem_alloc_cpu/0": 2097.1521,
+                "avg_time_forward_expm1": 5.7704,
+                "avg_time_backward_expm1": 5.1999
+            }
+        ]
+    }
+]

@@ -1,0 +1,24 @@
+# started on Mon Sep  9 09:53:39 2024
+
+
+ Performance counter stats for 'python GlobalAvgPool1D.py':
+
+       11452390327 ns   duration_time                    #  336.280 M/sec                     
+          34056.14 msec task-clock                       #    2.974 CPUs utilized             
+       68093780550      cycles                           #    1.999 GHz                       
+       35376090898      instructions                     #    0.52  insn per cycle            
+         732230769      cache-references                 #   21.501 M/sec                     
+         732237628      cache-misses                     #  100.00% of all cache refs         
+        5683105291      branches                         #  166.875 M/sec                     
+         166236633      branch-misses                    #    2.93% of all branches           
+        9896101147      L1-dcache-loads                  #  290.582 M/sec                     
+          81055479      L1-dcache-load-misses            #    0.82% of all L1-dcache accesses 
+          56020670      LLC-load-misses                  #    7.65% of all LL-cache accesses  
+         732267424      LLC-loads                        #   21.502 M/sec                     
+
+      11.452390327 seconds time elapsed
+
+      18.033812000 seconds user
+      15.727336000 seconds sys
+
+

@@ -1,0 +1,24 @@
+# started on Mon Sep  9 12:57:15 2024
+
+
+ Performance counter stats for 'python sigmoid.py':
+
+       12515444836 ns   duration_time                    #  326.509 M/sec                     
+          38331.08 msec task-clock                       #    3.063 CPUs utilized             
+       76497718418      cycles                           #    1.996 GHz                       
+       40818206398      instructions                     #    0.53  insn per cycle            
+         799984111      cache-references                 #   20.870 M/sec                     
+         799994849      cache-misses                     #  100.00% of all cache refs         
+        6293107279      branches                         #  164.178 M/sec                     
+         168059563      branch-misses                    #    2.67% of all branches           
+       10959482982      L1-dcache-loads                  #  285.916 M/sec                     
+          79971574      L1-dcache-load-misses            #    0.73% of all L1-dcache accesses 
+          62852594      LLC-load-misses                  #    7.86% of all LL-cache accesses  
+         800042506      LLC-loads                        #   20.872 M/sec                     
+
+      12.515444836 seconds time elapsed
+
+      20.595865000 seconds user
+      17.403235000 seconds sys
+
+

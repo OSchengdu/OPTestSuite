@@ -1,0 +1,6 @@
+[10:42:29] /home/tanjunhan/MXNet/src/storage/storage.cc:202: Using Pooled (Naive) StorageManager for CPU
+Traceback (most recent call last):
+  File "/home/tanjunhan/MXNet/broadcast_not_equal.py", line 24, in <module>
+    print(json.dumps(broadcast_not_equal__res, indent=4))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'broadcast_not_equal__res' is not defined. Did you mean: 'broadcast_not_equal_res'?

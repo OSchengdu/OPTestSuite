@@ -1,0 +1,17 @@
+[
+    {
+        "cbrt": [
+            {
+                "inputs": {
+                    "data": [
+                        1024,
+                        1024
+                    ]
+                },
+                "max_storage_mem_alloc_cpu/0": 4194.3042,
+                "avg_time_forward_cbrt": 153.0476,
+                "avg_time_backward_cbrt": 6.6026
+            }
+        ]
+    }
+]

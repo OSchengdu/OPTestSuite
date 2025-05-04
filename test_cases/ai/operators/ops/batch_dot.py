@@ -1,0 +1,23 @@
+import mxnet as mx
+from mxnet import nd
+from benchmark.opperf.utils.benchmark_utils import run_performance_test
+import json
+
+ctx = mx.cpu()
+op = nd.batch_dot
+inputs = [{"lhs": (32, 1024, 1024), "rhs": (32, 1024, 1024)}]
+
+batch_dot_res = run_performance_test(
+    op,
+    run_backward=True,
+    dtype='float32',
+    ctx=ctx,
+    inputs=inputs,
+    warmup=10,
+    runs=25
+)
+
+with open('batch_dot.json', 'w') as f:
+    json.dump(batch_dot_res, f, indent=4)
+
+print(json.dumps(batch_dot_res, indent=4))

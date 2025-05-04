@@ -1,0 +1,24 @@
+# started on Mon Sep  9 10:42:07 2024
+
+
+ Performance counter stats for 'python broadcast_mul.py':
+
+       13271692656 ns   duration_time                    #  370.816 M/sec                     
+          35790.51 msec task-clock                       #    2.697 CPUs utilized             
+       71490422291      cycles                           #    1.997 GHz                       
+       34893624629      instructions                     #    0.49  insn per cycle            
+         872949222      cache-references                 #   24.391 M/sec                     
+         872960812      cache-misses                     #  100.00% of all cache refs         
+        5822087366      branches                         #  162.671 M/sec                     
+         170667247      branch-misses                    #    2.93% of all branches           
+        9617921501      L1-dcache-loads                  #  268.728 M/sec                     
+          80861206      L1-dcache-load-misses            #    0.84% of all L1-dcache accesses 
+          75808260      LLC-load-misses                  #    8.68% of all LL-cache accesses  
+         873007847      LLC-loads                        #   24.392 M/sec                     
+
+      13.271692656 seconds time elapsed
+
+      20.255515000 seconds user
+      15.202935000 seconds sys
+
+

@@ -1,0 +1,24 @@
+# started on Mon Sep  9 10:09:12 2024
+
+
+ Performance counter stats for 'python RNN.py':
+
+       10935059731 ns   duration_time                    #  319.161 M/sec                     
+          34261.92 msec task-clock                       #    3.133 CPUs utilized             
+       68499060347      cycles                           #    1.999 GHz                       
+       36229793945      instructions                     #    0.53  insn per cycle            
+         739009789      cache-references                 #   21.569 M/sec                     
+         739020060      cache-misses                     #  100.00% of all cache refs         
+        5795830354      branches                         #  169.162 M/sec                     
+         160962816      branch-misses                    #    2.78% of all branches           
+       10094405675      L1-dcache-loads                  #  294.625 M/sec                     
+          74347522      L1-dcache-load-misses            #    0.74% of all L1-dcache accesses 
+          52336650      LLC-load-misses                  #    7.08% of all LL-cache accesses  
+         739064569      LLC-loads                        #   21.571 M/sec                     
+
+      10.935059731 seconds time elapsed
+
+      18.465843000 seconds user
+      15.498004000 seconds sys
+
+

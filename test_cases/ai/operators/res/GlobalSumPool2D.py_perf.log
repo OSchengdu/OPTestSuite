@@ -1,0 +1,24 @@
+# started on Mon Sep  9 09:54:36 2024
+
+
+ Performance counter stats for 'python GlobalSumPool2D.py':
+
+       11483862511 ns   duration_time                    #  332.097 M/sec                     
+          34579.79 msec task-clock                       #    3.011 CPUs utilized             
+       69142474250      cycles                           #    2.000 GHz                       
+       36088137078      instructions                     #    0.52  insn per cycle            
+         743974287      cache-references                 #   21.515 M/sec                     
+         743981158      cache-misses                     #  100.00% of all cache refs         
+        5711790573      branches                         #  165.177 M/sec                     
+         165374770      branch-misses                    #    2.90% of all branches           
+       10074356727      L1-dcache-loads                  #  291.337 M/sec                     
+          73274023      L1-dcache-load-misses            #    0.73% of all L1-dcache accesses 
+          55254493      LLC-load-misses                  #    7.43% of all LL-cache accesses  
+         744010544      LLC-loads                        #   21.516 M/sec                     
+
+      11.483862511 seconds time elapsed
+
+      18.271656000 seconds user
+      16.015940000 seconds sys
+
+

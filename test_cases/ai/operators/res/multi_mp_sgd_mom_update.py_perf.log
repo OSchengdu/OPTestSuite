@@ -1,0 +1,24 @@
+# started on Mon Sep  9 11:45:16 2024
+
+
+ Performance counter stats for 'python multi_mp_sgd_mom_update.py':
+
+       10931782722 ns   duration_time                    #  319.755 M/sec                     
+          34187.97 msec task-clock                       #    3.127 CPUs utilized             
+       68360109847      cycles                           #    2.000 GHz                       
+       35765380073      instructions                     #    0.52  insn per cycle            
+         751564155      cache-references                 #   21.983 M/sec                     
+         751571218      cache-misses                     #  100.00% of all cache refs         
+        5613292207      branches                         #  164.189 M/sec                     
+         160275696      branch-misses                    #    2.86% of all branches           
+       10029353937      L1-dcache-loads                  #  293.359 M/sec                     
+          71027584      L1-dcache-load-misses            #    0.71% of all L1-dcache accesses 
+          52815007      LLC-load-misses                  #    7.03% of all LL-cache accesses  
+         751604626      LLC-loads                        #   21.984 M/sec                     
+
+      10.931782722 seconds time elapsed
+
+      18.333716000 seconds user
+      15.595265000 seconds sys
+
+

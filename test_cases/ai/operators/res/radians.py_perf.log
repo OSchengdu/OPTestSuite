@@ -1,0 +1,24 @@
+# started on Mon Sep  9 12:02:41 2024
+
+
+ Performance counter stats for 'python radians.py':
+
+       14688092161 ns   duration_time                    #  389.287 M/sec                     
+          37730.79 msec task-clock                       #    2.569 CPUs utilized             
+       75287072586      cycles                           #    1.995 GHz                       
+       38041751951      instructions                     #    0.51  insn per cycle            
+         823536658      cache-references                 #   21.827 M/sec                     
+         823547535      cache-misses                     #  100.00% of all cache refs         
+        6327263093      branches                         #  167.695 M/sec                     
+         176121770      branch-misses                    #    2.78% of all branches           
+       10377126584      L1-dcache-loads                  #  275.031 M/sec                     
+          90148986      L1-dcache-load-misses            #    0.87% of all L1-dcache accesses 
+          77859662      LLC-load-misses                  #    9.45% of all LL-cache accesses  
+         823597416      LLC-loads                        #   21.828 M/sec                     
+
+      14.688092161 seconds time elapsed
+
+      19.867672000 seconds user
+      17.513071000 seconds sys
+
+

@@ -1,0 +1,17 @@
+[
+    {
+        "linalg_extracttrian": [
+            {
+                "inputs": {
+                    "A": [
+                        1024,
+                        1024
+                    ]
+                },
+                "max_storage_mem_alloc_cpu/0": 1049.6,
+                "avg_time_forward_linalg_extracttrian": 5.7502,
+                "avg_time_backward_linalg_extracttrian": 7.3125
+            }
+        ]
+    }
+]

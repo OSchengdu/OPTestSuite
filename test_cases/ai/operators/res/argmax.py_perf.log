@@ -1,0 +1,24 @@
+# started on Mon Sep  9 10:28:00 2024
+
+
+ Performance counter stats for 'python argmax.py':
+
+       12643217924 ns   duration_time                    #  347.193 M/sec                     
+          36415.48 msec task-clock                       #    2.880 CPUs utilized             
+       72657243532      cycles                           #    1.995 GHz                       
+       38332760772      instructions                     #    0.53  insn per cycle            
+         770585098      cache-references                 #   21.161 M/sec                     
+         770596194      cache-misses                     #  100.00% of all cache refs         
+        6232229368      branches                         #  171.142 M/sec                     
+         169542689      branch-misses                    #    2.72% of all branches           
+       10457097591      L1-dcache-loads                  #  287.161 M/sec                     
+          82393834      L1-dcache-load-misses            #    0.79% of all L1-dcache accesses 
+          59728023      LLC-load-misses                  #    7.75% of all LL-cache accesses  
+         770645370      LLC-loads                        #   21.163 M/sec                     
+
+      12.643217924 seconds time elapsed
+
+      18.370404000 seconds user
+      17.797117000 seconds sys
+
+

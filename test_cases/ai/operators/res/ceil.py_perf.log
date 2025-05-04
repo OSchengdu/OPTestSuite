@@ -1,0 +1,24 @@
+# started on Mon Sep  9 10:43:00 2024
+
+
+ Performance counter stats for 'python ceil.py':
+
+       14025759870 ns   duration_time                    #  377.270 M/sec                     
+          37177.02 msec task-clock                       #    2.651 CPUs utilized             
+       74265713592      cycles                           #    1.998 GHz                       
+       38228272828      instructions                     #    0.51  insn per cycle            
+         747535597      cache-references                 #   20.107 M/sec                     
+         747545804      cache-misses                     #  100.00% of all cache refs         
+        6227226626      branches                         #  167.502 M/sec                     
+         168034055      branch-misses                    #    2.70% of all branches           
+       10396473095      L1-dcache-loads                  #  279.648 M/sec                     
+          73883827      L1-dcache-load-misses            #    0.71% of all L1-dcache accesses 
+          62491677      LLC-load-misses                  #    8.36% of all LL-cache accesses  
+         747588219      LLC-loads                        #   20.109 M/sec                     
+
+      14.025759870 seconds time elapsed
+
+      20.783666000 seconds user
+      16.105148000 seconds sys
+
+

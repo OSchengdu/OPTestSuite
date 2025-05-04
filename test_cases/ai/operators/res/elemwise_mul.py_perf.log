@@ -1,0 +1,24 @@
+# started on Mon Sep  9 10:53:43 2024
+
+
+ Performance counter stats for 'python elemwise_mul.py':
+
+       12557686308 ns   duration_time                    #  347.413 M/sec                     
+          36146.27 msec task-clock                       #    2.878 CPUs utilized             
+       72218970402      cycles                           #    1.998 GHz                       
+       39153982242      instructions                     #    0.54  insn per cycle            
+         803155547      cache-references                 #   22.220 M/sec                     
+         803165966      cache-misses                     #  100.00% of all cache refs         
+        6018346005      branches                         #  166.500 M/sec                     
+         166968489      branch-misses                    #    2.77% of all branches           
+       10729827255      L1-dcache-loads                  #  296.845 M/sec                     
+          77402792      L1-dcache-load-misses            #    0.72% of all L1-dcache accesses 
+          68888431      LLC-load-misses                  #    8.58% of all LL-cache accesses  
+         803212151      LLC-loads                        #   22.221 M/sec                     
+
+      12.557686308 seconds time elapsed
+
+      19.075961000 seconds user
+      16.759932000 seconds sys
+
+

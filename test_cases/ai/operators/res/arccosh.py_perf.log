@@ -1,0 +1,24 @@
+# started on Mon Sep  9 10:26:55 2024
+
+
+ Performance counter stats for 'python arccosh.py':
+
+       12486762265 ns   duration_time                    #  308.533 M/sec                     
+          40471.36 msec task-clock                       #    3.241 CPUs utilized             
+       80793883926      cycles                           #    1.996 GHz                       
+       41149429156      instructions                     #    0.51  insn per cycle            
+         825933678      cache-references                 #   20.408 M/sec                     
+         825943611      cache-misses                     #  100.00% of all cache refs         
+        6351882351      branches                         #  156.948 M/sec                     
+         196236471      branch-misses                    #    3.09% of all branches           
+       10981082295      L1-dcache-loads                  #  271.330 M/sec                     
+          79380165      L1-dcache-load-misses            #    0.72% of all L1-dcache accesses 
+          67473322      LLC-load-misses                  #    8.17% of all LL-cache accesses  
+         825988510      LLC-loads                        #   20.409 M/sec                     
+
+      12.486762265 seconds time elapsed
+
+      23.082145000 seconds user
+      17.026911000 seconds sys
+
+

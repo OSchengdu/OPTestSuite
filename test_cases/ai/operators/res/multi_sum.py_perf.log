@@ -1,0 +1,24 @@
+# started on Mon Sep  9 11:46:00 2024
+
+
+ Performance counter stats for 'python multi_sum.py':
+
+       10959785990 ns   duration_time                    #  320.837 M/sec                     
+          34160.02 msec task-clock                       #    3.117 CPUs utilized             
+       68303578504      cycles                           #    2.000 GHz                       
+       35519920371      instructions                     #    0.52  insn per cycle            
+         753926075      cache-references                 #   22.070 M/sec                     
+         753932868      cache-misses                     #  100.00% of all cache refs         
+        5524041725      branches                         #  161.711 M/sec                     
+         160630279      branch-misses                    #    2.91% of all branches           
+        9922629329      L1-dcache-loads                  #  290.475 M/sec                     
+          70085269      L1-dcache-load-misses            #    0.71% of all L1-dcache accesses 
+          52398165      LLC-load-misses                  #    6.95% of all LL-cache accesses  
+         753963396      LLC-loads                        #   22.072 M/sec                     
+
+      10.959785990 seconds time elapsed
+
+      17.748417000 seconds user
+      16.113912000 seconds sys
+
+

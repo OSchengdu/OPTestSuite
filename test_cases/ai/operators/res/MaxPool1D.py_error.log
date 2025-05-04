@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/home/tanjunhan/MXNet/MaxPool1D.py", line 7, in <module>
+    op = nd.MaxPool1D
+         ^^^^^^^^^^^^
+AttributeError: module 'mxnet.ndarray' has no attribute 'MaxPool1D'

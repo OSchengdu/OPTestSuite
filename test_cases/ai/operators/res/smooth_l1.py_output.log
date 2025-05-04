@@ -1,0 +1,15 @@
+[
+    {
+        "smooth_l1": [
+            {
+                "inputs": {
+                    "data": "<NDArray 1024x1024 @cpu(0)>",
+                    "scalar": 1.0
+                },
+                "max_storage_mem_alloc_cpu/0": 2097.1521,
+                "avg_time_forward_smooth_l1": 4.5622,
+                "avg_time_backward_smooth_l1": 8.9418
+            }
+        ]
+    }
+]

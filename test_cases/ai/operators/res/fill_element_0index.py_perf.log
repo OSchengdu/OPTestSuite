@@ -1,0 +1,24 @@
+# started on Mon Sep  9 10:55:11 2024
+
+
+ Performance counter stats for 'python fill_element_0index.py':
+
+       11016360452 ns   duration_time                    #  322.090 M/sec                     
+          34202.78 msec task-clock                       #    3.105 CPUs utilized             
+       68389240590      cycles                           #    2.000 GHz                       
+       32933461368      instructions                     #    0.48  insn per cycle            
+         895123609      cache-references                 #   26.171 M/sec                     
+         895130185      cache-misses                     #  100.00% of all cache refs         
+        5388501142      branches                         #  157.546 M/sec                     
+         161017734      branch-misses                    #    2.99% of all branches           
+        9223525485      L1-dcache-loads                  #  269.672 M/sec                     
+          73142707      L1-dcache-load-misses            #    0.79% of all L1-dcache accesses 
+          52922438      LLC-load-misses                  #    5.91% of all LL-cache accesses  
+         895161243      LLC-loads                        #   26.172 M/sec                     
+
+      11.016360452 seconds time elapsed
+
+      18.368057000 seconds user
+      15.559415000 seconds sys
+
+

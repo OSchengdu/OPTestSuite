@@ -1,0 +1,15 @@
+[
+    {
+        "softmin": [
+            {
+                "inputs": {
+                    "data": "<NDArray 1024x10 @cpu(0)>",
+                    "axis": 1
+                },
+                "max_storage_mem_alloc_cpu/0": 20.48,
+                "avg_time_forward_softmin": 4.3502,
+                "avg_time_backward_softmin": 4.7524
+            }
+        ]
+    }
+]

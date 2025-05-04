@@ -1,0 +1,24 @@
+# started on Mon Sep  9 12:33:10 2024
+
+
+ Performance counter stats for 'python rcbrt.py':
+
+       22495509685 ns   duration_time                    #  484.588 M/sec                     
+          46421.90 msec task-clock                       #    2.064 CPUs utilized             
+       92760430806      cycles                           #    1.998 GHz                       
+       48908833527      instructions                     #    0.53  insn per cycle            
+         789009697      cache-references                 #   16.996 M/sec                     
+         789019980      cache-misses                     #  100.00% of all cache refs         
+        7150974747      branches                         #  154.043 M/sec                     
+         228586019      branch-misses                    #    3.20% of all branches           
+       11936705623      L1-dcache-loads                  #  257.135 M/sec                     
+          75655410      L1-dcache-load-misses            #    0.63% of all L1-dcache accesses 
+          66695474      LLC-load-misses                  #    8.45% of all LL-cache accesses  
+         789066191      LLC-loads                        #   16.998 M/sec                     
+
+      22.495509685 seconds time elapsed
+
+      29.393100000 seconds user
+      16.659096000 seconds sys
+
+

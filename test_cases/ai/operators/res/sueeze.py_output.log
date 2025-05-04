@@ -1,0 +1,15 @@
+[
+    {
+        "squeeze": [
+            {
+                "inputs": {
+                    "data": "<NDArray 1x3x1x256 @cpu(0)>",
+                    "axis": null
+                },
+                "max_storage_mem_alloc_cpu/0": 1.536,
+                "avg_time_forward_squeeze": 0.0339,
+                "avg_time_backward_squeeze": 0.0469
+            }
+        ]
+    }
+]

@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/home/tanjunhan/MXNet/Conv2DTranspose.py", line 7, in <module>
+    op = nd.Conv2DTranspose
+         ^^^^^^^^^^^^^^^^^^
+AttributeError: module 'mxnet.ndarray' has no attribute 'Conv2DTranspose'

@@ -1,0 +1,24 @@
+# started on Mon Sep  9 13:05:42 2024
+
+
+ Performance counter stats for 'python sin.py':
+
+       12607186508 ns   duration_time                    #  320.566 M/sec                     
+          39327.94 msec task-clock                       #    3.119 CPUs utilized             
+       78477052188      cycles                           #    1.995 GHz                       
+       41681187689      instructions                     #    0.53  insn per cycle            
+         800866610      cache-references                 #   20.364 M/sec                     
+         800878343      cache-misses                     #  100.00% of all cache refs         
+        6305305982      branches                         #  160.326 M/sec                     
+         228020481      branch-misses                    #    3.62% of all branches           
+       11322973464      L1-dcache-loads                  #  287.912 M/sec                     
+          85590813      L1-dcache-load-misses            #    0.76% of all L1-dcache accesses 
+          66599564      LLC-load-misses                  #    8.32% of all LL-cache accesses  
+         800927574      LLC-loads                        #   20.365 M/sec                     
+
+      12.607186508 seconds time elapsed
+
+      21.497726000 seconds user
+      17.596588000 seconds sys
+
+

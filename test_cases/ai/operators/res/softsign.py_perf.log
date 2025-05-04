@@ -1,0 +1,24 @@
+# started on Mon Sep  9 13:07:00 2024
+
+
+ Performance counter stats for 'python softsign.py':
+
+       12487784053 ns   duration_time                    #  345.482 M/sec                     
+          36146.02 msec task-clock                       #    2.895 CPUs utilized             
+       72209905248      cycles                           #    1.998 GHz                       
+       38093394764      instructions                     #    0.53  insn per cycle            
+         785243343      cache-references                 #   21.724 M/sec                     
+         785254265      cache-misses                     #  100.00% of all cache refs         
+        5697493627      branches                         #  157.624 M/sec                     
+         166243156      branch-misses                    #    2.92% of all branches           
+       10427969793      L1-dcache-loads                  #  288.496 M/sec                     
+          74330718      L1-dcache-load-misses            #    0.71% of all L1-dcache accesses 
+          61329318      LLC-load-misses                  #    7.81% of all LL-cache accesses  
+         785298216      LLC-loads                        #   21.726 M/sec                     
+
+      12.487784053 seconds time elapsed
+
+      19.062203000 seconds user
+      16.759749000 seconds sys
+
+

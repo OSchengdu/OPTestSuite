@@ -1,0 +1,24 @@
+# started on Mon Sep  9 11:46:35 2024
+
+
+ Performance counter stats for 'python nansum.py':
+
+       12489174409 ns   duration_time                    #  311.462 M/sec                     
+          40098.59 msec task-clock                       #    3.211 CPUs utilized             
+       80049552817      cycles                           #    1.996 GHz                       
+       44319092024      instructions                     #    0.55  insn per cycle            
+         956130357      cache-references                 #   23.844 M/sec                     
+         956140556      cache-misses                     #  100.00% of all cache refs         
+        6668824818      branches                         #  166.311 M/sec                     
+         180438043      branch-misses                    #    2.71% of all branches           
+       10947753221      L1-dcache-loads                  #  273.021 M/sec                     
+          77155490      L1-dcache-load-misses            #    0.70% of all L1-dcache accesses 
+          61140957      LLC-load-misses                  #    6.39% of all LL-cache accesses  
+         956186469      LLC-loads                        #   23.846 M/sec                     
+
+      12.489174409 seconds time elapsed
+
+      22.655305000 seconds user
+      17.086811000 seconds sys
+
+

@@ -1,0 +1,24 @@
+# started on Mon Sep  9 11:33:53 2024
+
+
+ Performance counter stats for 'python logical_not.py':
+
+       11565672096 ns   duration_time                    #  324.087 M/sec                     
+          35686.98 msec task-clock                       #    3.086 CPUs utilized             
+       71294839103      cycles                           #    1.998 GHz                       
+       38331910587      instructions                     #    0.54  insn per cycle            
+         762474201      cache-references                 #   21.366 M/sec                     
+         762484090      cache-misses                     #  100.00% of all cache refs         
+        6072094762      branches                         #  170.149 M/sec                     
+         167744809      branch-misses                    #    2.76% of all branches           
+       10456287686      L1-dcache-loads                  #  293.000 M/sec                     
+          83339248      L1-dcache-load-misses            #    0.80% of all L1-dcache accesses 
+          57824250      LLC-load-misses                  #    7.58% of all LL-cache accesses  
+         762528997      LLC-loads                        #   21.367 M/sec                     
+
+      11.565672096 seconds time elapsed
+
+      18.853293000 seconds user
+      16.505001000 seconds sys
+
+

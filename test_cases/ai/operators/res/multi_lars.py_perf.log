@@ -1,0 +1,24 @@
+# started on Mon Sep  9 11:44:53 2024
+
+
+ Performance counter stats for 'python multi_lars.py':
+
+       10889400977 ns   duration_time                    #  319.442 M/sec                     
+          34088.84 msec task-clock                       #    3.130 CPUs utilized             
+       68160224988      cycles                           #    1.999 GHz                       
+       34658512591      instructions                     #    0.51  insn per cycle            
+         763340639      cache-references                 #   22.393 M/sec                     
+         763347371      cache-misses                     #  100.00% of all cache refs         
+        5564469833      branches                         #  163.234 M/sec                     
+         160734768      branch-misses                    #    2.89% of all branches           
+        9691893460      L1-dcache-loads                  #  284.313 M/sec                     
+          71426248      L1-dcache-load-misses            #    0.74% of all L1-dcache accesses 
+          52316539      LLC-load-misses                  #    6.85% of all LL-cache accesses  
+         763378902      LLC-loads                        #   22.394 M/sec                     
+
+      10.889400977 seconds time elapsed
+
+      17.936570000 seconds user
+      15.877678000 seconds sys
+
+

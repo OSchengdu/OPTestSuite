@@ -1,0 +1,17 @@
+Traceback (most recent call last):
+  File "/home/tanjunhan/MXNet/reset_arrays.py", line 11, in <module>
+    reset_arrays_res = run_performance_test(
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tanjunhan/MXNet/benchmark/opperf/utils/benchmark_utils.py", line 250, in run_performance_test
+    kwargs_list = _prepare_op_inputs(inputs, run_backward, dtype, ctx, op.__module__)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tanjunhan/MXNet/benchmark/opperf/utils/benchmark_utils.py", line 47, in _prepare_op_inputs
+    kwargs[key] = get_array_fn(ctx=ctx, in_tensor=value,
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tanjunhan/MXNet/benchmark/opperf/utils/ndarray_utils.py", line 132, in get_mx_ndarray
+    tensor = nd.array(in_tensor, ctx=ctx, dtype=dtype)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tanjunhan/MXNet/python/mxnet/ndarray/utils.py", line 141, in array
+    if spsp is not None and isinstance(source_array, spsp.csr.csr_matrix):
+                                                     ^^^^^^^^
+AttributeError: module 'scipy.sparse' has no attribute 'csr'

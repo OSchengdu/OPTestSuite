@@ -1,0 +1,30 @@
+[
+    {
+        "im2col": [
+            {
+                "inputs": {
+                    "data": "<NDArray 1x3x32x32 @cpu(0)>",
+                    "kernel": [
+                        3,
+                        3
+                    ],
+                    "stride": [
+                        1,
+                        1
+                    ],
+                    "dilate": [
+                        1,
+                        1
+                    ],
+                    "pad": [
+                        0,
+                        0
+                    ]
+                },
+                "max_storage_mem_alloc_cpu/0": 48.6,
+                "avg_time_forward_im2col": 0.1387,
+                "avg_time_backward_im2col": 0.1434
+            }
+        ]
+    }
+]

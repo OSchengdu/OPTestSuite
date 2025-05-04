@@ -1,0 +1,24 @@
+# started on Mon Sep  9 09:53:27 2024
+
+
+ Performance counter stats for 'python Flatten.py':
+
+       11580847243 ns   duration_time                    #  327.966 M/sec                     
+          35311.12 msec task-clock                       #    3.049 CPUs utilized             
+       70539690883      cycles                           #    1.998 GHz                       
+       33831121519      instructions                     #    0.48  insn per cycle            
+         889073223      cache-references                 #   25.178 M/sec                     
+         889083598      cache-misses                     #  100.00% of all cache refs         
+        5634866099      branches                         #  159.578 M/sec                     
+         164381992      branch-misses                    #    2.92% of all branches           
+        9437983862      L1-dcache-loads                  #  267.281 M/sec                     
+          78920693      L1-dcache-load-misses            #    0.84% of all L1-dcache accesses 
+          60981538      LLC-load-misses                  #    6.86% of all LL-cache accesses  
+         889127830      LLC-loads                        #   25.180 M/sec                     
+
+      11.580847243 seconds time elapsed
+
+      19.212534000 seconds user
+      15.802818000 seconds sys
+
+

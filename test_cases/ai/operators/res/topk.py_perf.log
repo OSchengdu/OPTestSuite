@@ -1,0 +1,24 @@
+# started on Mon Sep  9 13:22:27 2024
+
+
+ Performance counter stats for 'python topk.py':
+
+       13946820609 ns   duration_time                    #  351.728 M/sec                     
+          39652.24 msec task-clock                       #    2.843 CPUs utilized             
+       79005146890      cycles                           #    1.992 GHz                       
+       42684558818      instructions                     #    0.54  insn per cycle            
+         753143166      cache-references                 #   18.994 M/sec                     
+         753154166      cache-misses                     #  100.00% of all cache refs         
+        8184416782      branches                         #  206.405 M/sec                     
+         181037111      branch-misses                    #    2.21% of all branches           
+       11560999438      L1-dcache-loads                  #  291.560 M/sec                     
+          84796878      L1-dcache-load-misses            #    0.73% of all L1-dcache accesses 
+          69293071      LLC-load-misses                  #    9.20% of all LL-cache accesses  
+         753202984      LLC-loads                        #   18.995 M/sec                     
+
+      13.946820609 seconds time elapsed
+
+      19.706402000 seconds user
+      19.670762000 seconds sys
+
+

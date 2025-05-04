@@ -1,0 +1,24 @@
+# started on Mon Sep  9 09:50:37 2024
+
+
+ Performance counter stats for 'python BlockGrad.py':
+
+       73631868318 ns   duration_time                    #    1.033 G/sec                     
+          71271.98 msec task-clock                       #    0.968 CPUs utilized             
+      142253782710      cycles                           #    1.996 GHz                       
+       41062818709      instructions                     #    0.29  insn per cycle            
+         613950100      cache-references                 #    8.614 M/sec                     
+         613959519      cache-misses                     #  100.00% of all cache refs         
+       11411651570      branches                         #  160.114 M/sec                     
+         173708200      branch-misses                    #    1.52% of all branches           
+       11185312311      L1-dcache-loads                  #  156.938 M/sec                     
+          96447252      L1-dcache-load-misses            #    0.86% of all L1-dcache accesses 
+         109420806      LLC-load-misses                  #   17.82% of all LL-cache accesses  
+         613999407      LLC-loads                        #    8.615 M/sec                     
+
+      73.631868318 seconds time elapsed
+
+      46.682779000 seconds user
+      24.514078000 seconds sys
+
+

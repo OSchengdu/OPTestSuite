@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File "/home/tanjunhan/MXNet/SumPoolD.py", line 20, in <module>
+    sum_pool_1d_res = sum_pool_1d(**inputs)
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tanjunhan/MXNet/SumPoolD.py", line 13, in sum_pool_1d
+    conv = nd.Convolution(data, weight=kernel_weights, bias=None, kernel=kernel_size, stride=(1, stride), pad=(0, pad), num_filter=1, no_bias=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 169, in Convolution
+  File "/home/tanjunhan/MXNet/python/mxnet/_ctypes/ndarray.py", line 76, in _imperative_invoke
+    check_call(_LIB.MXImperativeInvoke(
+  File "/home/tanjunhan/MXNet/python/mxnet/base.py", line 253, in check_call
+    raise get_last_ffi_error()
+mxnet.base.MXNetError: Traceback (most recent call last):
+  File "/home/tanjunhan/MXNet/src/operator/nn/convolution.cc", line 175
+MXNetError: Check failed: dshp.ndim() == 4U (3 vs. 4) : Input data should be 4D in batch-num_filter-y-x

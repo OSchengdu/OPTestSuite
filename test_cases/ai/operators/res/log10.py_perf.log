@@ -1,0 +1,24 @@
+# started on Mon Sep  9 11:33:02 2024
+
+
+ Performance counter stats for 'python log10.py':
+
+       12532451969 ns   duration_time                    #  321.823 M/sec                     
+          38942.10 msec task-clock                       #    3.107 CPUs utilized             
+       77727635314      cycles                           #    1.996 GHz                       
+       41659754403      instructions                     #    0.54  insn per cycle            
+         778951276      cache-references                 #   20.003 M/sec                     
+         778961446      cache-misses                     #  100.00% of all cache refs         
+        6573132958      branches                         #  168.792 M/sec                     
+         188359900      branch-misses                    #    2.87% of all branches           
+       11028721547      L1-dcache-loads                  #  283.208 M/sec                     
+          78270956      L1-dcache-load-misses            #    0.71% of all L1-dcache accesses 
+          65133020      LLC-load-misses                  #    8.36% of all LL-cache accesses  
+         779007131      LLC-loads                        #   20.004 M/sec                     
+
+      12.532451969 seconds time elapsed
+
+      21.403083000 seconds user
+      17.238447000 seconds sys
+
+

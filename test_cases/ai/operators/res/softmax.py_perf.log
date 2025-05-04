@@ -1,0 +1,24 @@
+# started on Mon Sep  9 13:06:34 2024
+
+
+ Performance counter stats for 'python softmax.py':
+
+       13071615785 ns   duration_time                    #  357.838 M/sec                     
+          36529.46 msec task-clock                       #    2.795 CPUs utilized             
+       72858033879      cycles                           #    1.995 GHz                       
+       40108388934      instructions                     #    0.55  insn per cycle            
+         794757412      cache-references                 #   21.757 M/sec                     
+         794767196      cache-misses                     #  100.00% of all cache refs         
+        7613776524      branches                         #  208.428 M/sec                     
+         169983647      branch-misses                    #    2.23% of all branches           
+       10987533035      L1-dcache-loads                  #  300.785 M/sec                     
+          86303651      L1-dcache-load-misses            #    0.79% of all L1-dcache accesses 
+          57823230      LLC-load-misses                  #    7.28% of all LL-cache accesses  
+         794811944      LLC-loads                        #   21.758 M/sec                     
+
+      13.071615785 seconds time elapsed
+
+      18.283706000 seconds user
+      17.951567000 seconds sys
+
+

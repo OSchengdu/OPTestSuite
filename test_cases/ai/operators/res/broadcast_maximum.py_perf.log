@@ -1,0 +1,24 @@
+# started on Mon Sep  9 10:41:41 2024
+
+
+ Performance counter stats for 'python broadcast_maximum.py':
+
+       12955459437 ns   duration_time                    #  347.521 M/sec                     
+          37279.61 msec task-clock                       #    2.878 CPUs utilized             
+       74352734133      cycles                           #    1.994 GHz                       
+       38144484731      instructions                     #    0.51  insn per cycle            
+         790827306      cache-references                 #   21.213 M/sec                     
+         790837991      cache-misses                     #  100.00% of all cache refs         
+        6088182339      branches                         #  163.311 M/sec                     
+         229596699      branch-misses                    #    3.77% of all branches           
+       10521518983      L1-dcache-loads                  #  282.233 M/sec                     
+          86350361      L1-dcache-load-misses            #    0.82% of all L1-dcache accesses 
+          78024861      LLC-load-misses                  #    9.87% of all LL-cache accesses  
+         790884628      LLC-loads                        #   21.215 M/sec                     
+
+      12.955459437 seconds time elapsed
+
+      19.863597000 seconds user
+      17.086992000 seconds sys
+
+

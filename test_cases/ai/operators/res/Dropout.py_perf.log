@@ -1,0 +1,24 @@
+# started on Mon Sep  9 09:53:11 2024
+
+
+ Performance counter stats for 'python Dropout.py':
+
+       12747186064 ns   duration_time                    #  332.122 M/sec                     
+          38380.99 msec task-clock                       #    3.011 CPUs utilized             
+       76629033251      cycles                           #    1.997 GHz                       
+       41141237006      instructions                     #    0.54  insn per cycle            
+         829718291      cache-references                 #   21.618 M/sec                     
+         829729283      cache-misses                     #  100.00% of all cache refs         
+        6146893407      branches                         #  160.155 M/sec                     
+         205051750      branch-misses                    #    3.34% of all branches           
+       11138389056      L1-dcache-loads                  #  290.206 M/sec                     
+          89421546      L1-dcache-load-misses            #    0.80% of all L1-dcache accesses 
+          73351515      LLC-load-misses                  #    8.84% of all LL-cache accesses  
+         829777773      LLC-loads                        #   21.619 M/sec                     
+
+      12.747186064 seconds time elapsed
+
+      21.164120000 seconds user
+      16.883557000 seconds sys
+
+

@@ -1,0 +1,24 @@
+# started on Mon Sep  9 11:44:31 2024
+
+
+ Performance counter stats for 'python multi_all_finite.py':
+
+       11011689311 ns   duration_time                    #  323.873 M/sec                     
+          34000.03 msec task-clock                       #    3.088 CPUs utilized             
+       67985143160      cycles                           #    2.000 GHz                       
+       32943084351      instructions                     #    0.48  insn per cycle            
+         898594184      cache-references                 #   26.429 M/sec                     
+         898601844      cache-misses                     #  100.00% of all cache refs         
+        5386604539      branches                         #  158.429 M/sec                     
+         160365662      branch-misses                    #    2.98% of all branches           
+        9231000551      L1-dcache-loads                  #  271.500 M/sec                     
+          72159913      L1-dcache-load-misses            #    0.78% of all L1-dcache accesses 
+          53452203      LLC-load-misses                  #    5.95% of all LL-cache accesses  
+         898633090      LLC-loads                        #   26.430 M/sec                     
+
+      11.011689311 seconds time elapsed
+
+      17.723554000 seconds user
+      16.013049000 seconds sys
+
+

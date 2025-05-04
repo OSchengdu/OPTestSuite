@@ -1,0 +1,14 @@
+[
+    {
+        "cast_storage": [
+            {
+                "inputs": {
+                    "data": "<NDArray 1024x1024 @cpu(0)>",
+                    "stype": "default"
+                },
+                "max_storage_mem_alloc_cpu/0": 4194.3042,
+                "avg_time_forward_cast_storage": 0.7996
+            }
+        ]
+    }
+]

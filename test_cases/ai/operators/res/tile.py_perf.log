@@ -1,0 +1,24 @@
+# started on Mon Sep  9 13:22:16 2024
+
+
+ Performance counter stats for 'python tile.py':
+
+       91554600920 ns   duration_time                    #  304.108 M/sec                     
+         301059.96 msec task-clock                       #    3.288 CPUs utilized             
+      583150453646      cycles                           #    1.937 GHz                       
+      324633065896      instructions                     #    0.56  insn per cycle            
+        2998585830      cache-references                 #    9.960 M/sec                     
+        2998597357      cache-misses                     #  100.00% of all cache refs         
+       77499666864      branches                         #  257.423 M/sec                     
+        1055968742      branch-misses                    #    1.36% of all branches           
+       62506982901      L1-dcache-loads                  #  207.623 M/sec                     
+         582077485      L1-dcache-load-misses            #    0.93% of all L1-dcache accesses 
+         207692539      LLC-load-misses                  #    6.93% of all LL-cache accesses  
+        2998644090      LLC-loads                        #    9.960 M/sec                     
+
+      91.554600920 seconds time elapsed
+
+      45.901771000 seconds user
+     259.768608000 seconds sys
+
+

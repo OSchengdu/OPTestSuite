@@ -1,0 +1,24 @@
+# started on Mon Sep  9 11:34:04 2024
+
+
+ Performance counter stats for 'python make_loss.py':
+
+       12542935991 ns   duration_time                    #  348.476 M/sec                     
+          35993.66 msec task-clock                       #    2.870 CPUs utilized             
+       71870450632      cycles                           #    1.997 GHz                       
+       38244076517      instructions                     #    0.53  insn per cycle            
+         763343205      cache-references                 #   21.208 M/sec                     
+         763353665      cache-misses                     #  100.00% of all cache refs         
+        6047265551      branches                         #  168.009 M/sec                     
+         168429835      branch-misses                    #    2.79% of all branches           
+       10486521743      L1-dcache-loads                  #  291.344 M/sec                     
+          75910251      L1-dcache-load-misses            #    0.72% of all L1-dcache accesses 
+          57716764      LLC-load-misses                  #    7.56% of all LL-cache accesses  
+         763397871      LLC-loads                        #   21.209 M/sec                     
+
+      12.542935991 seconds time elapsed
+
+      18.351169000 seconds user
+      17.352948000 seconds sys
+
+

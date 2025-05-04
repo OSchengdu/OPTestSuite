@@ -1,0 +1,17 @@
+[
+    {
+        "linalg_syrk": [
+            {
+                "inputs": {
+                    "A": [
+                        1024,
+                        1024
+                    ]
+                },
+                "max_storage_mem_alloc_cpu/0": 2097.1521,
+                "avg_time_forward_linalg_syrk": 324.6166,
+                "avg_time_backward_linalg_syrk": 1267.4646
+            }
+        ]
+    }
+]

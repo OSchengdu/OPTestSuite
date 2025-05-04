@@ -1,0 +1,20 @@
+[
+    {
+        "BatchNorm": [
+            {
+                "inputs": {
+                    "data": "<NDArray 1024x1024x32x32 @cpu(0)>",
+                    "gamma": "<NDArray 1024 @cpu(0)>",
+                    "beta": "<NDArray 1024 @cpu(0)>",
+                    "moving_mean": "<NDArray 1024 @cpu(0)>",
+                    "moving_var": "<NDArray 1024 @cpu(0)>",
+                    "eps": 1e-05,
+                    "momentum": 0.9
+                },
+                "max_storage_mem_alloc_cpu/0": 5368713.0,
+                "avg_time_forward_BatchNorm": 1191.0042,
+                "avg_time_backward_BatchNorm": 2031.0536
+            }
+        ]
+    }
+]

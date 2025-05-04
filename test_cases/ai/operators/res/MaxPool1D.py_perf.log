@@ -1,0 +1,24 @@
+# started on Mon Sep  9 10:08:49 2024
+
+
+ Performance counter stats for 'python MaxPool1D.py':
+
+       10870764824 ns   duration_time                    #  318.555 M/sec                     
+          34125.20 msec task-clock                       #    3.139 CPUs utilized             
+       68234823233      cycles                           #    2.000 GHz                       
+       32660280378      instructions                     #    0.48  insn per cycle            
+         891608034      cache-references                 #   26.128 M/sec                     
+         891615451      cache-misses                     #  100.00% of all cache refs         
+        5242108179      branches                         #  153.614 M/sec                     
+         160304126      branch-misses                    #    3.06% of all branches           
+        9167191945      L1-dcache-loads                  #  268.634 M/sec                     
+          71475673      L1-dcache-load-misses            #    0.78% of all L1-dcache accesses 
+          52410582      LLC-load-misses                  #    5.88% of all LL-cache accesses  
+         891646050      LLC-loads                        #   26.129 M/sec                     
+
+      10.870764824 seconds time elapsed
+
+      18.141805000 seconds user
+      15.734427000 seconds sys
+
+

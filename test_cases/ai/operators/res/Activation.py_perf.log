@@ -1,0 +1,24 @@
+# started on Mon Sep  9 09:50:17 2024
+
+
+ Performance counter stats for 'python Activation.py':
+
+       22753887915 ns   duration_time                    #  636.700 M/sec                     
+          35737.20 msec task-clock                       #    1.571 CPUs utilized             
+       70782797264      cycles                           #    1.981 GHz                       
+       28473730232      instructions                     #    0.40  insn per cycle            
+         464597512      cache-references                 #   13.000 M/sec                     
+         464607768      cache-misses                     #  100.00% of all cache refs         
+        7970816062      branches                         #  223.040 M/sec                     
+         207020221      branch-misses                    #    2.60% of all branches           
+        7490744613      L1-dcache-loads                  #  209.606 M/sec                     
+          85746560      L1-dcache-load-misses            #    1.14% of all L1-dcache accesses 
+          79859716      LLC-load-misses                  #   17.19% of all LL-cache accesses  
+         464652547      LLC-loads                        #   13.002 M/sec                     
+
+      22.753887915 seconds time elapsed
+
+      23.810843000 seconds user
+      13.624637000 seconds sys
+
+

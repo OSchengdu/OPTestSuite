@@ -1,0 +1,24 @@
+# started on Mon Sep  9 10:36:34 2024
+
+
+ Performance counter stats for 'python argsort.py':
+
+       12579292497 ns   duration_time                    #  270.851 M/sec                     
+          46443.59 msec task-clock                       #    3.692 CPUs utilized             
+       92676622958      cycles                           #    1.995 GHz                       
+       53674837073      instructions                     #    0.58  insn per cycle            
+         823518609      cache-references                 #   17.732 M/sec                     
+         823528920      cache-misses                     #  100.00% of all cache refs         
+        7585829468      branches                         #  163.334 M/sec                     
+         369290813      branch-misses                    #    4.87% of all branches           
+       14241987895      L1-dcache-loads                  #  306.651 M/sec                     
+          82652758      L1-dcache-load-misses            #    0.58% of all L1-dcache accesses 
+          67689793      LLC-load-misses                  #    8.22% of all LL-cache accesses  
+         823574818      LLC-loads                        #   17.733 M/sec                     
+
+      12.579292497 seconds time elapsed
+
+      27.397935000 seconds user
+      18.656665000 seconds sys
+
+

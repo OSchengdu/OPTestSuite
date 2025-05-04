@@ -1,0 +1,19 @@
+[
+    {
+        "repeat": [
+            {
+                "inputs": {
+                    "data": [
+                        1024,
+                        1024
+                    ],
+                    "repeats": 2,
+                    "axis": 0
+                },
+                "max_storage_mem_alloc_cpu/0": 4194.3042,
+                "avg_time_forward_repeat": 2370.0193,
+                "avg_time_backward_repeat": 18.7822
+            }
+        ]
+    }
+]

@@ -1,0 +1,24 @@
+# started on Mon Sep  9 09:52:51 2024
+
+
+ Performance counter stats for 'python Conv2D.py':
+
+       17871333804 ns   duration_time                    #  532.305 M/sec                     
+          33573.51 msec task-clock                       #    1.879 CPUs utilized             
+       67061711149      cycles                           #    1.997 GHz                       
+       31461208900      instructions                     #    0.47  insn per cycle            
+         522243909      cache-references                 #   15.555 M/sec                     
+         522250328      cache-misses                     #  100.00% of all cache refs         
+        8163244839      branches                         #  243.145 M/sec                     
+         161333670      branch-misses                    #    1.98% of all branches           
+        8655493252      L1-dcache-loads                  #  257.807 M/sec                     
+          77353677      L1-dcache-load-misses            #    0.89% of all L1-dcache accesses 
+          67587128      LLC-load-misses                  #   12.94% of all LL-cache accesses  
+         522279608      LLC-loads                        #   15.556 M/sec                     
+
+      17.871333804 seconds time elapsed
+
+      22.664364000 seconds user
+      10.698161000 seconds sys
+
+

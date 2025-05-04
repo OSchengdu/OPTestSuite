@@ -1,0 +1,24 @@
+# started on Mon Sep  9 10:41:54 2024
+
+
+ Performance counter stats for 'python broadcast_minus.py':
+
+       12940497935 ns   duration_time                    #  341.733 M/sec                     
+          37867.27 msec task-clock                       #    2.926 CPUs utilized             
+       75429740056      cycles                           #    1.992 GHz                       
+       38270618254      instructions                     #    0.51  insn per cycle            
+         767793755      cache-references                 #   20.276 M/sec                     
+         767805088      cache-misses                     #  100.00% of all cache refs         
+        6171682503      branches                         #  162.982 M/sec                     
+         175534965      branch-misses                    #    2.84% of all branches           
+       10422741344      L1-dcache-loads                  #  275.244 M/sec                     
+          86383811      L1-dcache-load-misses            #    0.83% of all L1-dcache accesses 
+          69688917      LLC-load-misses                  #    9.08% of all LL-cache accesses  
+         767852413      LLC-loads                        #   20.277 M/sec                     
+
+      12.940497935 seconds time elapsed
+
+      19.643389000 seconds user
+      17.913710000 seconds sys
+
+

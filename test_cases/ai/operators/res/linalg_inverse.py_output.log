@@ -1,0 +1,17 @@
+[
+    {
+        "linalg_inverse": [
+            {
+                "inputs": {
+                    "A": [
+                        1024,
+                        1024
+                    ]
+                },
+                "max_storage_mem_alloc_cpu/0": 4194.3042,
+                "avg_time_forward_linalg_inverse": 770.7717,
+                "avg_time_backward_linalg_inverse": 1342.3177
+            }
+        ]
+    }
+]

@@ -1,0 +1,24 @@
+# started on Mon Sep  9 10:40:42 2024
+
+
+ Performance counter stats for 'python broadcast_greater.py':
+
+       13196219987 ns   duration_time                    #  360.966 M/sec                     
+          36558.07 msec task-clock                       #    2.770 CPUs utilized             
+       73026320649      cycles                           #    1.998 GHz                       
+       37114302832      instructions                     #    0.51  insn per cycle            
+         782211960      cache-references                 #   21.396 M/sec                     
+         782222830      cache-misses                     #  100.00% of all cache refs         
+        6033900870      branches                         #  165.050 M/sec                     
+         189536138      branch-misses                    #    3.14% of all branches           
+       10113075242      L1-dcache-loads                  #  276.630 M/sec                     
+          77880047      L1-dcache-load-misses            #    0.77% of all L1-dcache accesses 
+          63622307      LLC-load-misses                  #    8.13% of all LL-cache accesses  
+         782267342      LLC-loads                        #   21.398 M/sec                     
+
+      13.196219987 seconds time elapsed
+
+      19.629060000 seconds user
+      16.596994000 seconds sys
+
+

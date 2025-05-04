@@ -1,0 +1,17 @@
+[
+    {
+        "arccos": [
+            {
+                "inputs": {
+                    "data": [
+                        1024,
+                        1024
+                    ]
+                },
+                "max_storage_mem_alloc_cpu/0": 2097.1521,
+                "avg_time_forward_arccos": 5.2952,
+                "avg_time_backward_arccos": 5.6901
+            }
+        ]
+    }
+]

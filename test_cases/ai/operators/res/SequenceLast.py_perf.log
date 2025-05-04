@@ -1,0 +1,24 @@
+# started on Mon Sep  9 10:09:37 2024
+
+
+ Performance counter stats for 'python SequenceLast.py':
+
+       12397336591 ns   duration_time                    #  331.358 M/sec                     
+          37413.71 msec task-clock                       #    3.018 CPUs utilized             
+       74549230451      cycles                           #    1.993 GHz                       
+       38248330276      instructions                     #    0.51  insn per cycle            
+         779548266      cache-references                 #   20.836 M/sec                     
+         779558420      cache-misses                     #  100.00% of all cache refs         
+        6234625316      branches                         #  166.640 M/sec                     
+         167739039      branch-misses                    #    2.69% of all branches           
+       10475309512      L1-dcache-loads                  #  279.986 M/sec                     
+          85212262      L1-dcache-load-misses            #    0.81% of all L1-dcache accesses 
+          55737267      LLC-load-misses                  #    7.15% of all LL-cache accesses  
+         779603010      LLC-loads                        #   20.837 M/sec                     
+
+      12.397336591 seconds time elapsed
+
+      18.722604000 seconds user
+      18.475138000 seconds sys
+
+

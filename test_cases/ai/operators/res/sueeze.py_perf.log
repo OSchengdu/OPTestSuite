@@ -1,0 +1,24 @@
+# started on Mon Sep  9 13:21:35 2024
+
+
+ Performance counter stats for 'python sueeze.py':
+
+       11589030804 ns   duration_time                    #  339.223 M/sec                     
+          34163.46 msec task-clock                       #    2.948 CPUs utilized             
+       68242200132      cycles                           #    1.998 GHz                       
+       34897126574      instructions                     #    0.51  insn per cycle            
+         754819865      cache-references                 #   22.094 M/sec                     
+         754830267      cache-misses                     #  100.00% of all cache refs         
+        5516873372      branches                         #  161.485 M/sec                     
+         165805284      branch-misses                    #    3.01% of all branches           
+        9800435790      L1-dcache-loads                  #  286.869 M/sec                     
+          79438463      L1-dcache-load-misses            #    0.81% of all L1-dcache accesses 
+          58410979      LLC-load-misses                  #    7.74% of all LL-cache accesses  
+         754874141      LLC-loads                        #   22.096 M/sec                     
+
+      11.589030804 seconds time elapsed
+
+      18.048781000 seconds user
+      15.836539000 seconds sys
+
+

@@ -1,0 +1,24 @@
+# started on Mon Sep  9 10:40:15 2024
+
+
+ Performance counter stats for 'python broadcast_axes.py':
+
+       13300453320 ns   duration_time                    #  329.548 M/sec                     
+          40359.64 msec task-clock                       #    3.034 CPUs utilized             
+       80545465319      cycles                           #    1.996 GHz                       
+       39996814854      instructions                     #    0.50  insn per cycle            
+         820461846      cache-references                 #   20.329 M/sec                     
+         820472410      cache-misses                     #  100.00% of all cache refs         
+        6374907209      branches                         #  157.953 M/sec                     
+         188712660      branch-misses                    #    2.96% of all branches           
+       10667479689      L1-dcache-loads                  #  264.311 M/sec                     
+          87015964      L1-dcache-load-misses            #    0.82% of all L1-dcache accesses 
+          66532536      LLC-load-misses                  #    8.11% of all LL-cache accesses  
+         820519367      LLC-loads                        #   20.330 M/sec                     
+
+      13.300453320 seconds time elapsed
+
+      21.398355000 seconds user
+      18.610248000 seconds sys
+
+

@@ -1,0 +1,22 @@
+# started on Fri Jul 12 23:08:48 2024
+
+
+ Performance counter stats for 'python opperf.py':
+
+        95,249,384      cycles                                                      
+       101,341,991      instructions              #    1.06  insn per cycle         
+        39,839,220      cache-references                                            
+           834,382      cache-misses              #    2.094 % of all cache refs    
+   <not supported>      branches                                                    
+         1,088,511      branch-misses                                               
+        39,839,220      L1-dcache-loads                                             
+           834,382      L1-dcache-load-misses     #    2.09% of all L1-dcache accesses
+            42,537      LLC-load-misses           #    4.40% of all LL-cache accesses
+           967,811      LLC-loads                                                   
+
+       0.037131683 seconds time elapsed
+
+       0.032915000 seconds user
+       0.004117000 seconds sys
+
+

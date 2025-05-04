@@ -1,0 +1,24 @@
+# started on Mon Sep  9 10:42:58 2024
+
+
+ Performance counter stats for 'python cbrt.py':
+
+       17808805575 ns   duration_time                    #  444.424 M/sec                     
+          40071.68 msec task-clock                       #    2.250 CPUs utilized             
+       80039817047      cycles                           #    1.997 GHz                       
+       40261532222      instructions                     #    0.50  insn per cycle            
+         757192643      cache-references                 #   18.896 M/sec                     
+         757203120      cache-misses                     #  100.00% of all cache refs         
+        6292355279      branches                         #  157.027 M/sec                     
+         198377860      branch-misses                    #    3.15% of all branches           
+       10300862432      L1-dcache-loads                  #  257.061 M/sec                     
+          80236935      L1-dcache-load-misses            #    0.78% of all L1-dcache accesses 
+          68292560      LLC-load-misses                  #    9.02% of all LL-cache accesses  
+         757247154      LLC-loads                        #   18.897 M/sec                     
+
+      17.808805575 seconds time elapsed
+
+      24.297259000 seconds user
+      15.508353000 seconds sys
+
+

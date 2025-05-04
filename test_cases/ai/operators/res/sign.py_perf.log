@@ -1,0 +1,24 @@
+# started on Mon Sep  9 12:57:28 2024
+
+
+ Performance counter stats for 'python sign.py':
+
+       12534885719 ns   duration_time                    #  346.070 M/sec                     
+          36220.63 msec task-clock                       #    2.890 CPUs utilized             
+       72357630831      cycles                           #    1.998 GHz                       
+       37354047189      instructions                     #    0.52  insn per cycle            
+         808621668      cache-references                 #   22.325 M/sec                     
+         808632889      cache-misses                     #  100.00% of all cache refs         
+        5932703115      branches                         #  163.793 M/sec                     
+         182795469      branch-misses                    #    3.08% of all branches           
+       10231415181      L1-dcache-loads                  #  282.475 M/sec                     
+          80997881      L1-dcache-load-misses            #    0.79% of all L1-dcache accesses 
+          57542669      LLC-load-misses                  #    7.12% of all LL-cache accesses  
+         808682846      LLC-loads                        #   22.327 M/sec                     
+
+      12.534885719 seconds time elapsed
+
+      18.825193000 seconds user
+      17.101714000 seconds sys
+
+

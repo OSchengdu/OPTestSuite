@@ -1,0 +1,24 @@
+# started on Mon Sep  9 09:53:24 2024
+
+
+ Performance counter stats for 'python F.py':
+
+       79679827250 ns   duration_time                    #  719.290 M/sec                     
+         110775.63 msec task-clock                       #    1.390 CPUs utilized             
+      221337996799      cycles                           #    1.998 GHz                       
+      298962820993      instructions                     #    1.35  insn per cycle            
+        8961515781      cache-references                 #   80.898 M/sec                     
+        8961526209      cache-misses                     #  100.00% of all cache refs         
+       13844192079      branches                         #  124.975 M/sec                     
+         316399717      branch-misses                    #    2.29% of all branches           
+      125211874858      L1-dcache-loads                  #    1.130 G/sec                     
+         353507393      L1-dcache-load-misses            #    0.28% of all L1-dcache accesses 
+         379764808      LLC-load-misses                  #    4.24% of all LL-cache accesses  
+        8961573736      LLC-loads                        #   80.898 M/sec                     
+
+      79.679827250 seconds time elapsed
+
+      92.519427000 seconds user
+      17.560164000 seconds sys
+
+

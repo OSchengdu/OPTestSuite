@@ -1,0 +1,24 @@
+# started on Mon Sep  9 13:21:37 2024
+
+
+ Performance counter stats for 'python sum.py':
+
+       12733209372 ns   duration_time                    #  331.293 M/sec                     
+          38434.86 msec task-clock                       #    3.018 CPUs utilized             
+       76717290522      cycles                           #    1.996 GHz                       
+       36848515055      instructions                     #    0.48  insn per cycle            
+         854713945      cache-references                 #   22.238 M/sec                     
+         854725242      cache-misses                     #  100.00% of all cache refs         
+        5865905480      branches                         #  152.619 M/sec                     
+         169303997      branch-misses                    #    2.89% of all branches           
+       10010239735      L1-dcache-loads                  #  260.447 M/sec                     
+          81580197      L1-dcache-load-misses            #    0.81% of all L1-dcache accesses 
+          58652383      LLC-load-misses                  #    6.86% of all LL-cache accesses  
+         854774406      LLC-loads                        #   22.240 M/sec                     
+
+      12.733209372 seconds time elapsed
+
+      20.334673000 seconds user
+      17.833916000 seconds sys
+
+

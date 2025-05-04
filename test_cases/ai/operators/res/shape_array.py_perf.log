@@ -1,0 +1,24 @@
+# started on Mon Sep  9 12:50:42 2024
+
+
+ Performance counter stats for 'python shape_array.py':
+
+       12369722151 ns   duration_time                    #  367.869 M/sec                     
+          33625.35 msec task-clock                       #    2.718 CPUs utilized             
+       67052569183      cycles                           #    1.994 GHz                       
+       32909586843      instructions                     #    0.49  insn per cycle            
+         684286441      cache-references                 #   20.350 M/sec                     
+         684296946      cache-misses                     #  100.00% of all cache refs         
+        5710394635      branches                         #  169.824 M/sec                     
+         169121550      branch-misses                    #    2.96% of all branches           
+        9012731719      L1-dcache-loads                  #  268.034 M/sec                     
+          75908072      L1-dcache-load-misses            #    0.84% of all L1-dcache accesses 
+          59735034      LLC-load-misses                  #    8.73% of all LL-cache accesses  
+         684341546      LLC-loads                        #   20.352 M/sec                     
+
+      12.369722151 seconds time elapsed
+
+      18.643017000 seconds user
+      15.372479000 seconds sys
+
+

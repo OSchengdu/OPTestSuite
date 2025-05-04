@@ -1,0 +1,24 @@
+# started on Mon Sep  9 11:33:15 2024
+
+
+ Performance counter stats for 'python log1p.py':
+
+       12511246467 ns   duration_time                    #  317.403 M/sec                     
+          39417.51 msec task-clock                       #    3.151 CPUs utilized             
+       78728998166      cycles                           #    1.997 GHz                       
+       41885530178      instructions                     #    0.53  insn per cycle            
+         803056596      cache-references                 #   20.373 M/sec                     
+         803067183      cache-misses                     #  100.00% of all cache refs         
+        6297108075      branches                         #  159.754 M/sec                     
+         211053054      branch-misses                    #    3.35% of all branches           
+       11149122867      L1-dcache-loads                  #  282.847 M/sec                     
+          79050852      L1-dcache-load-misses            #    0.71% of all L1-dcache accesses 
+          63869733      LLC-load-misses                  #    7.95% of all LL-cache accesses  
+         803112404      LLC-loads                        #   20.375 M/sec                     
+
+      12.511246467 seconds time elapsed
+
+      22.317747000 seconds user
+      16.745872000 seconds sys
+
+

@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/home/tanjunhan/MXNet/multi_sum.py", line 7, in <module>
+    op = nd.multi_sum
+         ^^^^^^^^^^^^
+AttributeError: module 'mxnet.ndarray' has no attribute 'multi_sum'. Did you mean: 'multi_sum_sq'?

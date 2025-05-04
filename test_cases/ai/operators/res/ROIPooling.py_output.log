@@ -1,0 +1,20 @@
+[
+    {
+        "ROIPooling": [
+            {
+                "inputs": {
+                    "data": "<NDArray 1x3x32x32 @cpu(0)>",
+                    "rois": "<NDArray 5x5 @cpu(0)>",
+                    "pooled_size": [
+                        7,
+                        7
+                    ],
+                    "spatial_scale": 1.0
+                },
+                "max_storage_mem_alloc_cpu/0": 2.94,
+                "avg_time_forward_ROIPooling": 35.043,
+                "avg_time_backward_ROIPooling": 10.0285
+            }
+        ]
+    }
+]

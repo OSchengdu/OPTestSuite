@@ -1,0 +1,24 @@
+# started on Mon Sep  9 10:41:35 2024
+
+
+ Performance counter stats for 'python broadcast_logical_xor.py':
+
+       13048294769 ns   duration_time                    #  362.327 M/sec                     
+          36012.53 msec task-clock                       #    2.760 CPUs utilized             
+       71932922902      cycles                           #    1.997 GHz                       
+       37751481667      instructions                     #    0.52  insn per cycle            
+         746995106      cache-references                 #   20.743 M/sec                     
+         747005527      cache-misses                     #  100.00% of all cache refs         
+        5978521747      branches                         #  166.012 M/sec                     
+         169812829      branch-misses                    #    2.84% of all branches           
+       10263093229      L1-dcache-loads                  #  284.987 M/sec                     
+          81076087      L1-dcache-load-misses            #    0.79% of all L1-dcache accesses 
+          65312695      LLC-load-misses                  #    8.74% of all LL-cache accesses  
+         747053088      LLC-loads                        #   20.744 M/sec                     
+
+      13.048294769 seconds time elapsed
+
+      19.189304000 seconds user
+      16.523352000 seconds sys
+
+

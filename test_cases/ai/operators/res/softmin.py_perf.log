@@ -1,0 +1,24 @@
+# started on Mon Sep  9 13:06:47 2024
+
+
+ Performance counter stats for 'python softmin.py':
+
+       12489808573 ns   duration_time                    #  344.097 M/sec                     
+          36297.39 msec task-clock                       #    2.906 CPUs utilized             
+       72426962213      cycles                           #    1.995 GHz                       
+       37133291406      instructions                     #    0.51  insn per cycle            
+         772023552      cache-references                 #   21.269 M/sec                     
+         772033792      cache-misses                     #  100.00% of all cache refs         
+        5837431270      branches                         #  160.822 M/sec                     
+         165945948      branch-misses                    #    2.84% of all branches           
+       10248798105      L1-dcache-loads                  #  282.356 M/sec                     
+          80376557      L1-dcache-load-misses            #    0.78% of all L1-dcache accesses 
+          54917114      LLC-load-misses                  #    7.11% of all LL-cache accesses  
+         772079067      LLC-loads                        #   21.271 M/sec                     
+
+      12.489808573 seconds time elapsed
+
+      18.307475000 seconds user
+      17.701307000 seconds sys
+
+

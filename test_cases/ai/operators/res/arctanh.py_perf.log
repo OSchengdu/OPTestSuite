@@ -1,0 +1,24 @@
+# started on Mon Sep  9 10:27:48 2024
+
+
+ Performance counter stats for 'python arctanh.py':
+
+       12479218164 ns   duration_time                    #  295.242 M/sec                     
+          42267.78 msec task-clock                       #    3.387 CPUs utilized             
+       84369268981      cycles                           #    1.996 GHz                       
+       43525198793      instructions                     #    0.52  insn per cycle            
+         813685750      cache-references                 #   19.251 M/sec                     
+         813696009      cache-misses                     #  100.00% of all cache refs         
+        6428073575      branches                         #  152.080 M/sec                     
+         211468374      branch-misses                    #    3.29% of all branches           
+       11602049581      L1-dcache-loads                  #  274.489 M/sec                     
+          79306698      L1-dcache-load-misses            #    0.68% of all L1-dcache accesses 
+          64414616      LLC-load-misses                  #    7.92% of all LL-cache accesses  
+         813741120      LLC-loads                        #   19.252 M/sec                     
+
+      12.479218164 seconds time elapsed
+
+      24.148942000 seconds user
+      17.738318000 seconds sys
+
+

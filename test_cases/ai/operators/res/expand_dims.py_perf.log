@@ -1,0 +1,24 @@
+# started on Mon Sep  9 10:54:46 2024
+
+
+ Performance counter stats for 'python expand_dims.py':
+
+       11482840312 ns   duration_time                    #  322.341 M/sec                     
+          35623.28 msec task-clock                       #    3.102 CPUs utilized             
+       71171676585      cycles                           #    1.998 GHz                       
+       35638438850      instructions                     #    0.50  insn per cycle            
+         854208987      cache-references                 #   23.979 M/sec                     
+         854218942      cache-misses                     #  100.00% of all cache refs         
+        5655630463      branches                         #  158.762 M/sec                     
+         164884516      branch-misses                    #    2.92% of all branches           
+        9853735207      L1-dcache-loads                  #  276.609 M/sec                     
+          77770491      L1-dcache-load-misses            #    0.79% of all L1-dcache accesses 
+          59089599      LLC-load-misses                  #    6.92% of all LL-cache accesses  
+         854263599      LLC-loads                        #   23.980 M/sec                     
+
+      11.482840312 seconds time elapsed
+
+      18.501228000 seconds user
+      16.812256000 seconds sys
+
+

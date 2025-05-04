@@ -1,0 +1,24 @@
+# started on Mon Sep  9 11:45:05 2024
+
+
+ Performance counter stats for 'python multi_mp_lamb_update.py':
+
+       10982917828 ns   duration_time                    #  323.944 M/sec                     
+          33903.79 msec task-clock                       #    3.087 CPUs utilized             
+       67791679262      cycles                           #    2.000 GHz                       
+       35256664919      instructions                     #    0.52  insn per cycle            
+         740869666      cache-references                 #   21.852 M/sec                     
+         740876659      cache-misses                     #  100.00% of all cache refs         
+        5312040823      branches                         #  156.680 M/sec                     
+         162185639      branch-misses                    #    3.05% of all branches           
+        9847607958      L1-dcache-loads                  #  290.457 M/sec                     
+          73585212      L1-dcache-load-misses            #    0.75% of all L1-dcache accesses 
+          52474517      LLC-load-misses                  #    7.08% of all LL-cache accesses  
+         740905730      LLC-loads                        #   21.853 M/sec                     
+
+      10.982917828 seconds time elapsed
+
+      17.969530000 seconds user
+      15.660171000 seconds sys
+
+

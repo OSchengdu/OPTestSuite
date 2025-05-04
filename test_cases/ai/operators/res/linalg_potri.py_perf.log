@@ -1,0 +1,24 @@
+# started on Mon Sep  9 11:28:14 2024
+
+
+ Performance counter stats for 'python linalg_potri.py':
+
+       76440372167 ns   duration_time                    #  749.790 M/sec                     
+         101949.00 msec task-clock                       #    1.334 CPUs utilized             
+      203690872883      cycles                           #    1.998 GHz                       
+      287927519586      instructions                     #    1.41  insn per cycle            
+        7661589036      cache-references                 #   75.151 M/sec                     
+        7661599335      cache-misses                     #  100.00% of all cache refs         
+       14197279063      branches                         #  139.259 M/sec                     
+         328783883      branch-misses                    #    2.32% of all branches           
+      119144437602      L1-dcache-loads                  #    1.169 G/sec                     
+         321148915      L1-dcache-load-misses            #    0.27% of all L1-dcache accesses 
+         353933694      LLC-load-misses                  #    4.62% of all LL-cache accesses  
+        7661643998      LLC-loads                        #   75.152 M/sec                     
+
+      76.440372167 seconds time elapsed
+
+      83.656065000 seconds user
+      17.669625000 seconds sys
+
+

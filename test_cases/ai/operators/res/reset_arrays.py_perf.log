@@ -1,0 +1,24 @@
+# started on Mon Sep  9 12:34:43 2024
+
+
+ Performance counter stats for 'python reset_arrays.py':
+
+       12526034013 ns   duration_time                    #  358.286 M/sec                     
+          34960.97 msec task-clock                       #    2.791 CPUs utilized             
+       69903743270      cycles                           #    1.999 GHz                       
+       36006275775      instructions                     #    0.52  insn per cycle            
+         736086814      cache-references                 #   21.055 M/sec                     
+         736093297      cache-misses                     #  100.00% of all cache refs         
+        5849741832      branches                         #  167.322 M/sec                     
+         165655754      branch-misses                    #    2.83% of all branches           
+       10045973036      L1-dcache-loads                  #  287.348 M/sec                     
+          76927368      L1-dcache-load-misses            #    0.77% of all L1-dcache accesses 
+          60779338      LLC-load-misses                  #    8.26% of all LL-cache accesses  
+         736121852      LLC-loads                        #   21.056 M/sec                     
+
+      12.526034013 seconds time elapsed
+
+      17.878635000 seconds user
+      16.784886000 seconds sys
+
+

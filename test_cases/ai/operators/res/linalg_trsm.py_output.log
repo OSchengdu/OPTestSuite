@@ -1,0 +1,21 @@
+[
+    {
+        "linalg_trsm": [
+            {
+                "inputs": {
+                    "A": [
+                        1024,
+                        1024
+                    ],
+                    "B": [
+                        1024,
+                        1024
+                    ]
+                },
+                "max_storage_mem_alloc_cpu/0": 2097.1521,
+                "avg_time_forward_linalg_trsm": 332.3739,
+                "avg_time_backward_linalg_trsm": 972.3507
+            }
+        ]
+    }
+]

@@ -1,0 +1,24 @@
+# started on Mon Sep  9 11:16:14 2024
+
+
+ Performance counter stats for 'python linalg_gemm2.py':
+
+       78574527174 ns   duration_time                    #  764.931 M/sec                     
+         102721.02 msec task-clock                       #    1.307 CPUs utilized             
+      205346651128      cycles                           #    1.999 GHz                       
+      296974050834      instructions                     #    1.45  insn per cycle            
+        8340410341      cache-references                 #   81.195 M/sec                     
+        8340420296      cache-misses                     #  100.00% of all cache refs         
+       13660658736      branches                         #  132.988 M/sec                     
+         309627650      branch-misses                    #    2.27% of all branches           
+      124847478751      L1-dcache-loads                  #    1.215 G/sec                     
+         324933978      L1-dcache-load-misses            #    0.26% of all L1-dcache accesses 
+         335560621      LLC-load-misses                  #    4.02% of all LL-cache accesses  
+        8340465184      LLC-loads                        #   81.195 M/sec                     
+
+      78.574527174 seconds time elapsed
+
+      84.785644000 seconds user
+      17.268595000 seconds sys
+
+

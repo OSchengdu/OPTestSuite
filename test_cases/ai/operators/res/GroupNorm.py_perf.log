@@ -1,0 +1,24 @@
+# started on Mon Sep  9 09:54:47 2024
+
+
+ Performance counter stats for 'python GroupNorm.py':
+
+       59887520373 ns   duration_time                    #   28.048 M/sec                     
+        2135175.74 msec task-clock                       #   35.653 CPUs utilized             
+     4269020729578      cycles                           #    1.999 GHz                       
+     4078586079751      instructions                     #    0.96  insn per cycle            
+       26456092633      cache-references                 #   12.391 M/sec                     
+       26456104012      cache-misses                     #  100.00% of all cache refs         
+      453924005103      branches                         #  212.593 M/sec                     
+        4156113048      branch-misses                    #    0.92% of all branches           
+      711329762805      L1-dcache-loads                  #  333.148 M/sec                     
+        1476473358      L1-dcache-load-misses            #    0.21% of all L1-dcache accesses 
+        6903828857      LLC-load-misses                  #   26.10% of all LL-cache accesses  
+       26456153395      LLC-loads                        #   12.391 M/sec                     
+
+      59.887520373 seconds time elapsed
+
+    2082.951992000 seconds user
+      37.512816000 seconds sys
+
+

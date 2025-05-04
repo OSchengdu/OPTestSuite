@@ -1,0 +1,17 @@
+[
+    {
+        "reciprocal": [
+            {
+                "inputs": {
+                    "data": [
+                        1024,
+                        1024
+                    ]
+                },
+                "max_storage_mem_alloc_cpu/0": 2097.1521,
+                "avg_time_forward_reciprocal": 6.4731,
+                "avg_time_backward_reciprocal": 6.4898
+            }
+        ]
+    }
+]

@@ -1,0 +1,24 @@
+# started on Mon Sep  9 13:20:50 2024
+
+
+ Performance counter stats for 'python square.py':
+
+       12498446321 ns   duration_time                    #  342.662 M/sec                     
+          36474.57 msec task-clock                       #    2.918 CPUs utilized             
+       72816405281      cycles                           #    1.996 GHz                       
+       38725504074      instructions                     #    0.53  insn per cycle            
+         777265321      cache-references                 #   21.310 M/sec                     
+         777275529      cache-misses                     #  100.00% of all cache refs         
+        6106962304      branches                         #  167.431 M/sec                     
+         166128240      branch-misses                    #    2.72% of all branches           
+       10595888820      L1-dcache-loads                  #  290.501 M/sec                     
+          82812828      L1-dcache-load-misses            #    0.78% of all L1-dcache accesses 
+          62480407      LLC-load-misses                  #    8.04% of all LL-cache accesses  
+         777318213      LLC-loads                        #   21.311 M/sec                     
+
+      12.498446321 seconds time elapsed
+
+      18.918768000 seconds user
+      17.286263000 seconds sys
+
+

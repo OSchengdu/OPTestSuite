@@ -1,0 +1,24 @@
+# started on Mon Sep  9 13:21:46 2024
+
+
+ Performance counter stats for 'python sum_axis.py':
+
+       12739797294 ns   duration_time                    #  338.083 M/sec                     
+          37682.41 msec task-clock                       #    2.958 CPUs utilized             
+       75201998583      cycles                           #    1.996 GHz                       
+       38293094732      instructions                     #    0.51  insn per cycle            
+         750584590      cache-references                 #   19.919 M/sec                     
+         750595485      cache-misses                     #  100.00% of all cache refs         
+        6154917797      branches                         #  163.337 M/sec                     
+         170045155      branch-misses                    #    2.76% of all branches           
+       10423130143      L1-dcache-loads                  #  276.605 M/sec                     
+          75627949      L1-dcache-load-misses            #    0.73% of all L1-dcache accesses 
+          59195381      LLC-load-misses                  #    7.89% of all LL-cache accesses  
+         750640116      LLC-loads                        #   19.920 M/sec                     
+
+      12.739797294 seconds time elapsed
+
+      20.305646000 seconds user
+      17.078054000 seconds sys
+
+

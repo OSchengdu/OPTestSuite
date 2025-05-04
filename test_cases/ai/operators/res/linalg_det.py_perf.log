@@ -1,0 +1,24 @@
+# started on Mon Sep  9 11:13:56 2024
+
+
+ Performance counter stats for 'python linalg_det.py':
+
+       37591512458 ns   duration_time                    #  568.520 M/sec                     
+          66121.74 msec task-clock                       #    1.759 CPUs utilized             
+      131984179738      cycles                           #    1.996 GHz                       
+      136139673426      instructions                     #    1.03  insn per cycle            
+        3785409477      cache-references                 #   57.249 M/sec                     
+        3785419547      cache-misses                     #  100.00% of all cache refs         
+       10548936733      branches                         #  159.538 M/sec                     
+         241705534      branch-misses                    #    2.29% of all branches           
+       51115401942      L1-dcache-loads                  #  773.050 M/sec                     
+         256620631      L1-dcache-load-misses            #    0.50% of all L1-dcache accesses 
+         256336266      LLC-load-misses                  #    6.77% of all LL-cache accesses  
+        3785464840      LLC-loads                        #   57.250 M/sec                     
+
+      37.591512458 seconds time elapsed
+
+      47.448103000 seconds user
+      18.237224000 seconds sys
+
+

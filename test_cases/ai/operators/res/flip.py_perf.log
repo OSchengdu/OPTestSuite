@@ -1,0 +1,24 @@
+# started on Mon Sep  9 10:55:46 2024
+
+
+ Performance counter stats for 'python flip.py':
+
+       12504142205 ns   duration_time                    #  331.524 M/sec                     
+          37717.16 msec task-clock                       #    3.016 CPUs utilized             
+       75256080205      cycles                           #    1.995 GHz                       
+       41013365292      instructions                     #    0.54  insn per cycle            
+         767242444      cache-references                 #   20.342 M/sec                     
+         767252668      cache-misses                     #  100.00% of all cache refs         
+        6546758513      branches                         #  173.575 M/sec                     
+         168827739      branch-misses                    #    2.58% of all branches           
+       10812967366      L1-dcache-loads                  #  286.686 M/sec                     
+          89469512      L1-dcache-load-misses            #    0.83% of all L1-dcache accesses 
+          60205887      LLC-load-misses                  #    7.85% of all LL-cache accesses  
+         767298466      LLC-loads                        #   20.343 M/sec                     
+
+      12.504142205 seconds time elapsed
+
+      19.751372000 seconds user
+      17.659048000 seconds sys
+
+

@@ -1,0 +1,24 @@
+# started on Mon Sep  9 10:42:48 2024
+
+
+ Performance counter stats for 'python cast_storage.py':
+
+       11923799150 ns   duration_time                    #  334.199 M/sec                     
+          35678.73 msec task-clock                       #    2.992 CPUs utilized             
+       71273175768      cycles                           #    1.998 GHz                       
+       36595355384      instructions                     #    0.51  insn per cycle            
+         758534191      cache-references                 #   21.260 M/sec                     
+         758545062      cache-misses                     #  100.00% of all cache refs         
+        5999513658      branches                         #  168.154 M/sec                     
+         168686582      branch-misses                    #    2.81% of all branches           
+       10178511333      L1-dcache-loads                  #  285.282 M/sec                     
+          82888067      L1-dcache-load-misses            #    0.81% of all L1-dcache accesses 
+          64975490      LLC-load-misses                  #    8.57% of all LL-cache accesses  
+         758593670      LLC-loads                        #   21.262 M/sec                     
+
+      11.923799150 seconds time elapsed
+
+      19.511535000 seconds user
+      15.954754000 seconds sys
+
+

@@ -1,0 +1,4 @@
+  File "/home/tanjunhan/MXNet/FullyConnected.py", line 6
+    ctx = mx.cpu()op = nd.FullyConnected
+                  ^^
+SyntaxError: invalid syntax

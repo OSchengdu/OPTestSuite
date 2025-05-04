@@ -1,0 +1,21 @@
+[
+    {
+        "broadcast_maximum": [
+            {
+                "inputs": {
+                    "lhs": [
+                        1024,
+                        1024
+                    ],
+                    "rhs": [
+                        1024,
+                        1024
+                    ]
+                },
+                "max_storage_mem_alloc_cpu/0": 2097.1521,
+                "avg_time_forward_broadcast_maximum": 5.0459,
+                "avg_time_backward_broadcast_maximum": 13.7586
+            }
+        ]
+    }
+]

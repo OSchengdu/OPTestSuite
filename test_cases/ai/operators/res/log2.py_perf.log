@@ -1,0 +1,24 @@
+# started on Mon Sep  9 11:33:27 2024
+
+
+ Performance counter stats for 'python log2.py':
+
+       12550138512 ns   duration_time                    #  338.010 M/sec                     
+          37129.53 msec task-clock                       #    2.958 CPUs utilized             
+       74138915047      cycles                           #    1.997 GHz                       
+       39970741058      instructions                     #    0.54  insn per cycle            
+         792317149      cache-references                 #   21.339 M/sec                     
+         792327044      cache-misses                     #  100.00% of all cache refs         
+        6061270691      branches                         #  163.247 M/sec                     
+         187505449      branch-misses                    #    3.09% of all branches           
+       10749808124      L1-dcache-loads                  #  289.522 M/sec                     
+          73824666      L1-dcache-load-misses            #    0.69% of all L1-dcache accesses 
+          64339114      LLC-load-misses                  #    8.12% of all LL-cache accesses  
+         792371177      LLC-loads                        #   21.341 M/sec                     
+
+      12.550138512 seconds time elapsed
+
+      19.372702000 seconds user
+      17.440498000 seconds sys
+
+

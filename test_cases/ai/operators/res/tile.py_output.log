@@ -1,0 +1,21 @@
+[
+    {
+        "tile": [
+            {
+                "inputs": {
+                    "data": [
+                        1024,
+                        1024
+                    ],
+                    "reps": [
+                        2,
+                        2
+                    ]
+                },
+                "max_storage_mem_alloc_cpu/0": 8388.6084,
+                "avg_time_forward_tile": 2192.1079,
+                "avg_time_backward_tile": 18.8497
+            }
+        ]
+    }
+]

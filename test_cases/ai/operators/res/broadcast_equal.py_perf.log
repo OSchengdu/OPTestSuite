@@ -1,0 +1,24 @@
+# started on Mon Sep  9 10:40:34 2024
+
+
+ Performance counter stats for 'python broadcast_equal.py':
+
+       12700445105 ns   duration_time                    #  346.812 M/sec                     
+          36620.57 msec task-clock                       #    2.883 CPUs utilized             
+       73056291351      cycles                           #    1.995 GHz                       
+       35495641313      instructions                     #    0.49  insn per cycle            
+         885319209      cache-references                 #   24.175 M/sec                     
+         885329981      cache-misses                     #  100.00% of all cache refs         
+        5997729440      branches                         #  163.780 M/sec                     
+         171769283      branch-misses                    #    2.86% of all branches           
+        9703449016      L1-dcache-loads                  #  264.973 M/sec                     
+          84633657      L1-dcache-load-misses            #    0.87% of all L1-dcache accesses 
+          62615955      LLC-load-misses                  #    7.07% of all LL-cache accesses  
+         885376352      LLC-loads                        #   24.177 M/sec                     
+
+      12.700445105 seconds time elapsed
+
+      19.596152000 seconds user
+      16.731537000 seconds sys
+
+

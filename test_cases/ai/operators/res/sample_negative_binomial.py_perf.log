@@ -1,0 +1,24 @@
+# started on Mon Sep  9 12:49:56 2024
+
+
+ Performance counter stats for 'python sample_negative_binomial.py':
+
+       11474038783 ns   duration_time                    #  336.559 M/sec                     
+          34092.23 msec task-clock                       #    2.971 CPUs utilized             
+       68169383033      cycles                           #    2.000 GHz                       
+       34082155092      instructions                     #    0.50  insn per cycle            
+         778693026      cache-references                 #   22.841 M/sec                     
+         778700660      cache-misses                     #  100.00% of all cache refs         
+        5290000281      branches                         #  155.167 M/sec                     
+         160535102      branch-misses                    #    3.03% of all branches           
+        9554174073      L1-dcache-loads                  #  280.245 M/sec                     
+          77878764      L1-dcache-load-misses            #    0.82% of all L1-dcache accesses 
+          53598179      LLC-load-misses                  #    6.88% of all LL-cache accesses  
+         778730671      LLC-loads                        #   22.842 M/sec                     
+
+      11.474038783 seconds time elapsed
+
+      18.342310000 seconds user
+      15.449538000 seconds sys
+
+

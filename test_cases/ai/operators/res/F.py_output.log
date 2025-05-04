@@ -1,0 +1,18 @@
+[
+    {
+        "FullyConnected": [
+            {
+                "inputs": {
+                    "data": "<NDArray 1024x1024 @cpu(0)>",
+                    "weight": "<NDArray 1024x1024 @cpu(0)>",
+                    "bias": "<NDArray 1024 @cpu(0)>",
+                    "num_hidden": 1024,
+                    "no_bias": false
+                },
+                "max_storage_mem_alloc_cpu/0": 2097.1521,
+                "avg_time_forward_FullyConnected": 645.3422,
+                "avg_time_backward_FullyConnected": 1290.6469
+            }
+        ]
+    }
+]

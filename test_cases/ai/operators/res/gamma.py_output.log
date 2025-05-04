@@ -1,0 +1,17 @@
+[
+    {
+        "gamma": [
+            {
+                "inputs": {
+                    "data": [
+                        1024,
+                        1024
+                    ]
+                },
+                "max_storage_mem_alloc_cpu/0": 2097.1521,
+                "avg_time_forward_gamma": 8.9851,
+                "avg_time_backward_gamma": 13.3556
+            }
+        ]
+    }
+]

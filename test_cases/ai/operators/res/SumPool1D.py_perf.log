@@ -1,0 +1,24 @@
+# started on Mon Sep  9 10:20:37 2024
+
+
+ Performance counter stats for 'python SumPool1D.py':
+
+       15045341790 ns   duration_time                    #  396.159 M/sec                     
+          37978.04 msec task-clock                       #    2.524 CPUs utilized             
+       75936116401      cycles                           #    1.999 GHz                       
+       35809701212      instructions                     #    0.47  insn per cycle            
+         736742487      cache-references                 #   19.399 M/sec                     
+         736749642      cache-misses                     #  100.00% of all cache refs         
+        5673808757      branches                         #  149.397 M/sec                     
+         162041768      branch-misses                    #    2.86% of all branches           
+       10032789418      L1-dcache-loads                  #  264.173 M/sec                     
+          78789718      L1-dcache-load-misses            #    0.79% of all L1-dcache accesses 
+          95675936      LLC-load-misses                  #   12.99% of all LL-cache accesses  
+         736779538      LLC-loads                        #   19.400 M/sec                     
+
+      15.045341790 seconds time elapsed
+
+      20.871579000 seconds user
+      16.764291000 seconds sys
+
+

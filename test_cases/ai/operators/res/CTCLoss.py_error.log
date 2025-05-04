@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/home/tanjunhan/MXNet/CTCLoss.py", line 11, in <module>
+    inputs = [{"data": data, "label": label, "data_lengths": nd.array([10]*16), "label_lengths": nd.array([10]*16)}]
+                                                             ^^^^^^^^^^^^^^^^^
+  File "/home/tanjunhan/MXNet/python/mxnet/ndarray/utils.py", line 141, in array
+    if spsp is not None and isinstance(source_array, spsp.csr.csr_matrix):
+                                                     ^^^^^^^^
+AttributeError: module 'scipy.sparse' has no attribute 'csr'

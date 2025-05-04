@@ -1,0 +1,24 @@
+# started on Mon Sep  9 10:53:30 2024
+
+
+ Performance counter stats for 'python elemwise_div.py':
+
+       12586140452 ns   duration_time                    #  338.767 M/sec                     
+          37152.75 msec task-clock                       #    2.952 CPUs utilized             
+       74179212121      cycles                           #    1.997 GHz                       
+       40078407604      instructions                     #    0.54  insn per cycle            
+         797054360      cache-references                 #   21.453 M/sec                     
+         797064128      cache-misses                     #  100.00% of all cache refs         
+        6247131559      branches                         #  168.147 M/sec                     
+         169894593      branch-misses                    #    2.72% of all branches           
+       10865078398      L1-dcache-loads                  #  292.443 M/sec                     
+          87086568      L1-dcache-load-misses            #    0.80% of all L1-dcache accesses 
+          72233593      LLC-load-misses                  #    9.06% of all LL-cache accesses  
+         797111730      LLC-loads                        #   21.455 M/sec                     
+
+      12.586140452 seconds time elapsed
+
+      19.658537000 seconds user
+      17.166128000 seconds sys
+
+

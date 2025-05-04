@@ -1,0 +1,24 @@
+# started on Mon Sep  9 09:53:16 2024
+
+
+ Performance counter stats for 'python Embedding.py':
+
+       11140257949 ns   duration_time                    #  325.744 M/sec                     
+          34199.47 msec task-clock                       #    3.070 CPUs utilized             
+       68382499546      cycles                           #    2.000 GHz                       
+       34171318876      instructions                     #    0.50  insn per cycle            
+         775439025      cache-references                 #   22.674 M/sec                     
+         775445722      cache-misses                     #  100.00% of all cache refs         
+        5459771807      branches                         #  159.645 M/sec                     
+         162998655      branch-misses                    #    2.99% of all branches           
+        9607907977      L1-dcache-loads                  #  280.937 M/sec                     
+          77566474      L1-dcache-load-misses            #    0.81% of all L1-dcache accesses 
+          53781884      LLC-load-misses                  #    6.94% of all LL-cache accesses  
+         775475546      LLC-loads                        #   22.675 M/sec                     
+
+      11.140257949 seconds time elapsed
+
+      18.083263000 seconds user
+      15.831341000 seconds sys
+
+

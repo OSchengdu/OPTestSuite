@@ -1,0 +1,24 @@
+# started on Mon Sep  9 11:33:40 2024
+
+
+ Performance counter stats for 'python log_softmax.py':
+
+       12471090323 ns   duration_time                    #  347.570 M/sec                     
+          35880.81 msec task-clock                       #    2.877 CPUs utilized             
+       71589040910      cycles                           #    1.995 GHz                       
+       37570489405      instructions                     #    0.52  insn per cycle            
+         777696877      cache-references                 #   21.674 M/sec                     
+         777706466      cache-misses                     #  100.00% of all cache refs         
+        6108860147      branches                         #  170.254 M/sec                     
+         167034071      branch-misses                    #    2.73% of all branches           
+       10328427045      L1-dcache-loads                  #  287.854 M/sec                     
+          74100791      L1-dcache-load-misses            #    0.72% of all L1-dcache accesses 
+          54605392      LLC-load-misses                  #    7.02% of all LL-cache accesses  
+         777753253      LLC-loads                        #   21.676 M/sec                     
+
+      12.471090323 seconds time elapsed
+
+      17.596513000 seconds user
+      18.025772000 seconds sys
+
+

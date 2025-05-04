@@ -1,0 +1,24 @@
+# started on Mon Sep  9 10:59:31 2024
+
+
+ Performance counter stats for 'python im2col.py':
+
+       11795500433 ns   duration_time                    #  336.310 M/sec                     
+          35073.33 msec task-clock                       #    2.973 CPUs utilized             
+       70056070823      cycles                           #    1.997 GHz                       
+       36205152202      instructions                     #    0.52  insn per cycle            
+         737915581      cache-references                 #   21.039 M/sec                     
+         737925123      cache-misses                     #  100.00% of all cache refs         
+        5824711162      branches                         #  166.072 M/sec                     
+         165065489      branch-misses                    #    2.83% of all branches           
+       10095087599      L1-dcache-loads                  #  287.828 M/sec                     
+          83186672      L1-dcache-load-misses            #    0.82% of all L1-dcache accesses 
+          57676368      LLC-load-misses                  #    7.82% of all LL-cache accesses  
+         737967802      LLC-loads                        #   21.041 M/sec                     
+
+      11.795500433 seconds time elapsed
+
+      18.454115000 seconds user
+      16.337334000 seconds sys
+
+

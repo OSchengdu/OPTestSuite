@@ -1,0 +1,24 @@
+# started on Mon Sep  9 12:50:31 2024
+
+
+ Performance counter stats for 'python sequence_mask.py':
+
+       11405060614 ns   duration_time                    #  395.032 M/sec                     
+          28871.26 msec task-clock                       #    2.531 CPUs utilized             
+       57476222014      cycles                           #    1.991 GHz                       
+       26339304858      instructions                     #    0.46  insn per cycle            
+         558704735      cache-references                 #   19.352 M/sec                     
+         558712049      cache-misses                     #  100.00% of all cache refs         
+        4802471377      branches                         #  166.341 M/sec                     
+         156469578      branch-misses                    #    3.26% of all branches           
+        7371494069      L1-dcache-loads                  #  255.323 M/sec                     
+          73910326      L1-dcache-load-misses            #    1.00% of all L1-dcache accesses 
+          54533776      LLC-load-misses                  #    9.76% of all LL-cache accesses  
+         558741459      LLC-loads                        #   19.353 M/sec                     
+
+      11.405060614 seconds time elapsed
+
+      17.408435000 seconds user
+      12.641190000 seconds sys
+
+

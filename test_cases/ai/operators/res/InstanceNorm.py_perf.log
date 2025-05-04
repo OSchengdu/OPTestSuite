@@ -1,0 +1,24 @@
+# started on Mon Sep  9 09:55:48 2024
+
+
+ Performance counter stats for 'python InstanceNorm.py':
+
+       54528803304 ns   duration_time                    #   25.182 M/sec                     
+        2165349.23 msec task-clock                       #   39.710 CPUs utilized             
+     4329914570250      cycles                           #    2.000 GHz                       
+     2678403123761      instructions                     #    0.62  insn per cycle            
+       36199360955      cache-references                 #   16.718 M/sec                     
+       36199371800      cache-misses                     #  100.00% of all cache refs         
+       90840090043      branches                         #   41.952 M/sec                     
+         608132590      branch-misses                    #    0.67% of all branches           
+      898775994120      L1-dcache-loads                  #  415.072 M/sec                     
+         472647371      L1-dcache-load-misses            #    0.05% of all L1-dcache accesses 
+        4095640840      LLC-load-misses                  #   11.31% of all LL-cache accesses  
+       36199420036      LLC-loads                        #   16.718 M/sec                     
+
+      54.528803304 seconds time elapsed
+
+    2126.931966000 seconds user
+      27.529586000 seconds sys
+
+

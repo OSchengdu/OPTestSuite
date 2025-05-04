@@ -1,0 +1,24 @@
+# started on Mon Sep  9 10:55:59 2024
+
+
+ Performance counter stats for 'python floor.py':
+
+       13455426769 ns   duration_time                    #  357.040 M/sec                     
+          37686.05 msec task-clock                       #    2.801 CPUs utilized             
+       75294015691      cycles                           #    1.998 GHz                       
+       37172289592      instructions                     #    0.49  insn per cycle            
+         852708529      cache-references                 #   22.627 M/sec                     
+         852718901      cache-misses                     #  100.00% of all cache refs         
+        6012386814      branches                         #  159.539 M/sec                     
+         163108969      branch-misses                    #    2.71% of all branches           
+       10054601464      L1-dcache-loads                  #  266.799 M/sec                     
+          77745197      L1-dcache-load-misses            #    0.77% of all L1-dcache accesses 
+          56920745      LLC-load-misses                  #    6.67% of all LL-cache accesses  
+         852765361      LLC-loads                        #   22.628 M/sec                     
+
+      13.455426769 seconds time elapsed
+
+      20.670182000 seconds user
+      16.710209000 seconds sys
+
+

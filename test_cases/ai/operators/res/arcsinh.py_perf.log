@@ -1,0 +1,24 @@
+# started on Mon Sep  9 10:27:20 2024
+
+
+ Performance counter stats for 'python arcsinh.py':
+
+       12488494226 ns   duration_time                    #  279.433 M/sec                     
+          44692.21 msec task-clock                       #    3.579 CPUs utilized             
+       89237856117      cycles                           #    1.997 GHz                       
+       45323418539      instructions                     #    0.51  insn per cycle            
+         844271329      cache-references                 #   18.891 M/sec                     
+         844281670      cache-misses                     #  100.00% of all cache refs         
+        6703217301      branches                         #  149.986 M/sec                     
+         202841627      branch-misses                    #    3.03% of all branches           
+       11911378045      L1-dcache-loads                  #  266.520 M/sec                     
+          88939268      L1-dcache-load-misses            #    0.75% of all L1-dcache accesses 
+          64240521      LLC-load-misses                  #    7.61% of all LL-cache accesses  
+         844325246      LLC-loads                        #   18.892 M/sec                     
+
+      12.488494226 seconds time elapsed
+
+      26.515559000 seconds user
+      17.820839000 seconds sys
+
+

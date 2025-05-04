@@ -1,0 +1,24 @@
+# started on Mon Sep  9 12:02:56 2024
+
+
+ Performance counter stats for 'python random_exponential.py':
+
+       13542359620 ns   duration_time                    #  371.772 M/sec                     
+          36426.52 msec task-clock                       #    2.690 CPUs utilized             
+       72829481543      cycles                           #    1.999 GHz                       
+       36187042616      instructions                     #    0.50  insn per cycle            
+         748615890      cache-references                 #   20.551 M/sec                     
+         748623476      cache-misses                     #  100.00% of all cache refs         
+        5903318988      branches                         #  162.061 M/sec                     
+         169396876      branch-misses                    #    2.87% of all branches           
+       10075938027      L1-dcache-loads                  #  276.610 M/sec                     
+          75626058      L1-dcache-load-misses            #    0.75% of all L1-dcache accesses 
+          72399933      LLC-load-misses                  #    9.67% of all LL-cache accesses  
+         748656253      LLC-loads                        #   20.553 M/sec                     
+
+      13.542359620 seconds time elapsed
+
+      19.224475000 seconds user
+      16.889435000 seconds sys
+
+

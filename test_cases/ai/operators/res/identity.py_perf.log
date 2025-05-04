@@ -1,0 +1,24 @@
+# started on Mon Sep  9 10:59:19 2024
+
+
+ Performance counter stats for 'python identity.py':
+
+       11542245541 ns   duration_time                    #  325.230 M/sec                     
+          35489.50 msec task-clock                       #    3.075 CPUs utilized             
+       70903666662      cycles                           #    1.998 GHz                       
+       36238745576      instructions                     #    0.51  insn per cycle            
+         780256144      cache-references                 #   21.986 M/sec                     
+         780266690      cache-misses                     #  100.00% of all cache refs         
+        5796785374      branches                         #  163.338 M/sec                     
+         165752427      branch-misses                    #    2.86% of all branches           
+       10051794764      L1-dcache-loads                  #  283.233 M/sec                     
+          75512659      L1-dcache-load-misses            #    0.75% of all L1-dcache accesses 
+          58802956      LLC-load-misses                  #    7.54% of all LL-cache accesses  
+         780311401      LLC-loads                        #   21.987 M/sec                     
+
+      11.542245541 seconds time elapsed
+
+      18.745191000 seconds user
+      16.433755000 seconds sys
+
+

@@ -1,0 +1,17 @@
+[
+    {
+        "softsign": [
+            {
+                "inputs": {
+                    "data": [
+                        1024,
+                        1024
+                    ]
+                },
+                "max_storage_mem_alloc_cpu/0": 2097.1521,
+                "avg_time_forward_softsign": 6.4586,
+                "avg_time_backward_softsign": 6.4818
+            }
+        ]
+    }
+]

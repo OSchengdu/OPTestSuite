@@ -1,0 +1,24 @@
+# started on Mon Sep  9 10:09:49 2024
+
+
+ Performance counter stats for 'python SequenceReverse.py':
+
+       12750294949 ns   duration_time                    #  352.205 M/sec                     
+          36201.32 msec task-clock                       #    2.839 CPUs utilized             
+       72218275195      cycles                           #    1.995 GHz                       
+       36396728357      instructions                     #    0.50  insn per cycle            
+         757170098      cache-references                 #   20.916 M/sec                     
+         757180541      cache-misses                     #  100.00% of all cache refs         
+        5728602162      branches                         #  158.243 M/sec                     
+         169159089      branch-misses                    #    2.95% of all branches           
+       10088298682      L1-dcache-loads                  #  278.672 M/sec                     
+          83812319      L1-dcache-load-misses            #    0.83% of all L1-dcache accesses 
+          56997788      LLC-load-misses                  #    7.53% of all LL-cache accesses  
+         757226239      LLC-loads                        #   20.917 M/sec                     
+
+      12.750294949 seconds time elapsed
+
+      18.571395000 seconds user
+      17.388800000 seconds sys
+
+

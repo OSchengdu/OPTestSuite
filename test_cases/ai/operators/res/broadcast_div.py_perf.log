@@ -1,0 +1,24 @@
+# started on Mon Sep  9 10:40:29 2024
+
+
+ Performance counter stats for 'python broadcast_div.py':
+
+       12797615238 ns   duration_time                    #  351.741 M/sec                     
+          36383.66 msec task-clock                       #    2.843 CPUs utilized             
+       72617470301      cycles                           #    1.996 GHz                       
+       38108431027      instructions                     #    0.52  insn per cycle            
+         764585599      cache-references                 #   21.015 M/sec                     
+         764597238      cache-misses                     #  100.00% of all cache refs         
+        5987675343      branches                         #  164.570 M/sec                     
+         171281770      branch-misses                    #    2.86% of all branches           
+       10435121252      L1-dcache-loads                  #  286.808 M/sec                     
+          90063244      L1-dcache-load-misses            #    0.86% of all L1-dcache accesses 
+          74661653      LLC-load-misses                  #    9.76% of all LL-cache accesses  
+         764644433      LLC-loads                        #   21.016 M/sec                     
+
+      12.797615238 seconds time elapsed
+
+      19.859569000 seconds user
+      16.192901000 seconds sys
+
+

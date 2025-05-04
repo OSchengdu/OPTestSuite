@@ -1,0 +1,24 @@
+# started on Mon Sep  9 09:54:02 2024
+
+
+ Performance counter stats for 'python GlobalMaxPool1D.py':
+
+       10953605946 ns   duration_time                    #  319.253 M/sec                     
+          34310.09 msec task-clock                       #    3.132 CPUs utilized             
+       68603860952      cycles                           #    2.000 GHz                       
+       35769426880      instructions                     #    0.52  insn per cycle            
+         733949847      cache-references                 #   21.392 M/sec                     
+         733956333      cache-misses                     #  100.00% of all cache refs         
+        5640176654      branches                         #  164.388 M/sec                     
+         160989607      branch-misses                    #    2.85% of all branches           
+        9996143869      L1-dcache-loads                  #  291.347 M/sec                     
+          76990873      L1-dcache-load-misses            #    0.77% of all L1-dcache accesses 
+          52153207      LLC-load-misses                  #    7.11% of all LL-cache accesses  
+         733986169      LLC-loads                        #   21.393 M/sec                     
+
+      10.953605946 seconds time elapsed
+
+      18.516318000 seconds user
+      15.504110000 seconds sys
+
+

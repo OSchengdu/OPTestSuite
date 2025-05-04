@@ -1,0 +1,25 @@
+[
+    {
+        "linalg_gemm": [
+            {
+                "inputs": {
+                    "A": [
+                        1024,
+                        1024
+                    ],
+                    "B": [
+                        1024,
+                        1024
+                    ],
+                    "C": [
+                        1024,
+                        1024
+                    ]
+                },
+                "max_storage_mem_alloc_cpu/0": 2097.1521,
+                "avg_time_forward_linalg_gemm": 637.5992,
+                "avg_time_backward_linalg_gemm": 1282.636
+            }
+        ]
+    }
+]

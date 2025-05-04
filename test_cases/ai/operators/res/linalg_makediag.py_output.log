@@ -1,0 +1,16 @@
+[
+    {
+        "linalg_makediag": [
+            {
+                "inputs": {
+                    "A": [
+                        1024
+                    ]
+                },
+                "max_storage_mem_alloc_cpu/0": 2097.1521,
+                "avg_time_forward_linalg_makediag": 7.4232,
+                "avg_time_backward_linalg_makediag": 5.5974
+            }
+        ]
+    }
+]

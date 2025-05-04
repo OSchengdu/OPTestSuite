@@ -1,0 +1,24 @@
+# started on Mon Sep  9 13:21:15 2024
+
+
+ Performance counter stats for 'python stack.py':
+
+       11025407471 ns   duration_time                    #  321.090 M/sec                     
+          34337.49 msec task-clock                       #    3.114 CPUs utilized             
+       68659016445      cycles                           #    2.000 GHz                       
+       32928002017      instructions                     #    0.48  insn per cycle            
+         883350622      cache-references                 #   25.726 M/sec                     
+         883357238      cache-misses                     #  100.00% of all cache refs         
+        5405493781      branches                         #  157.423 M/sec                     
+         161013885      branch-misses                    #    2.98% of all branches           
+        9207726902      L1-dcache-loads                  #  268.154 M/sec                     
+          76700654      L1-dcache-load-misses            #    0.83% of all L1-dcache accesses 
+          53015290      LLC-load-misses                  #    6.00% of all LL-cache accesses  
+         883387377      LLC-loads                        #   25.727 M/sec                     
+
+      11.025407471 seconds time elapsed
+
+      18.425685000 seconds user
+      15.628422000 seconds sys
+
+

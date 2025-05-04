@@ -1,0 +1,24 @@
+# started on Mon Sep  9 10:58:52 2024
+
+
+ Performance counter stats for 'python gammaln.py':
+
+       13591684487 ns   duration_time                    #  147.972 M/sec                     
+          91852.79 msec task-clock                       #    6.758 CPUs utilized             
+      183531793344      cycles                           #    1.998 GHz                       
+       56711869376      instructions                     #    0.31  insn per cycle            
+         881430465      cache-references                 #    9.596 M/sec                     
+         881440490      cache-misses                     #  100.00% of all cache refs         
+        7808554538      branches                         #   85.012 M/sec                     
+         326206178      branch-misses                    #    4.18% of all branches           
+       13537181985      L1-dcache-loads                  #  147.379 M/sec                     
+          85834470      L1-dcache-load-misses            #    0.63% of all L1-dcache accesses 
+          74486186      LLC-load-misses                  #    8.45% of all LL-cache accesses  
+         881487525      LLC-loads                        #    9.597 M/sec                     
+
+      13.591684487 seconds time elapsed
+
+      73.351277000 seconds user
+      17.854999000 seconds sys
+
+

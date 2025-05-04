@@ -1,0 +1,23 @@
+[
+    [
+        {
+            "add": [
+                {
+                    "inputs": {
+                        "lhs": [
+                            1024,
+                            1024
+                        ],
+                        "rhs": [
+                            1024,
+                            1024
+                        ]
+                    },
+                    "max_storage_mem_alloc_cpu/0": 2097.1521,
+                    "avg_time_forward_add": 2.2928,
+                    "avg_time_backward_add": 9.9173
+                }
+            ]
+        }
+    ]
+]

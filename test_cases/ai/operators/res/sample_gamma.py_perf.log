@@ -1,0 +1,24 @@
+# started on Mon Sep  9 12:41:52 2024
+
+
+ Performance counter stats for 'python sample_gamma.py':
+
+       11368347470 ns   duration_time                    #  333.000 M/sec                     
+          34139.14 msec task-clock                       #    3.003 CPUs utilized             
+       68262318117      cycles                           #    2.000 GHz                       
+       32413088586      instructions                     #    0.47  insn per cycle            
+         870928200      cache-references                 #   25.511 M/sec                     
+         870934817      cache-misses                     #  100.00% of all cache refs         
+        5160013928      branches                         #  151.147 M/sec                     
+         159386482      branch-misses                    #    3.09% of all branches           
+        9077557581      L1-dcache-loads                  #  265.899 M/sec                     
+          75807594      L1-dcache-load-misses            #    0.84% of all L1-dcache accesses 
+          52484328      LLC-load-misses                  #    6.03% of all LL-cache accesses  
+         870962837      LLC-loads                        #   25.512 M/sec                     
+
+      11.368347470 seconds time elapsed
+
+      18.120106000 seconds user
+      15.726492000 seconds sys
+
+

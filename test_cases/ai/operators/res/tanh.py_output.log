@@ -1,0 +1,14 @@
+[
+    {
+        "tanh": [
+            {
+                "inputs": {
+                    "data": "<NDArray 1024x1024 @cpu(0)>"
+                },
+                "max_storage_mem_alloc_cpu/0": 2097.1521,
+                "avg_time_forward_tanh": 112.468,
+                "avg_time_backward_tanh": 4.843
+            }
+        ]
+    }
+]

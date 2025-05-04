@@ -1,0 +1,24 @@
+# started on Mon Sep  9 12:50:07 2024
+
+
+ Performance counter stats for 'python sample_normal.py':
+
+       11502435206 ns   duration_time                    #  333.155 M/sec                     
+          34525.73 msec task-clock                       #    3.002 CPUs utilized             
+       69034594297      cycles                           #    2.000 GHz                       
+       35733949698      instructions                     #    0.52  insn per cycle            
+         772550513      cache-references                 #   22.376 M/sec                     
+         772557889      cache-misses                     #  100.00% of all cache refs         
+        5616203414      branches                         #  162.667 M/sec                     
+         161259561      branch-misses                    #    2.87% of all branches           
+        9970816993      L1-dcache-loads                  #  288.794 M/sec                     
+          73904110      L1-dcache-load-misses            #    0.74% of all L1-dcache accesses 
+          53315871      LLC-load-misses                  #    6.90% of all LL-cache accesses  
+         772588824      LLC-loads                        #   22.377 M/sec                     
+
+      11.502435206 seconds time elapsed
+
+      18.180660000 seconds user
+      16.046827000 seconds sys
+
+

@@ -1,0 +1,24 @@
+# started on Mon Sep  9 13:22:12 2024
+
+
+ Performance counter stats for 'python tanh.py':
+
+       15712948039 ns   duration_time                    #  394.668 M/sec                     
+          39813.07 msec task-clock                       #    2.534 CPUs utilized             
+       79481716006      cycles                           #    1.996 GHz                       
+       43604561770      instructions                     #    0.55  insn per cycle            
+         767712945      cache-references                 #   19.283 M/sec                     
+         767724234      cache-misses                     #  100.00% of all cache refs         
+        6795363528      branches                         #  170.682 M/sec                     
+         218546638      branch-misses                    #    3.22% of all branches           
+       11556468841      L1-dcache-loads                  #  290.268 M/sec                     
+          80382232      L1-dcache-load-misses            #    0.70% of all L1-dcache accesses 
+          66862139      LLC-load-misses                  #    8.71% of all LL-cache accesses  
+         767773942      LLC-loads                        #   19.284 M/sec                     
+
+      15.712948039 seconds time elapsed
+
+      22.746959000 seconds user
+      16.733951000 seconds sys
+
+

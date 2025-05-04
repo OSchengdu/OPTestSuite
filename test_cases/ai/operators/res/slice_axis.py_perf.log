@@ -1,0 +1,24 @@
+# started on Mon Sep  9 13:06:08 2024
+
+
+ Performance counter stats for 'python slice_axis.py':
+
+       12711872780 ns   duration_time                    #  340.393 M/sec                     
+          37344.69 msec task-clock                       #    2.938 CPUs utilized             
+       74457013632      cycles                           #    1.994 GHz                       
+       38465024561      instructions                     #    0.52  insn per cycle            
+         753426059      cache-references                 #   20.175 M/sec                     
+         753436527      cache-misses                     #  100.00% of all cache refs         
+        6147585578      branches                         #  164.617 M/sec                     
+         170744619      branch-misses                    #    2.78% of all branches           
+       10567693344      L1-dcache-loads                  #  282.977 M/sec                     
+          78642600      L1-dcache-load-misses            #    0.74% of all L1-dcache accesses 
+          59810015      LLC-load-misses                  #    7.94% of all LL-cache accesses  
+         753481929      LLC-loads                        #   20.176 M/sec                     
+
+      12.711872780 seconds time elapsed
+
+      19.252019000 seconds user
+      17.829400000 seconds sys
+
+

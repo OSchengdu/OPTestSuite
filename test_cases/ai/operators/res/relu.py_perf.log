@@ -1,0 +1,24 @@
+# started on Mon Sep  9 12:33:45 2024
+
+
+ Performance counter stats for 'python relu.py':
+
+       12557446157 ns   duration_time                    #  339.198 M/sec                     
+          37021.02 msec task-clock                       #    2.948 CPUs utilized             
+       73907475487      cycles                           #    1.996 GHz                       
+       37428624720      instructions                     #    0.51  insn per cycle            
+         806526438      cache-references                 #   21.786 M/sec                     
+         806536879      cache-misses                     #  100.00% of all cache refs         
+        5988287904      branches                         #  161.754 M/sec                     
+         202148731      branch-misses                    #    3.38% of all branches           
+       10215771776      L1-dcache-loads                  #  275.945 M/sec                     
+          88071040      L1-dcache-load-misses            #    0.86% of all L1-dcache accesses 
+          62083348      LLC-load-misses                  #    7.70% of all LL-cache accesses  
+         806581961      LLC-loads                        #   21.787 M/sec                     
+
+      12.557446157 seconds time elapsed
+
+      19.308958000 seconds user
+      17.393719000 seconds sys
+
+

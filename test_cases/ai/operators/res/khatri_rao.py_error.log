@@ -1,0 +1,52 @@
+[10:59:53] /home/tanjunhan/MXNet/src/storage/storage.cc:202: Using Pooled (Naive) StorageManager for CPU
+Traceback (most recent call last):
+  File "/home/tanjunhan/MXNet/khatri_rao.py", line 11, in <module>
+    khatri_rao_res = run_performance_test(
+                     ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tanjunhan/MXNet/benchmark/opperf/utils/benchmark_utils.py", line 251, in run_performance_test
+    benchmark_result = _run_operator_performance_test(op, inputs, run_backward, warmup, runs, kwargs_list, profiler)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tanjunhan/MXNet/benchmark/opperf/utils/benchmark_utils.py", line 188, in _run_operator_performance_test
+    _, _ = benchmark_helper_func(op, warmup, **kwargs_list[0])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tanjunhan/MXNet/benchmark/opperf/utils/profiler_utils.py", line 200, in cpp_profile_it
+    res = func(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tanjunhan/MXNet/benchmark/opperf/utils/ndarray_utils.py", line 58, in nd_forward_backward_and_profile
+    res = op(**kwargs_new)
+          ^^^^^^^^^^^^^^^^
+  File "<string>", line 64, in khatri_rao
+  File "/home/tanjunhan/MXNet/python/mxnet/_ctypes/ndarray.py", line 76, in _imperative_invoke
+    check_call(_LIB.MXImperativeInvoke(
+  File "/home/tanjunhan/MXNet/python/mxnet/base.py", line 253, in check_call
+    raise get_last_ffi_error()
+mxnet.base.MXNetError: MXNetError: value 0 for Parameter num_args should be greater equal to 1
+num_args: Number of input matrices., in operator khatri_rao(name="", num_args="0", rhs="
+[[-1.0709851  -0.95837474 -1.3047479  ...  0.46986192 -0.24532786
+  -0.25814503]
+ [-1.1606387  -0.8120194   0.5731859  ...  1.2126721  -0.9288922
+   0.12510556]
+ [-0.55814797 -0.56769997  1.6839796  ... -1.5882014   0.53616446
+  -0.6960692 ]
+ ...
+ [ 1.1189789   1.0664374  -0.37937927 ... -0.57165444  1.8092283
+  -0.40080214]
+ [-1.3648779  -1.534109    0.5753578  ...  0.98335433  0.93490076
+   1.5454589 ]
+ [ 0.08415955 -0.03733062 -0.00540549 ... -1.3028628  -0.4798036
+   0.15461493]]
+<NDArray 1024x1024 @cpu(0)>", lhs="
+[[-0.18039376 -0.36853787 -0.28215832 ...  0.8160584   1.0778846
+  -1.4038515 ]
+ [ 0.5133349   0.5026267  -0.06081108 ...  0.49336785 -1.4298879
+   0.11356895]
+ [ 1.2509224  -0.17745455  1.5188853  ...  1.0483845   1.0433613
+  -0.23313428]
+ ...
+ [-0.64814246  0.04627636  1.7837281  ...  1.1712893   0.8807757
+  -0.69864196]
+ [-0.742483   -0.33684763 -0.71765924 ...  0.9744564  -0.71879226
+   1.1869918 ]
+ [ 1.1457139  -1.3485111   0.32107475 ...  1.3745583  -0.6611092
+  -1.491695  ]]
+<NDArray 1024x1024 @cpu(0)>")

@@ -1,0 +1,24 @@
+# started on Mon Sep  9 12:50:25 2024
+
+
+ Performance counter stats for 'python sample_uniform.py':
+
+       12337386527 ns   duration_time                    #  358.978 M/sec                     
+          34368.08 msec task-clock                       #    2.786 CPUs utilized             
+       68717680396      cycles                           #    1.999 GHz                       
+       33770055155      instructions                     #    0.49  insn per cycle            
+         764914282      cache-references                 #   22.257 M/sec                     
+         764922212      cache-misses                     #  100.00% of all cache refs         
+        5506902557      branches                         #  160.233 M/sec                     
+         165764402      branch-misses                    #    3.01% of all branches           
+        9443443086      L1-dcache-loads                  #  274.774 M/sec                     
+          77510833      L1-dcache-load-misses            #    0.82% of all L1-dcache accesses 
+          57166879      LLC-load-misses                  #    7.47% of all LL-cache accesses  
+         764954864      LLC-loads                        #   22.258 M/sec                     
+
+      12.337386527 seconds time elapsed
+
+      18.198551000 seconds user
+      15.902462000 seconds sys
+
+

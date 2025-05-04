@@ -1,0 +1,24 @@
+# started on Mon Sep  9 10:27:08 2024
+
+
+ Performance counter stats for 'python arcsin.py':
+
+       12515427089 ns   duration_time                    #  304.592 M/sec                     
+          41089.14 msec task-clock                       #    3.283 CPUs utilized             
+       82027810817      cycles                           #    1.996 GHz                       
+       39826642538      instructions                     #    0.49  insn per cycle            
+         903280722      cache-references                 #   21.983 M/sec                     
+         903291136      cache-misses                     #  100.00% of all cache refs         
+        6222710781      branches                         #  151.444 M/sec                     
+         214901684      branch-misses                    #    3.45% of all branches           
+       10656293665      L1-dcache-loads                  #  259.346 M/sec                     
+          85402071      L1-dcache-load-misses            #    0.80% of all L1-dcache accesses 
+          68167615      LLC-load-misses                  #    7.55% of all LL-cache accesses  
+         903336013      LLC-loads                        #   21.985 M/sec                     
+
+      12.515427089 seconds time elapsed
+
+      22.996668000 seconds user
+      17.724293000 seconds sys
+
+

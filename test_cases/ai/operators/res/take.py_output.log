@@ -1,0 +1,20 @@
+[
+    {
+        "take": [
+            {
+                "inputs": {
+                    "a": [
+                        1024,
+                        1024
+                    ],
+                    "indices": [
+                        512
+                    ]
+                },
+                "max_storage_mem_alloc_cpu/0": 1048.576,
+                "avg_time_forward_take": 5.0342,
+                "avg_time_backward_take": 15.739
+            }
+        ]
+    }
+]

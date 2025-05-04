@@ -1,0 +1,24 @@
+# started on Mon Sep  9 10:54:34 2024
+
+
+ Performance counter stats for 'python exp.py':
+
+       12541820830 ns   duration_time                    #  334.499 M/sec                     
+          37494.36 msec task-clock                       #    2.990 CPUs utilized             
+       74866465047      cycles                           #    1.997 GHz                       
+       40317637525      instructions                     #    0.54  insn per cycle            
+         796270214      cache-references                 #   21.237 M/sec                     
+         796280686      cache-misses                     #  100.00% of all cache refs         
+        6052673839      branches                         #  161.429 M/sec                     
+         166787557      branch-misses                    #    2.76% of all branches           
+       10896612043      L1-dcache-loads                  #  290.620 M/sec                     
+          81038805      L1-dcache-load-misses            #    0.74% of all L1-dcache accesses 
+          61422010      LLC-load-misses                  #    7.71% of all LL-cache accesses  
+         796327992      LLC-loads                        #   21.239 M/sec                     
+
+      12.541820830 seconds time elapsed
+
+      19.873850000 seconds user
+      17.280618000 seconds sys
+
+

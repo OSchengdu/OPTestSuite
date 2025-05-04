@@ -1,0 +1,21 @@
+[
+    {
+        "slice_like": [
+            {
+                "inputs": {
+                    "data": [
+                        1024,
+                        1024
+                    ],
+                    "shape_like": [
+                        512,
+                        512
+                    ]
+                },
+                "max_storage_mem_alloc_cpu/0": 524.288,
+                "avg_time_forward_slice_like": 5.9682,
+                "avg_time_backward_slice_like": 12.1487
+            }
+        ]
+    }
+]
